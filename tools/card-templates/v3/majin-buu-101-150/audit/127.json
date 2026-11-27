@@ -1,0 +1,131 @@
+{
+  "bounds": {
+    "card-title": [
+      229.109,
+      50.2213,
+      600.782,
+      57.5574
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      789.446,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      849.246,
+      1392.65,
+      55.809,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      68.0915,
+      1072.53,
+      922.817,
+      45.521
+    ],
+    "rules-line-3": [
+      72.9572,
+      1131.53,
+      913.086,
+      45.521
+    ],
+    "rules-line-4": [
+      110.917,
+      1190.53,
+      837.165,
+      44.884
+    ],
+    "rules-line-5": [
+      110.574,
+      1249.53,
+      837.851,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 4 life cards. HIT: Attach to your opponent's",
+      "baseline": 1108.3,
+      "width": 925.806,
+      "icon_inline": false
+    },
+    {
+      "text": "Main Personality. While attached, they discard their",
+      "baseline": 1167.3,
+      "width": 915.467,
+      "icon_inline": false
+    },
+    {
+      "text": "top 2 Life Deck cards at the start of their turns.",
+      "baseline": 1226.3,
+      "width": 839.3700000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Discard this at that Personality's highest stage.",
+      "baseline": 1285.3,
+      "width": 841.5750000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 127,
+  "id": "majin-buu-127-blue-electrical-gunk",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-127-blue-electrical-gunk.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "1eff01acf35321b864279850fa0e2b3e4543a5c853ab3fac0b95ad17cbbbcd6c",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-127-blue-electrical-gunk.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "e098a6e3246627247ef8876a9b4ac85a0c5d35b7758769a2a2b4da8987076e12",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "50ae4dffdfa497055d161c96ae1ac15fdeac94777ab9c873436db11e9ee08fa4",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-127.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "visual_review_notes": "Babidi energy effect, attachment wording and five-row fit checked."
+}

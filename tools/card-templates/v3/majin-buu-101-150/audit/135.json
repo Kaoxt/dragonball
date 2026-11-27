@@ -1,0 +1,107 @@
+{
+  "bounds": {
+    "card-title": [
+      190.651,
+      44.5,
+      677.697,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      787.803,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.603,
+      1392.65,
+      59.095,
+      33.708
+    ],
+    "rules-line-1": [
+      208.555,
+      1013.53,
+      696.437,
+      45.913
+    ],
+    "rules-line-2": [
+      218.46,
+      1073.61,
+      622.081,
+      43.806
+    ],
+    "rules-line-3": [
+      220.408,
+      1131.53,
+      618.184,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Empower 3. For the rest of Combat,",
+      "baseline": 1108.3,
+      "width": 625.8770000000002,
+      "icon_inline": false
+    },
+    {
+      "text": "all Setups cost +2 life cards to use.",
+      "baseline": 1167.3,
+      "width": 620.8790000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 135,
+  "id": "majin-buu-135-majin-buu-s-body-slam",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-135-majin-buu-s-body-slam.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "03c7fc504fe88de5cc8d83b80d3c8ca38326de11c0c21c8b302b90250c468d99",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-135-majin-buu-s-body-slam.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "b25b7c42275752d10bc17c47dee62cdcd2c3f89a8f87b2a0a244c76206f24fde",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8237415b23b6253b84a8f09847123c17d7d8f608aebf5665e570270848b3e95c",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-135.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "visual_review_notes": "Buu body slam, Supreme Kai reaction and Setup cost clause checked."
+}

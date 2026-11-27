@@ -1,0 +1,122 @@
+{
+  "bounds": {
+    "card-title": [
+      346.633,
+      44.5,
+      365.734,
+      69.0
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      788.094,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.894,
+      1392.65,
+      58.512,
+      33.708
+    ],
+    "rules-line-1": [
+      104.278,
+      1013.53,
+      850.444,
+      45.768
+    ],
+    "rules-line-2": [
+      105.661,
+      1072.53,
+      847.678,
+      45.521
+    ],
+    "rules-line-3": [
+      117.214,
+      1131.53,
+      824.572,
+      45.913
+    ],
+    "rules-line-4": [
+      149.897,
+      1190.53,
+      759.206,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Majin Babidi need not control Combat to use this",
+      "baseline": 1049.3,
+      "width": 853.286,
+      "icon_inline": false
+    },
+    {
+      "text": "power. Your Allies may control Combat even",
+      "baseline": 1108.3,
+      "width": 851.3527500000001,
+      "icon_inline": true
+    },
+    {
+      "text": "while Majin Babidi is 2 or more stages above 0.",
+      "baseline": 1167.3,
+      "width": 826.924,
+      "icon_inline": false
+    },
+    {
+      "text": "Their attacks deal +2 life cards of damage.",
+      "baseline": 1226.3,
+      "width": 761.95,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 120,
+  "id": "majin-buu-120-majin-babidi",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-120-majin-babidi.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "2dd8493935019ec78db2fbcaffd27a3d2ed4ad38dd266bc921c753d1a5396989",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-120-majin-babidi.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "985f546742f6ea50a3261381ae8b96b02b230bfe44fe9ad5b0612a7321278fcf",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8aeb9d3149679c217cc46bed56e46591a72ae7e4800f640694ffb0e1bc841537",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-120.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "visual_review_notes": "Babidi Lv4, PUR5, ally-control clause and stage values checked."
+}

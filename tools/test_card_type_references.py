@@ -68,6 +68,10 @@ class CardTypeReferences(unittest.TestCase):
         audit = json.loads((ROOT / 'docs/card-type-audit-2026-10-25.json').read_text())
         exceptions = {item['id']: item for item in audit['unresolved_references']}
         image_reviews = {item['id']: item['image'] for item in audit['missing_rules_image_reviewed']}
+        # Elder Kai Sensei has a printed deck capacity and an intentionally blank power panel.
+        sensei_audit = json.loads((ROOT / 'tools/card-templates/v3/majin-buu-101-150/audit/138.json').read_text())
+        sensei_image = next(row for row in sensei_audit['exports'] if row['path'].startswith('display/'))
+        image_reviews[sensei_audit['id']] = '/assets/cards/' + Path(sensei_image['path']).name + '?v=' + sensei_image['sha256'][:12]
         remaining_base = ROOT / 'tools/card-corrections/remaining-personality-fixes-20261115'
         remaining_release = json.loads((remaining_base / 'manifest.json').read_text())
         remaining_revisions = {row['id']: row for row in remaining_release['cards'] if row.get('exports')}

@@ -1,0 +1,2412 @@
+{
+  "set": "majin-buu-saga",
+  "range": [
+    101,
+    150
+  ],
+  "finished_count": 46,
+  "artwork_pending": [
+    116,
+    117,
+    131,
+    146
+  ],
+  "release_manifest": "ready-cards.json",
+  "files": [
+    {
+      "path": "Expanded-CRD.txt",
+      "bytes": 194167,
+      "sha256": "d97b7cba00d5d523fe760d31f2db955f31649f5051d00b4179c2c864d9c33488"
+    },
+    {
+      "path": "Gallery.html",
+      "bytes": 23987,
+      "sha256": "2e8204e598ee448fce76bd032a5efc1f85fe9092552ed8afe2e8182ff4a3b31d"
+    },
+    {
+      "path": "QA-summary.md",
+      "bytes": 4581,
+      "sha256": "0266136759c06d68cede2d693a537c58816c0ae00ce4a8fd79364b2a0ea9a337"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3075,
+      "sha256": "c6a19c4af0557e716b3935df32d9f71bd8ca151ba13a664b23d5658b0eab4075"
+    },
+    {
+      "path": "audit/101.json",
+      "bytes": 2845,
+      "sha256": "c67f53eb57ad9179d19a5aa5a64955bb7e650e746c760b345e710ad51f5d3d9e"
+    },
+    {
+      "path": "audit/102.json",
+      "bytes": 2854,
+      "sha256": "cae7aa3028e92f09ef80e901493983ff947f5d968361c35921a91402ab6b4626"
+    },
+    {
+      "path": "audit/103.json",
+      "bytes": 2623,
+      "sha256": "34fdfac8a749816b403ee65c07f135497b09bd60c65f2a01f9c582ce6c93dced"
+    },
+    {
+      "path": "audit/104.json",
+      "bytes": 2652,
+      "sha256": "245a25827b88f1f5072c21a8d70af107f13718f150c5c9d30d513bcdb02048a7"
+    },
+    {
+      "path": "audit/105.json",
+      "bytes": 2603,
+      "sha256": "51c1f5e83a94c5bd091d769eadd633457e38d9b975d67a8b94c8b9054448a49d"
+    },
+    {
+      "path": "audit/106.json",
+      "bytes": 2640,
+      "sha256": "51e4a55d7501103ead1cf721db1d33d79dd0efd0de696395a0af49c600dea4d2"
+    },
+    {
+      "path": "audit/107.json",
+      "bytes": 2404,
+      "sha256": "e1bf71bfaf2cfbb31c5dd16ed2c3cc1a34b8bff00b9b95d57dec7594e688a62f"
+    },
+    {
+      "path": "audit/108.json",
+      "bytes": 2845,
+      "sha256": "3594a5b0b5d40e005cecf0a5d9aee78c50822461fcc22472dd1703b96a3f3432"
+    },
+    {
+      "path": "audit/109.json",
+      "bytes": 2622,
+      "sha256": "8a41a742023cd72bdc1c32bc30d1ff574b6f97026682fcd5d359dee11cf33f6a"
+    },
+    {
+      "path": "audit/110.json",
+      "bytes": 2535,
+      "sha256": "b1dcbe780754e66e9fdc861109d38046a92ef8cb99cee6d079d7c4113275a0cf"
+    },
+    {
+      "path": "audit/111.json",
+      "bytes": 2889,
+      "sha256": "2778220374172318861e23d750956133f80a6959ab0bdea9c8012295105405db"
+    },
+    {
+      "path": "audit/112.json",
+      "bytes": 2607,
+      "sha256": "bffe051d92baf7a504f9df1faa9fb55531a94fbf6f7ce66a145fe4abb377fda3"
+    },
+    {
+      "path": "audit/113.json",
+      "bytes": 2222,
+      "sha256": "2fc8fe37f6244f70a41fa9afbeddc1fe78f209259c30604009d33fbf9d4b5ee6"
+    },
+    {
+      "path": "audit/114.json",
+      "bytes": 2369,
+      "sha256": "274ef8e264e3632c658da5f618c68b90fa318d7ddfa1befe7d4f03878f893d90"
+    },
+    {
+      "path": "audit/115.json",
+      "bytes": 2602,
+      "sha256": "c7506814ca38202cbf6a294f515b8724e33792c279cb9b96f95a06e3cf1a5427"
+    },
+    {
+      "path": "audit/116.json",
+      "bytes": 3122,
+      "sha256": "c0efa8451ae33ef8e79bc7f4912e91a42a2af2d79cd69d417283a96cc792e819"
+    },
+    {
+      "path": "audit/117.json",
+      "bytes": 2804,
+      "sha256": "ad3a6154380cc0814103955d4c41f5c48279172763e994d06908ef54a6f575da"
+    },
+    {
+      "path": "audit/118.json",
+      "bytes": 2828,
+      "sha256": "bbc8b4bade1fe8459a018aa7656eb8224cbb70527d56df6ad413a3e6d2f7ffe4"
+    },
+    {
+      "path": "audit/119.json",
+      "bytes": 2390,
+      "sha256": "0c489612d163bc565e5b5b02ba09100fe3ae8137ce624f4c1cbd2ea861349878"
+    },
+    {
+      "path": "audit/120.json",
+      "bytes": 2845,
+      "sha256": "47487b916a7b1b20bba15d8f56aeaf5a7f3593ed4f3d046b939c3d508b391316"
+    },
+    {
+      "path": "audit/121.json",
+      "bytes": 2745,
+      "sha256": "0a13f5f578d6b67569eb4c1d9085d157734d653498e53555c556df90f7497ff3"
+    },
+    {
+      "path": "audit/122.json",
+      "bytes": 2535,
+      "sha256": "15ae78c2dff92961bbe82574a56251bb987d274503ef00bcd26f0f5628c9fbc8"
+    },
+    {
+      "path": "audit/123.json",
+      "bytes": 2870,
+      "sha256": "503556192b30187ba35e26731f874d22fec9e50f172aa9b380a485bc6409d0ef"
+    },
+    {
+      "path": "audit/124.json",
+      "bytes": 2394,
+      "sha256": "1583b427395d242255caa3a0da7367006bc283c83dd7cbe3c0b3341c89cf6ee4"
+    },
+    {
+      "path": "audit/125.json",
+      "bytes": 2908,
+      "sha256": "ba01d047184fa4289af7bc3d688806e118c1a69a333a63e37235b28367025a84"
+    },
+    {
+      "path": "audit/126.json",
+      "bytes": 3134,
+      "sha256": "2fa01576fe53f5bd8860e03f36007218a1f3611495583553263780ee4d87c2f2"
+    },
+    {
+      "path": "audit/127.json",
+      "bytes": 2919,
+      "sha256": "2b7949c61e13590d1af3cdb1f32f8c4cbfea782e3d1c199fe472f9811d38a1fb"
+    },
+    {
+      "path": "audit/128.json",
+      "bytes": 3132,
+      "sha256": "aa43f65aff5e9e93f7645d784f29b75276c07397827980d7b5c37dd3d1436c95"
+    },
+    {
+      "path": "audit/129.json",
+      "bytes": 2835,
+      "sha256": "f138b5f61918051c2dc35b0458013f6202630754317a5f5aa2dca928d8a9a6f3"
+    },
+    {
+      "path": "audit/130.json",
+      "bytes": 2875,
+      "sha256": "5b7f1b6138bad5824ad5c6fcafd3d2d282cfb3afd0880deaf768baf94646ad34"
+    },
+    {
+      "path": "audit/131.json",
+      "bytes": 3345,
+      "sha256": "d9f89f616b2d5ce804ea7286b73095e46f258d440d5da30a471234b3de78336c"
+    },
+    {
+      "path": "audit/132.json",
+      "bytes": 2635,
+      "sha256": "c415d45e2f779abc858b6ffc6bea0c4a792904f340cdfc26fb1509eb82aba5c9"
+    },
+    {
+      "path": "audit/133.json",
+      "bytes": 2829,
+      "sha256": "b42a085826a37b45094cd62d7debe9ee95fdc61fc2d1d929848ffe15e071c158"
+    },
+    {
+      "path": "audit/134.json",
+      "bytes": 2677,
+      "sha256": "bc563eea2f694181cb22cb4782db875524749b4b4706a313c1629a28b9a68ab7"
+    },
+    {
+      "path": "audit/135.json",
+      "bytes": 2401,
+      "sha256": "38cf11525588009f330b67e58069f2f414393f04c693b7bbc1040b052d85160e"
+    },
+    {
+      "path": "audit/136.json",
+      "bytes": 2455,
+      "sha256": "78ac3d45a972bdfd02432256033aa8057c10f1168fdce208c07e0738495255f3"
+    },
+    {
+      "path": "audit/137.json",
+      "bytes": 2442,
+      "sha256": "c44b012c34d582d530f316b81d14c9b71afcd2e19514b57d1f734ba20dc3fdf1"
+    },
+    {
+      "path": "audit/138.json",
+      "bytes": 2006,
+      "sha256": "705f88575d22a80a257c59b394954c92192f333118c5bc3f589372eac2805c6a"
+    },
+    {
+      "path": "audit/139.json",
+      "bytes": 3160,
+      "sha256": "162340ac0494865c456f10f79bab6120f954cc6cccb59bf0ced542bc7fda967d"
+    },
+    {
+      "path": "audit/140.json",
+      "bytes": 2335,
+      "sha256": "3477960ebeb6cddb10e931e61b3b1aa9e32e4cb651df5bc4518c18108a80a542"
+    },
+    {
+      "path": "audit/141.json",
+      "bytes": 2892,
+      "sha256": "eb46c86f68ee4a20e96dd308a0dced796745c7f79ba920eb721516103d696fa0"
+    },
+    {
+      "path": "audit/142.json",
+      "bytes": 3164,
+      "sha256": "f5608640ae8d3bc94e25e2b1e47932d75c48e38920b9e8f4b464431297068025"
+    },
+    {
+      "path": "audit/143.json",
+      "bytes": 2856,
+      "sha256": "e007cc081e27b15a98e2224f47a55e74824a762837651300692c6698de826c77"
+    },
+    {
+      "path": "audit/144.json",
+      "bytes": 3106,
+      "sha256": "8231c6ab22694592e587edd5631d7c19fcd2696c2d8c35b9be33f1c7e36fa90e"
+    },
+    {
+      "path": "audit/145.json",
+      "bytes": 2903,
+      "sha256": "47259239cbf6ab8e1dfbaa77dfc9c0e700f340fc240dbac4bc9264ddcf234885"
+    },
+    {
+      "path": "audit/146.json",
+      "bytes": 3370,
+      "sha256": "f9c4d4ec5679cbb7f968cff6f17a9d66b968e10fa51c004447e7287db0f7708b"
+    },
+    {
+      "path": "audit/147.json",
+      "bytes": 2903,
+      "sha256": "d6ac226e213c70e9adc90fe0beb03b8dd2124a479b157ca07756b05f094f1a3f"
+    },
+    {
+      "path": "audit/148.json",
+      "bytes": 2923,
+      "sha256": "f19711689785af7febf78d06d01233a4900cb79360a313b4a3f501dd3ff7883f"
+    },
+    {
+      "path": "audit/149.json",
+      "bytes": 2389,
+      "sha256": "7807b4580a8eb32fbf495566c41c0bf0b9977cc4934ae2669054a85ee483d8f9"
+    },
+    {
+      "path": "audit/150.json",
+      "bytes": 2958,
+      "sha256": "53c73e9668ef484c29684a4414540c8956588d6b32411877e229a1c170f47f5b"
+    },
+    {
+      "path": "audit/technical-validation.json",
+      "bytes": 53739,
+      "sha256": "ac0b4c631ec9b1cbd4991909369e3158df06d6244f2f3eb5a2e5549dd34e7661"
+    },
+    {
+      "path": "card-checklist.csv",
+      "bytes": 9713,
+      "sha256": "c0b68616f7a0481dd0e65be8b67dd62ef257deb7d0d03621f5403d7b167a75aa"
+    },
+    {
+      "path": "display/majin-buu-101-saiyan-energy-bomb.webp",
+      "bytes": 1340830,
+      "sha256": "6024746893cf5f5d2c2ad09828a04c0f7cb8e5a0427b6a97f5a1ddd6ee5ff690"
+    },
+    {
+      "path": "display/majin-buu-102-saiyan-concentrated-blast.webp",
+      "bytes": 1375206,
+      "sha256": "9c935f51a0ae757014feb0c830ae377bd922c185b7ebfc68960b15ef8ef5729b"
+    },
+    {
+      "path": "display/majin-buu-103-saiyan-gambit.webp",
+      "bytes": 1607516,
+      "sha256": "62090c2c4dc7636501b97b11225398826f909dcbc7e649949f8b98b39a934c09"
+    },
+    {
+      "path": "display/majin-buu-104-saiyan-hurricane-kick.webp",
+      "bytes": 1502994,
+      "sha256": "b75df2e501da8fcfda0d52eb9f1c3f5b2242572e968fa4e93d160baf4c05598a"
+    },
+    {
+      "path": "display/majin-buu-105-saiyan-ki-ball.webp",
+      "bytes": 1496142,
+      "sha256": "8ef2d40d39f88eb436301ee3cff5d31d9616bd032af10b286debd8021a180660"
+    },
+    {
+      "path": "display/majin-buu-106-saiyan-onslaught.webp",
+      "bytes": 1335164,
+      "sha256": "58b061dc2814f126e754543c1dee8521b6e0aff12cb3b3954b756e879bbba1f2"
+    },
+    {
+      "path": "display/majin-buu-107-saiyan-overwhelming-drill.webp",
+      "bytes": 1523232,
+      "sha256": "e75eae61f45691c1e53baa24184858d890fc1fc8a054ba9e78277128bacb67e9"
+    },
+    {
+      "path": "display/majin-buu-108-saiyan-power-beam.webp",
+      "bytes": 1353376,
+      "sha256": "711b0122694eb5e61d96a69eee695c74c4708b5c0bb17313dad3a8eecc892992"
+    },
+    {
+      "path": "display/majin-buu-109-saiyan-strength-blast.webp",
+      "bytes": 1334356,
+      "sha256": "f0baae92543e5542a8c6ff92f12f67b6a24ec7e9a1f30efe36d9a3f6081f7dbc"
+    },
+    {
+      "path": "display/majin-buu-110-the-other-world.webp",
+      "bytes": 1477178,
+      "sha256": "8c778ca32147b463bc2b026270e60d4a90ada5270216266d40d29354c48df7c8"
+    },
+    {
+      "path": "display/majin-buu-111-vegeta-s-sacrifice.webp",
+      "bytes": 1422174,
+      "sha256": "20155d5413d350ccc4ccda2b9a16f1211b8b24ae8cb366fac8d1555b2dcb974a"
+    },
+    {
+      "path": "display/majin-buu-112-whiplash.webp",
+      "bytes": 1365620,
+      "sha256": "f508912b68ec98bbdb63a49a0c5ccde43e1fa686daf841a0cdedd41c84bb9131"
+    },
+    {
+      "path": "display/majin-buu-113-z-sword-plateau.webp",
+      "bytes": 1225834,
+      "sha256": "7c4ce0dbdfe74625a6c0f61c5620c0201551fe96680a0ed28ef9280ad1f2d84c"
+    },
+    {
+      "path": "display/majin-buu-114-majin-buu.webp",
+      "bytes": 1588448,
+      "sha256": "b7d2de2d797e1cc3814d9c346cb6b834868cfed117220eccfd3d0e8e278da9c6"
+    },
+    {
+      "path": "display/majin-buu-115-korin.webp",
+      "bytes": 1409222,
+      "sha256": "2f43df67837cd51c789a8a644010d75171f8c7e34f634bedfed1f604f0ab7773"
+    },
+    {
+      "path": "display/majin-buu-118-goten.webp",
+      "bytes": 1511190,
+      "sha256": "8c588d49899b1b8f2dd83d287c6ddad13a9ea2c8c3c059f374bdb5a12b8fbcd5"
+    },
+    {
+      "path": "display/majin-buu-119-majin-dabura-d-o-a.webp",
+      "bytes": 1508782,
+      "sha256": "52dc91250ccd25dddbae97440b5ae5923e0943ed48d0b6591f0b6af4c93d93cf"
+    },
+    {
+      "path": "display/majin-buu-120-majin-babidi.webp",
+      "bytes": 1508010,
+      "sha256": "2dd8493935019ec78db2fbcaffd27a3d2ed4ad38dd266bc921c753d1a5396989"
+    },
+    {
+      "path": "display/majin-buu-121-alt-dende-dragon-ball-6.webp",
+      "bytes": 1408968,
+      "sha256": "7094fd75c5c9c31c22ba158e79291ee3b33b8cd1c02db69303ae413138724de3"
+    },
+    {
+      "path": "display/majin-buu-122-alt-dende-dragon-ball-7.webp",
+      "bytes": 1412494,
+      "sha256": "adbc00a43dc46217f101c0618f6c5e2ed2bd2e79dd16ec5dacf53714336c4f39"
+    },
+    {
+      "path": "display/majin-buu-123-black-front-punch.webp",
+      "bytes": 1342750,
+      "sha256": "fc0f7bebcf967cc035296515351270837e7373f0f730a8a0fd84277037b5cee8"
+    },
+    {
+      "path": "display/majin-buu-124-black-right-kick.webp",
+      "bytes": 1490630,
+      "sha256": "2708ee043108df7028233a0d040a9e260b11d2a3b2121b90201f5888a4404887"
+    },
+    {
+      "path": "display/majin-buu-125-black-royal-flush-drill.webp",
+      "bytes": 1385528,
+      "sha256": "f251360613703e1ccb75687b2ed430447fa4a57e36c5195a0e63fa6eb0011f0a"
+    },
+    {
+      "path": "display/majin-buu-126-black-style-mastery.webp",
+      "bytes": 879384,
+      "sha256": "99e7e52c5589a2ec6a6b56989238a69d8dc2b857e07be1fc32f226069cf73840"
+    },
+    {
+      "path": "display/majin-buu-127-blue-electrical-gunk.webp",
+      "bytes": 1375168,
+      "sha256": "1eff01acf35321b864279850fa0e2b3e4543a5c853ab3fac0b95ad17cbbbcd6c"
+    },
+    {
+      "path": "display/majin-buu-128-blue-style-mastery.webp",
+      "bytes": 1581164,
+      "sha256": "63b1c12734fc2c92dd42ef235506941bbfc98de5a36ffa49d8721051d6d7c1b8"
+    },
+    {
+      "path": "display/majin-buu-129-deal.webp",
+      "bytes": 1313876,
+      "sha256": "5078a9bba53fdf706c6d9c7ffc72470495e1cf2887292121931320a864bbad3f"
+    },
+    {
+      "path": "display/majin-buu-130-dende.webp",
+      "bytes": 1493370,
+      "sha256": "286fe1bdbbd54ce37bf979dee66e23bc72d6f4db2d0d2fdc13fe4ac68aeb16a9"
+    },
+    {
+      "path": "display/majin-buu-132-gotenks-flight.webp",
+      "bytes": 1558328,
+      "sha256": "a6142b95952c8ed84886a461d96afc5ffeb4e8c9314f31c65c6999e2be63ee6a"
+    },
+    {
+      "path": "display/majin-buu-133-hercule.webp",
+      "bytes": 1443442,
+      "sha256": "ad0e4fc386ae1701d74ee9c20d6a53b5499a892070c71a7534b11f10f4d20540"
+    },
+    {
+      "path": "display/majin-buu-134-losing-battle.webp",
+      "bytes": 1373160,
+      "sha256": "491a3966e718def2a5c02e9aebfce567fea896a4c5be3ed04e8340b96223c6fd"
+    },
+    {
+      "path": "display/majin-buu-135-majin-buu-s-body-slam.webp",
+      "bytes": 1557742,
+      "sha256": "03c7fc504fe88de5cc8d83b80d3c8ca38326de11c0c21c8b302b90250c468d99"
+    },
+    {
+      "path": "display/majin-buu-136-majin-buu-s-charged-attack.webp",
+      "bytes": 1357796,
+      "sha256": "ed68fff0d96fe7b9c8c4ab7aa2ee40551c21eef92da2482113f25e23ead6acfe"
+    },
+    {
+      "path": "display/majin-buu-137-majin-buu-s-flight.webp",
+      "bytes": 1616822,
+      "sha256": "7a99e2bf1d08c3dcef33695de49f47a007ca4b216d3674111b98499bcdd6ed57"
+    },
+    {
+      "path": "display/majin-buu-138-elder-kai-sensei.webp",
+      "bytes": 1499518,
+      "sha256": "39cf471e46a47397e7dd63d08be0bb447c863c8d6e6d4065cfc970ad93b0c607"
+    },
+    {
+      "path": "display/majin-buu-139-namekian-style-mastery.webp",
+      "bytes": 1525166,
+      "sha256": "9a6573a58086dfd98ee28d297c55768af6ef4801f3dae7e68359111fe4256da4"
+    },
+    {
+      "path": "display/majin-buu-140-oolong.webp",
+      "bytes": 1496186,
+      "sha256": "067a055124890642d546d8100930327912f76161f8bf98311e4aa4a20521ef21"
+    },
+    {
+      "path": "display/majin-buu-141-orange-destruction-ball.webp",
+      "bytes": 1404640,
+      "sha256": "aa463f6825f571dcd9f801f4256ea1bab32ddf8f4115bae67e664ed3b63442a1"
+    },
+    {
+      "path": "display/majin-buu-142-orange-style-mastery.webp",
+      "bytes": 1656622,
+      "sha256": "376d2bf1f19d5ab13f4179f0fae7a97b3fcd8f741a66c47e169c2699585f3654"
+    },
+    {
+      "path": "display/majin-buu-143-red-cross-punch.webp",
+      "bytes": 1519180,
+      "sha256": "a99e28484742ac2bc7a9283f9ed7e86734736d254e36edb7e5909a4006cdfb08"
+    },
+    {
+      "path": "display/majin-buu-144-red-style-mastery.webp",
+      "bytes": 1506920,
+      "sha256": "d6c92b5a6dc3d1412d2390d4d35fd3740c04e5569fd5ad03da0807e9d7a229ed"
+    },
+    {
+      "path": "display/majin-buu-145-saiyan-pressure-technique.webp",
+      "bytes": 1663830,
+      "sha256": "0a7658e98ebb5fd7a50fb3d88d107ad830757c5af619ec334dc7f4f2aafde56c"
+    },
+    {
+      "path": "display/majin-buu-147-supreme-kai-s-help.webp",
+      "bytes": 1376826,
+      "sha256": "2d4294d0532e6a334198783385d0675abb916579c26364e03ae2d14060b50476"
+    },
+    {
+      "path": "display/majin-buu-148-supreme-kai-s-ki-push.webp",
+      "bytes": 1461958,
+      "sha256": "0108326f939bf1a50fce3fe10c3e3d6950e92130427f052a6ca8475b082ad08f"
+    },
+    {
+      "path": "display/majin-buu-149-the-fusion-dance.webp",
+      "bytes": 1433790,
+      "sha256": "c1b0c5cf116b6dcf4317f3989153392afb7439d3f08565d0ec70625d74f3e20d"
+    },
+    {
+      "path": "display/majin-buu-150-the-eternal-dragon-s-quest.webp",
+      "bytes": 1615420,
+      "sha256": "6af8f0037a3a98223e5b2c5a9f6f85be31d1292d5d5b65b61ada8cd8a09e24f8"
+    },
+    {
+      "path": "downloads/majin-buu-101-saiyan-energy-bomb.webp",
+      "bytes": 3946904,
+      "sha256": "3b47b2843fcde90b65c8560ae9f468c07fbc48b81cd10d7c6f610925d478f04b"
+    },
+    {
+      "path": "downloads/majin-buu-102-saiyan-concentrated-blast.webp",
+      "bytes": 4063490,
+      "sha256": "8cff17545817b6e6d6db147cdb625461506e560588edc056a9ba9b54991c163d"
+    },
+    {
+      "path": "downloads/majin-buu-103-saiyan-gambit.webp",
+      "bytes": 4706102,
+      "sha256": "1e7bbf59d1f6aa61c5d895e0276c1e5d7f5ee7ce1c7b18ad46c7cfe91f88990e"
+    },
+    {
+      "path": "downloads/majin-buu-104-saiyan-hurricane-kick.webp",
+      "bytes": 4380552,
+      "sha256": "cdc02406508a102a64cfa737631df501cc4f758b6b684421851d7dbcdf6aa037"
+    },
+    {
+      "path": "downloads/majin-buu-105-saiyan-ki-ball.webp",
+      "bytes": 4456030,
+      "sha256": "caa9e1855f902881e1abe1609fcc1b03147de58bbe1f1ca95aaefd65278a6480"
+    },
+    {
+      "path": "downloads/majin-buu-106-saiyan-onslaught.webp",
+      "bytes": 3876500,
+      "sha256": "652c12787e39aeac4107ef747c06618a9b90c1105a64ac5275d87c0032e619af"
+    },
+    {
+      "path": "downloads/majin-buu-107-saiyan-overwhelming-drill.webp",
+      "bytes": 4452606,
+      "sha256": "60e2d78731e89b8a947df80b8f510cfd84378afda380ace52618712272a7a17c"
+    },
+    {
+      "path": "downloads/majin-buu-108-saiyan-power-beam.webp",
+      "bytes": 4006438,
+      "sha256": "057f2f991f065b8b922ae1f0ca65e6017265ad37cec09dc4ab33450c4f2ea59c"
+    },
+    {
+      "path": "downloads/majin-buu-109-saiyan-strength-blast.webp",
+      "bytes": 3930298,
+      "sha256": "3c5ea506f511c525e418868bb0cde6ba33cea3372b436f016da1492985701c49"
+    },
+    {
+      "path": "downloads/majin-buu-110-the-other-world.webp",
+      "bytes": 4253564,
+      "sha256": "2f60dc1bb76b9d444d2d584e0b92f6160a2399d18ca024797bca998aae20bdb8"
+    },
+    {
+      "path": "downloads/majin-buu-111-vegeta-s-sacrifice.webp",
+      "bytes": 4233242,
+      "sha256": "e41fa05a058d36784795188328452758b5f7cc3c6baa3e53e17353fa7184fdda"
+    },
+    {
+      "path": "downloads/majin-buu-112-whiplash.webp",
+      "bytes": 3973240,
+      "sha256": "b58eb2b49311b49742550dd8a7b533358c5d2ec95c71d4efb3c1da91c73a9f33"
+    },
+    {
+      "path": "downloads/majin-buu-113-z-sword-plateau.webp",
+      "bytes": 3429584,
+      "sha256": "42cb8c695681febef2e13e1b38a2160ff84407cbb63d823984defe9aed33ce0a"
+    },
+    {
+      "path": "downloads/majin-buu-114-majin-buu.webp",
+      "bytes": 4837136,
+      "sha256": "1d39491cc96f2ce5d194400477bd62108be0dec4a0dd75f66a8c55a6be6ef0e2"
+    },
+    {
+      "path": "downloads/majin-buu-115-korin.webp",
+      "bytes": 4225500,
+      "sha256": "1086be9803d6fb0b4342e002b597444d54ec41f9d5abddcd1c38cc975f90d9ce"
+    },
+    {
+      "path": "downloads/majin-buu-118-goten.webp",
+      "bytes": 4568334,
+      "sha256": "99a0ccb99d8e27632929ab533f8c975c36ce8f0aa5dbe41ad992a1ae58a9f638"
+    },
+    {
+      "path": "downloads/majin-buu-119-majin-dabura-d-o-a.webp",
+      "bytes": 4589782,
+      "sha256": "96ce518cc0107c163a96cc6703ecf204fbdeddc5e33bc92352da726faf829f5d"
+    },
+    {
+      "path": "downloads/majin-buu-120-majin-babidi.webp",
+      "bytes": 4577466,
+      "sha256": "985f546742f6ea50a3261381ae8b96b02b230bfe44fe9ad5b0612a7321278fcf"
+    },
+    {
+      "path": "downloads/majin-buu-121-alt-dende-dragon-ball-6.webp",
+      "bytes": 4087298,
+      "sha256": "548c90f4e05a2b51d569b99224af9e0e54bcb9d4cd429f8fa31eaec991648609"
+    },
+    {
+      "path": "downloads/majin-buu-122-alt-dende-dragon-ball-7.webp",
+      "bytes": 4107934,
+      "sha256": "8bac4c2777252b07e9bfdc167e78255fddf8a116e96cb53f53ac2003041265a4"
+    },
+    {
+      "path": "downloads/majin-buu-123-black-front-punch.webp",
+      "bytes": 3938124,
+      "sha256": "8160714b79efee5790ba635199991963f5729cc2173da737dc7af457ab729489"
+    },
+    {
+      "path": "downloads/majin-buu-124-black-right-kick.webp",
+      "bytes": 4441514,
+      "sha256": "b9555e65a1bd66e556349a7b4bdedc17aa07b9f1d92338402c5f4cc9a3e4e9d8"
+    },
+    {
+      "path": "downloads/majin-buu-125-black-royal-flush-drill.webp",
+      "bytes": 4206614,
+      "sha256": "a7ef7012cea800e3a87047d7b26c984b0f9d82ad42f88fc1617a3f3485b6c61b"
+    },
+    {
+      "path": "downloads/majin-buu-126-black-style-mastery.webp",
+      "bytes": 2256458,
+      "sha256": "ff0e8070c562ea3cde6a343b475060eeb627d7b89548354f7fdde1a5d4495aed"
+    },
+    {
+      "path": "downloads/majin-buu-127-blue-electrical-gunk.webp",
+      "bytes": 4028806,
+      "sha256": "e098a6e3246627247ef8876a9b4ac85a0c5d35b7758769a2a2b4da8987076e12"
+    },
+    {
+      "path": "downloads/majin-buu-128-blue-style-mastery.webp",
+      "bytes": 4647690,
+      "sha256": "990c1379d568f7511729fde1877237863272cf4e1ea960d4dec90bb3ed213f1b"
+    },
+    {
+      "path": "downloads/majin-buu-129-deal.webp",
+      "bytes": 3855108,
+      "sha256": "6dcb5c0c1503efda04eb6cb9abe0a33b3e293af4162c7d081199bb336b7bfa97"
+    },
+    {
+      "path": "downloads/majin-buu-130-dende.webp",
+      "bytes": 4468866,
+      "sha256": "539864fbbc5dacaf8d73f47a33ff27fa99f97db5ba7a792c8604f2678dc533cd"
+    },
+    {
+      "path": "downloads/majin-buu-132-gotenks-flight.webp",
+      "bytes": 4702586,
+      "sha256": "936247365154405fd3bb3dbb7de030ef27e970d0cd2329ad7665c350ae212f85"
+    },
+    {
+      "path": "downloads/majin-buu-133-hercule.webp",
+      "bytes": 4291644,
+      "sha256": "aede000c574c4aa1ccda174dd158ff587f011aedb09564f268f8dc7f6b7c630b"
+    },
+    {
+      "path": "downloads/majin-buu-134-losing-battle.webp",
+      "bytes": 3996476,
+      "sha256": "fc045cef1b90ca2eae121d1dd66a4a4f0f01c49f1a4da0d8f6f4379986708a2e"
+    },
+    {
+      "path": "downloads/majin-buu-135-majin-buu-s-body-slam.webp",
+      "bytes": 4698316,
+      "sha256": "b25b7c42275752d10bc17c47dee62cdcd2c3f89a8f87b2a0a244c76206f24fde"
+    },
+    {
+      "path": "downloads/majin-buu-136-majin-buu-s-charged-attack.webp",
+      "bytes": 3844672,
+      "sha256": "75f6b3741d13f4a28b1b7e444c699ec98d7b5573548c268c015a5e31557fbf73"
+    },
+    {
+      "path": "downloads/majin-buu-137-majin-buu-s-flight.webp",
+      "bytes": 4991554,
+      "sha256": "46dc8b2f51de3204e79484e23baabd0225ffed0d6ae48426510446fd9b7a83e3"
+    },
+    {
+      "path": "downloads/majin-buu-138-elder-kai-sensei.webp",
+      "bytes": 4426808,
+      "sha256": "3a0623d5f0734996a06d452f018e9b665dc7b10cf335144e72fd3c380393893a"
+    },
+    {
+      "path": "downloads/majin-buu-139-namekian-style-mastery.webp",
+      "bytes": 4324212,
+      "sha256": "7bccd190a36ac4ce71fff0d20ac7052ffba3bdf23218624493baffa583ce60a0"
+    },
+    {
+      "path": "downloads/majin-buu-140-oolong.webp",
+      "bytes": 4608432,
+      "sha256": "201e942d1fb4c1b451817a1d52d03e9805df3bb0f4b0bd19eb7e1400b0e5dc08"
+    },
+    {
+      "path": "downloads/majin-buu-141-orange-destruction-ball.webp",
+      "bytes": 4017338,
+      "sha256": "9b2109e8a5e6810edcc91795bc903c048098a34e87e0c406b0506e9f03bcaa14"
+    },
+    {
+      "path": "downloads/majin-buu-142-orange-style-mastery.webp",
+      "bytes": 4911334,
+      "sha256": "faed69b4b75cc774834249dcc3e10b99ffff5260d034fc1f1eef8ef3bb8abf26"
+    },
+    {
+      "path": "downloads/majin-buu-143-red-cross-punch.webp",
+      "bytes": 4316424,
+      "sha256": "607a77aa24dae651bdbab5418b7beedfe28e9191a32bc8b3ed54848a7ebcb059"
+    },
+    {
+      "path": "downloads/majin-buu-144-red-style-mastery.webp",
+      "bytes": 4208982,
+      "sha256": "01154062a40af7efaf0d7187b4286f73b46ffce9289831e8f1bcebfbcc256e14"
+    },
+    {
+      "path": "downloads/majin-buu-145-saiyan-pressure-technique.webp",
+      "bytes": 4890896,
+      "sha256": "cb4ede32e46ed13a6aba12fff8f6fe9a96c988f666a5d622d9db2b95feb8f69d"
+    },
+    {
+      "path": "downloads/majin-buu-147-supreme-kai-s-help.webp",
+      "bytes": 4030060,
+      "sha256": "206f3e129ceb15acf0729e7dcb1329bbfb764baf2dcb0fdaa9e1db672d0b789d"
+    },
+    {
+      "path": "downloads/majin-buu-148-supreme-kai-s-ki-push.webp",
+      "bytes": 4410540,
+      "sha256": "5b6ef3a06b5e14b9dcb44441be470a3569b172a722f59bd930df3da55bb0a4b3"
+    },
+    {
+      "path": "downloads/majin-buu-149-the-fusion-dance.webp",
+      "bytes": 4285350,
+      "sha256": "e0beb3e245ee0bf8e171ce6ec4ad2d9b994d099ade58c6d33205869b2c0eed0d"
+    },
+    {
+      "path": "downloads/majin-buu-150-the-eternal-dragon-s-quest.webp",
+      "bytes": 4779258,
+      "sha256": "83bb9f6c541cc1dff75de3a5dcd34c3c7e37b877c91db19aceda43a078b68412"
+    },
+    {
+      "path": "generation-history/gen101105.json",
+      "bytes": 9670,
+      "sha256": "9182c9cab3b1c98dcdf74ebfd9af4546ea546279fcb8143cbaf63af149c1e2ee"
+    },
+    {
+      "path": "generation-history/gen106110.json",
+      "bytes": 9999,
+      "sha256": "2fdf9fc023f79a58c370c3b56eb6251877ab4cde55e0207d6c8c557fdaadc12f"
+    },
+    {
+      "path": "generation-history/gen111115.json",
+      "bytes": 10344,
+      "sha256": "baf83cae23ef811ca21d31e0907e4bc2aead79fd5cd979f8e018307dd406536a"
+    },
+    {
+      "path": "generation-history/gen116117131146retry.json",
+      "bytes": 2527,
+      "sha256": "54563a7f278281162c85ca8e2a6d843f2e9be4ad8d29192c84ae55046365bdd7"
+    },
+    {
+      "path": "generation-history/gen116120.json",
+      "bytes": 7172,
+      "sha256": "5fff7241f2487c460c1add179d2a5aa769633bc9feee6ae7e2858dcc51438d39"
+    },
+    {
+      "path": "generation-history/gen123127.json",
+      "bytes": 9685,
+      "sha256": "8f1dfca3feaf58b33be76e97bfc17075fa8aad2dd9bfb6fdfdeffa41eb365ce7"
+    },
+    {
+      "path": "generation-history/gen125-symbol-correction.json",
+      "bytes": 386,
+      "sha256": "6b318c4202511d25d24e022cb98c9330706143ce0de711baf42f38631d93c1a7"
+    },
+    {
+      "path": "generation-history/gen128132.json",
+      "bytes": 8421,
+      "sha256": "6f283f949e13035f7444b81e81d334ab9c5b4080554889ef69c5df402793ed6e"
+    },
+    {
+      "path": "generation-history/gen133137.json",
+      "bytes": 9744,
+      "sha256": "8671a47a97b8928ba89af04baec2f1c8649c976ae5225b20ac7fbb73b61296fe"
+    },
+    {
+      "path": "generation-history/gen138142.json",
+      "bytes": 9740,
+      "sha256": "9298501b215741fb49feec660d1f7919fc2cabf16c9e702879345c05c8397167"
+    },
+    {
+      "path": "generation-history/gen142reframe.json",
+      "bytes": 1263,
+      "sha256": "0819d2090fcb4719574b23d6f6b52aef1e2cb8457789038ce71c9a17195a0b0e"
+    },
+    {
+      "path": "generation-history/gen143147.json",
+      "bytes": 8208,
+      "sha256": "e43be6b1a39e3acc84eaf1ce494f98c5e2b9240860804e1088607a6ca21b66e2"
+    },
+    {
+      "path": "generation-history/gen148150fix.json",
+      "bytes": 8083,
+      "sha256": "14c0e180d5e482c595f91d0c5a94d781df7887e9756d99531062a1bbaa2089cb"
+    },
+    {
+      "path": "native/assemble_batch.py",
+      "bytes": 3794,
+      "sha256": "c8fbfc484ee30abdbd2aa483a2980b7f131ca1f3bceaebbe6c230bab784f3e79"
+    },
+    {
+      "path": "native/assets/049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea.png",
+      "bytes": 1546052,
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    },
+    {
+      "path": "native/assets/1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9.png",
+      "bytes": 2478119,
+      "sha256": "1a56727f337e8e793a75e590918c24f4692a3b2d9747562adb65b7106101bdf9"
+    },
+    {
+      "path": "native/assets/2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+      "bytes": 1227451,
+      "sha256": "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9"
+    },
+    {
+      "path": "native/assets/286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+      "bytes": 2986672,
+      "sha256": "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed"
+    },
+    {
+      "path": "native/assets/42ad1bb3e636b80fb620fd763633a56fa8d9c4482b6d8e6a82744047c0fec2e5.jpg",
+      "bytes": 735548,
+      "sha256": "42ad1bb3e636b80fb620fd763633a56fa8d9c4482b6d8e6a82744047c0fec2e5"
+    },
+    {
+      "path": "native/assets/4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5.png",
+      "bytes": 928866,
+      "sha256": "4f4316b9a0584330e06ebb809fe05dc0f5893c0e012d2cfc8dec451bc26215c5"
+    },
+    {
+      "path": "native/assets/679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e.png",
+      "bytes": 2198524,
+      "sha256": "679a751c59c0c59c6bf3ce41ed6371fceb3397996a4e9e352de6eed9020edf0e"
+    },
+    {
+      "path": "native/assets/6f2629ac47d3e2d637d07ed2ae3ef0052e7eaaa8452c99efc6ab9476d772e211.png",
+      "bytes": 1757669,
+      "sha256": "6f2629ac47d3e2d637d07ed2ae3ef0052e7eaaa8452c99efc6ab9476d772e211"
+    },
+    {
+      "path": "native/assets/6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6.png",
+      "bytes": 1673553,
+      "sha256": "6f3e9685b8f722a801644002aef221f1feb3ff340f20c19dd33ee392bc20ddd6"
+    },
+    {
+      "path": "native/assets/7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+      "bytes": 3144450,
+      "sha256": "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099"
+    },
+    {
+      "path": "native/assets/Dende-Summoning-Approved.png",
+      "bytes": 2064514,
+      "sha256": "bd373aa620da5501ec687e62cdfc64703c098a63a760479922973d5637c1df3f"
+    },
+    {
+      "path": "native/assets/Dende-Summoning-Background-Extension.png",
+      "bytes": 1872718,
+      "sha256": "0868f366ff1e694387a050596f6f72dd864afd2e644da864d559184855767d7f"
+    },
+    {
+      "path": "native/assets/Goku-Sensei-Emblem-User-Reference.jpg",
+      "bytes": 390369,
+      "sha256": "1b8bcc8e5ef211ed21ec621879906035571013817f969d50a39b0d97355fd1ac"
+    },
+    {
+      "path": "native/assets/North-Kai-Sensei-Art.png",
+      "bytes": 1627709,
+      "sha256": "0b8ea61b727ddcd07508a5382265238d5ac6cf20a229ce849dd2809df50876e0"
+    },
+    {
+      "path": "native/assets/Red-Black-Brush-User-Reference.png",
+      "bytes": 336244,
+      "sha256": "1093774cad85905ddc66a849c6306ceeee18c4454c3041a711b0e321d1b7fef8"
+    },
+    {
+      "path": "native/assets/Sensei-Counter-Energy.png",
+      "bytes": 1765857,
+      "sha256": "a5f47d1b233027258c13017354cd8af212b340f9f77afdf964d30c10cece6c58"
+    },
+    {
+      "path": "native/assets/Sensei-Counter-Gold-Black.png",
+      "bytes": 2427382,
+      "sha256": "c69c32e91e878b1b4615aa5fa34c3e99f3ad9c907495e1cfbdcbf70dc16c9775"
+    },
+    {
+      "path": "native/assets/Sensei-Counter-Red-Black.png",
+      "bytes": 2018007,
+      "sha256": "15132cec155374ea5b0ea007ba55b80a680e39f95cbcb7a41da667f5c8a92868"
+    },
+    {
+      "path": "native/assets/Sensei-Gold-Brush-Ring.png",
+      "bytes": 790939,
+      "sha256": "f80da7be8101a9febeaf4a83e48d598ea880e792bde10a3bf98cbec152761c13"
+    },
+    {
+      "path": "native/assets/a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+      "bytes": 98108,
+      "sha256": "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7"
+    },
+    {
+      "path": "native/assets/a45e754a139130c5de8a556c88abe9797ac1ba61b3e66ac927a8f7b9b577f969.jpg",
+      "bytes": 662406,
+      "sha256": "a45e754a139130c5de8a556c88abe9797ac1ba61b3e66ac927a8f7b9b577f969"
+    },
+    {
+      "path": "native/assets/ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png",
+      "bytes": 849363,
+      "sha256": "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3"
+    },
+    {
+      "path": "native/assets/art-101.png",
+      "bytes": 1879956,
+      "sha256": "93143861979d82092d91f8e5f437efa89873bff67a8e84bff5eb7035f2aa3fc9"
+    },
+    {
+      "path": "native/assets/art-102.png",
+      "bytes": 1779569,
+      "sha256": "964a778bde82c6aedd880f5984ec9a92f7835c5a111a335138911677ba9d3ff4"
+    },
+    {
+      "path": "native/assets/art-103.png",
+      "bytes": 2210091,
+      "sha256": "93ea449b3c2e77427dfb60fc28ef91bf2684ca6e501911dad2768a85229c1e09"
+    },
+    {
+      "path": "native/assets/art-104.png",
+      "bytes": 2078006,
+      "sha256": "b5a466f8058283bea724d39c050675e576b00796dcb447c1186938d2ac12072a"
+    },
+    {
+      "path": "native/assets/art-105.png",
+      "bytes": 2155370,
+      "sha256": "838d3f1c47486dba14bf6aed25c0fbda6908f3bba3eb972e649cf6042d9ba0d9"
+    },
+    {
+      "path": "native/assets/art-106.png",
+      "bytes": 1807548,
+      "sha256": "cdf42559927b9ab9df11c299745e8aa1ea6cc2ef78561af6bd42c066284ce9eb"
+    },
+    {
+      "path": "native/assets/art-107.png",
+      "bytes": 2044809,
+      "sha256": "48787aef3fc4e8d1f82c09b7727869a283f80536bd3258721892420eccc0a9ce"
+    },
+    {
+      "path": "native/assets/art-108.png",
+      "bytes": 1734010,
+      "sha256": "7e9433f9bd41311dd69911dbcf4815cd8c071aa98d67569b2cf101e290b5118f"
+    },
+    {
+      "path": "native/assets/art-109.png",
+      "bytes": 1814202,
+      "sha256": "be0c7e6faf73a6179f0d60d997b972f6a4e21c53d8fe41ef8135ca111bca6881"
+    },
+    {
+      "path": "native/assets/art-110.png",
+      "bytes": 2199562,
+      "sha256": "3f51370a8e4c94955e9a4cef7077eaaaeb17b4d19d1c886aa33caa7aa481b602"
+    },
+    {
+      "path": "native/assets/art-111.png",
+      "bytes": 1899870,
+      "sha256": "6e4fc74a6ec0307d79fcbbecf9088814901761d1d5ef0d4764eb712b72a24a5e"
+    },
+    {
+      "path": "native/assets/art-112.png",
+      "bytes": 1868219,
+      "sha256": "0ec716ac1119512bc72f64e3ff608dcc8cdb4fee4f9e649a5ed9848f6a97aed0"
+    },
+    {
+      "path": "native/assets/art-113.png",
+      "bytes": 1831005,
+      "sha256": "d578bc007b6ab04db4df2ea433a837ef8754d1b19961635ae3269d60f785e60b"
+    },
+    {
+      "path": "native/assets/art-114.png",
+      "bytes": 2172458,
+      "sha256": "b658bb04ad79e3b668535898b58a9e37e888373441e0a26d29448a69e2aebc81"
+    },
+    {
+      "path": "native/assets/art-115.png",
+      "bytes": 1817670,
+      "sha256": "4a0245e53cf5b705470c2458cc85b8955e0c882434d3ba8963cd9a318ad9726d"
+    },
+    {
+      "path": "native/assets/art-118.png",
+      "bytes": 1895180,
+      "sha256": "48d6eeba9381de39378a747a1a218c0c0a9eae275ba4555cbc144d6c370b0401"
+    },
+    {
+      "path": "native/assets/art-119.png",
+      "bytes": 1946576,
+      "sha256": "86b0bd5cfe3059a6e92e27742bab12bfc939bb444d421b43e6125e7c8e8e26ff"
+    },
+    {
+      "path": "native/assets/art-120.png",
+      "bytes": 1862636,
+      "sha256": "8dd256a99472149d8c14f93122fadfedc1915c5c975369bb4b6a44fc967ed7df"
+    },
+    {
+      "path": "native/assets/art-123.png",
+      "bytes": 1811288,
+      "sha256": "5aee59feb1bf89b10f267afe517c0cb05a8cf025c6613fec47f334215d2bb17d"
+    },
+    {
+      "path": "native/assets/art-124.png",
+      "bytes": 2095005,
+      "sha256": "878d74c445154177af85d70dc8155637aea26502adec2df256ff0ce0a7e85a53"
+    },
+    {
+      "path": "native/assets/art-125.png",
+      "bytes": 2038746,
+      "sha256": "b1dbd2b573febac4791173ec9ebf08194c221aa723b822d77c36066683af15ae"
+    },
+    {
+      "path": "native/assets/art-126.png",
+      "bytes": 1457983,
+      "sha256": "90b67c91c610ad34f3ff5cf4ba5ccf9158d6ec03a1b20adbd29672431a82cef8"
+    },
+    {
+      "path": "native/assets/art-127.png",
+      "bytes": 1796861,
+      "sha256": "b1eee400e1e315dc9d6f354535f17e83829c7b6721a3d1495e9c915cd505eee2"
+    },
+    {
+      "path": "native/assets/art-128.png",
+      "bytes": 2225878,
+      "sha256": "01024974dee2c06436e77935fbc0cec21eccb3673ac18b483ccc7c8eedbf3a30"
+    },
+    {
+      "path": "native/assets/art-129.png",
+      "bytes": 1785542,
+      "sha256": "0ab1bb1a05b01dcee66f058cdaf2499cac77f3657e1b248c8a5ab631dc26a384"
+    },
+    {
+      "path": "native/assets/art-130.png",
+      "bytes": 1971297,
+      "sha256": "c5719370d77ac5fc476699036ec43f819cc4ba63b7350a4e7ec297ce6d0a4652"
+    },
+    {
+      "path": "native/assets/art-132.png",
+      "bytes": 2107624,
+      "sha256": "66e037f6d6a6997c9fbbd342e347dc94bca423bbc79c29c0f4b6d498311a997b"
+    },
+    {
+      "path": "native/assets/art-133.png",
+      "bytes": 1744044,
+      "sha256": "791d160a0c459796f7cfd58d3364fb3ee20eaa5a635daf58f411c03d720572c9"
+    },
+    {
+      "path": "native/assets/art-134.png",
+      "bytes": 1827684,
+      "sha256": "a8a1d566d80c34a90d903eb79f3d3b659c40e3048de1f2627a7a0ece73c436b6"
+    },
+    {
+      "path": "native/assets/art-135.png",
+      "bytes": 2278698,
+      "sha256": "17677473978afcaf132f537b367194e62e209daeeac55cefdf4547bb0cc25f3e"
+    },
+    {
+      "path": "native/assets/art-136.png",
+      "bytes": 1765056,
+      "sha256": "276f0b754099e41800f7a53045865f884c7dea87a091e3dab7bc71d7e26b88b3"
+    },
+    {
+      "path": "native/assets/art-137.png",
+      "bytes": 2439923,
+      "sha256": "249f76cb2062d1e47bd481192e3f7367427d6af0a930b54e79a9111b5f8e16bf"
+    },
+    {
+      "path": "native/assets/art-138.png",
+      "bytes": 2103569,
+      "sha256": "2217cf77b2e8edd43106368d2ca7cb57e4b4d7157b49307f6cc73500001869f8"
+    },
+    {
+      "path": "native/assets/art-139.png",
+      "bytes": 2032445,
+      "sha256": "e8226082565118855c2a5acb6c5f8250de786c2418a41d19c76bb49a306cf9cb"
+    },
+    {
+      "path": "native/assets/art-140.png",
+      "bytes": 2186258,
+      "sha256": "b1ab9148b3edfc334cd6cbee0946a25f230f5ead1ae91dd5e4386e6a66a46aad"
+    },
+    {
+      "path": "native/assets/art-141.png",
+      "bytes": 1842771,
+      "sha256": "3d2ecc006c60a6a247baaea58a7571d9ec6adfc312dc7dc3b03a3ed494eb3311"
+    },
+    {
+      "path": "native/assets/art-142.png",
+      "bytes": 2473866,
+      "sha256": "161278b0864c3c614e2bb5672879eb3fe4bf7bc826b2a358764177cf878ba23f"
+    },
+    {
+      "path": "native/assets/art-143.png",
+      "bytes": 1974824,
+      "sha256": "4d0e30c3d5cf05080967213365fa14bdb367361e0484306bb52d3064b3bd09a2"
+    },
+    {
+      "path": "native/assets/art-144.png",
+      "bytes": 1761622,
+      "sha256": "ee831677177a921af73ac34c860e376b5fd5f91a6293946c0c758e6381e7cbdd"
+    },
+    {
+      "path": "native/assets/art-145.png",
+      "bytes": 2357053,
+      "sha256": "52d8b92612482107dd9ca3fc6f74dcd4eb3e8c2ae34cd13144d7cf8137d23477"
+    },
+    {
+      "path": "native/assets/art-147.png",
+      "bytes": 1981863,
+      "sha256": "f26c1684724a094ccfa5db0b4f77c7d443b9ac6ff6f9bdffd92d126db8b84e5b"
+    },
+    {
+      "path": "native/assets/art-148.png",
+      "bytes": 2112694,
+      "sha256": "54cac88fa226862e19e4e0579b87d409c9c85e3a7eccbffadc5ec985cc545c18"
+    },
+    {
+      "path": "native/assets/art-149.png",
+      "bytes": 1958989,
+      "sha256": "951c89da06764bbc15cf8cafaf08e1d1f7559a41cf293f6a49b07efd368a88c0"
+    },
+    {
+      "path": "native/assets/art-150.png",
+      "bytes": 2444965,
+      "sha256": "052e790900e1f8c1cc3990d88f49bc21f4fbe31a9377d79ea72b8a3877edd6ae"
+    },
+    {
+      "path": "native/assets/babidi-emblem.png",
+      "bytes": 1155507,
+      "sha256": "70e5edec81d1c9ed9f4adad8d4e959bd41aa0f138b24576bb8b855fd8cd1d83a"
+    },
+    {
+      "path": "native/assets/ccb329c30a3ac69e9f4bd3add031f6eeb2c6c19c5463ba9537ea5706b7803332.jpg",
+      "bytes": 614990,
+      "sha256": "ccb329c30a3ac69e9f4bd3add031f6eeb2c6c19c5463ba9537ea5706b7803332"
+    },
+    {
+      "path": "native/assets/d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+      "bytes": 2701711,
+      "sha256": "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb"
+    },
+    {
+      "path": "native/assets/dragon-ball/Four-Star-Placement-Reference.png",
+      "bytes": 202696,
+      "sha256": "a88f52bc71393c9f7b5c12363f39f2044f8cbfbfc2706ffd0d46abdd3b6fb1c4"
+    },
+    {
+      "path": "native/assets/dragon-ball/Left-Ball-Placement-Reference.png",
+      "bytes": 265787,
+      "sha256": "ef8f4a1bdb4adbd8474304f3fc01139ae2166e1b7ba35e4dc80349368631630d"
+    },
+    {
+      "path": "native/assets/dragon-ball/Polished-Star-Free-Orb.png",
+      "bytes": 1546052,
+      "sha256": "049db0cbfbe97267808639f09e544d34f416ee0a9620fd6ee87e4d56be74fdea"
+    },
+    {
+      "path": "native/assets/dragon-ball/Shenron-No-Central-Ball.png",
+      "bytes": 2514140,
+      "sha256": "928b2215c93100bb4c076cfd58ed7058195506e50b154e1370ec245cbe3d53a4"
+    },
+    {
+      "path": "native/assets/e6bf77404b251d14984805f87722cb5df2290166f33508aea8897de8c2d3eefa.jpg",
+      "bytes": 684965,
+      "sha256": "e6bf77404b251d14984805f87722cb5df2290166f33508aea8897de8c2d3eefa"
+    },
+    {
+      "path": "native/assets/f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+      "bytes": 2199819,
+      "sha256": "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245"
+    },
+    {
+      "path": "native/assets/fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809.png",
+      "bytes": 3659944,
+      "sha256": "fd36c19e370a8d8f4f746a16bbc771b6407e7916ff48d25a7ff437320b508809"
+    },
+    {
+      "path": "native/assets/power-icons/constant-power.svg",
+      "bytes": 1385,
+      "sha256": "58db2f79c4f6b67e23fb5239f798acd4c85a5bdce192e0b81e71162b01feddc8"
+    },
+    {
+      "path": "native/assets/text/categories/ally.svg",
+      "bytes": 974,
+      "sha256": "7197547e22eb1e8e880ac7d7167f125a81293d5b640c9d0c428857ccf8e80218"
+    },
+    {
+      "path": "native/assets/text/categories/battleground.svg",
+      "bytes": 4985,
+      "sha256": "ca73ca32bf6cb932c68e30883202618b2b3ea03f2866e6d44367b22e74ccdc6c"
+    },
+    {
+      "path": "native/assets/text/categories/dragon-ball.svg",
+      "bytes": 4451,
+      "sha256": "1e7073d8734f4bdd20b15f9e090efedcce00bb6d44cb4113269da3559ec9b7bb"
+    },
+    {
+      "path": "native/assets/text/categories/drill.svg",
+      "bytes": 1768,
+      "sha256": "d708db14da1b352383e64c21d98c3241ec9efe3c94608fadc3a466063990545c"
+    },
+    {
+      "path": "native/assets/text/categories/energy-combat.svg",
+      "bytes": 5075,
+      "sha256": "53be7ccbaafa23fe3921c1725457ef2fe05ab6cfc82347dfdd3cd4786a182f32"
+    },
+    {
+      "path": "native/assets/text/categories/event.svg",
+      "bytes": 1097,
+      "sha256": "df97b103156ca515c05752ad5c90bc46ce234b015640015dc6136ee988027953"
+    },
+    {
+      "path": "native/assets/text/categories/hero-personality.svg",
+      "bytes": 5856,
+      "sha256": "5e09669c4898c705b550d1b12f782d6fa853cb2ab78dc8f4ac2d9c7f85fe44b6"
+    },
+    {
+      "path": "native/assets/text/categories/hero.svg",
+      "bytes": 2154,
+      "sha256": "0af7e5abc86dfdb36a7ccc27a9b755fa10e84b7b3eee665d863926d9f721b9f3"
+    },
+    {
+      "path": "native/assets/text/categories/location.svg",
+      "bytes": 3685,
+      "sha256": "e15711bf1bd57d15134a7feabd659810a3af8bbd7525c547c2e8b94bc90de78f"
+    },
+    {
+      "path": "native/assets/text/categories/mastery.svg",
+      "bytes": 2741,
+      "sha256": "75bf32fc0299e5b0a8a7d8af2b8e673898c993b440a2732a6dce86185738c6d3"
+    },
+    {
+      "path": "native/assets/text/categories/physical-combat.svg",
+      "bytes": 6174,
+      "sha256": "7e8d83ee2ceb7baf14aea9621db2a035b7526c4cb031eccd964e815bbf2c4f35"
+    },
+    {
+      "path": "native/assets/text/categories/sensei.svg",
+      "bytes": 3171,
+      "sha256": "ca36d6f404a8d6f5940bc848de85baffa029473b90dcb9bbccd6d7c8de88d66f"
+    },
+    {
+      "path": "native/assets/text/categories/setup.svg",
+      "bytes": 2779,
+      "sha256": "23a6e9ab060f491588a14a61b1e5de1487959e6db95c874f96ecec9db5a8b1ea"
+    },
+    {
+      "path": "native/assets/text/categories/villain-personality.svg",
+      "bytes": 4902,
+      "sha256": "4dfb71c535a0149a4c25a6220edb66f1d1a73a84c5c1d34ac9dd957066b7f14f"
+    },
+    {
+      "path": "native/assets/text/categories/villain.svg",
+      "bytes": 1199,
+      "sha256": "a4e1b160f23a0a795606aadefbd23bab928d3c94eb1ce7351eba1ce1e45a18b9"
+    },
+    {
+      "path": "native/assets/text/personality-levels.json",
+      "bytes": 3057,
+      "sha256": "42777500747f324e86009403c597a7c6070b7df40af7c4275f25e8b1b22ad3f7"
+    },
+    {
+      "path": "native/build_new_cards.py",
+      "bytes": 14015,
+      "sha256": "33325bb0bd04739398ff59f2780a0c59ae99e82b1293e18126ccfc6fc6a5fa77"
+    },
+    {
+      "path": "native/buu-footer-logo.svg",
+      "bytes": 1133053,
+      "sha256": "78eade70a21948bc7a845449cbf61040796acfe469317aae6f9753de9182b783"
+    },
+    {
+      "path": "native/donors/dragon-ball.svg",
+      "bytes": 197950,
+      "sha256": "11fdea76a3baa7f5af6f5fa17b53d744f24e68ebe4f4b62ef4ef7e6735b8c7b6"
+    },
+    {
+      "path": "native/donors/landscape.svg",
+      "bytes": 154670,
+      "sha256": "fdfad86f365f09667e7137de2b7f003e0ccc92734de4119d509394bfedd7c9ef"
+    },
+    {
+      "path": "native/donors/mastery.svg",
+      "bytes": 20749066,
+      "sha256": "10948151b2cb82fa190ec88cdf52e8ab8db469acf4c3c7baaf13096f1a17a78c"
+    },
+    {
+      "path": "native/donors/namekian.svg",
+      "bytes": 157056,
+      "sha256": "1689f35d7b65fd54a691ce24a3a7265b1a20053c354245f9f13c9833a72905d7"
+    },
+    {
+      "path": "native/donors/personality-hero.svg",
+      "bytes": 18696813,
+      "sha256": "1926f18e90c0f1382971df5f1d31fdff303bf06a1f1f12f615cade0d715244e0"
+    },
+    {
+      "path": "native/donors/personality-villain.svg",
+      "bytes": 189488,
+      "sha256": "5142b8c6cb69e29595d8468f9359f026ed56247be897cc5194b94874587f8461"
+    },
+    {
+      "path": "native/donors/saiyan-006-red-lunge-punch.svg",
+      "bytes": 210596,
+      "sha256": "c61dc1f62c34e1708bbe792e3bf10a054a7c66bdbc760862103d1e8e0daae255"
+    },
+    {
+      "path": "native/donors/saiyan-013-blue-round-throw.svg",
+      "bytes": 175211,
+      "sha256": "1cb40c4eccd95321e989938ec004db5e333d8c6d2fb41bb16ec9d17d23ff06ac"
+    },
+    {
+      "path": "native/donors/saiyan-018-saiyan-arm-throw.svg",
+      "bytes": 224522,
+      "sha256": "e7b268493113da8d4347d3cb1dea9519d265dbca6041888de4c6bedd39b15e0a"
+    },
+    {
+      "path": "native/donors/saiyan-024-gokus-surprise-attack.svg",
+      "bytes": 118290,
+      "sha256": "dd58f770821e50ad72bea43e8423bf5a06db94e8487ceb63776d12a8b3862c56"
+    },
+    {
+      "path": "native/donors/saiyan-049-orange-wrist-flex-takedown.svg",
+      "bytes": 132174,
+      "sha256": "af859d1516074b06bb8c45c35e698bd1d208c2f521fe3d799c6f1715b49659d2"
+    },
+    {
+      "path": "native/donors/saiyan-065-black-fore-fist-punch.svg",
+      "bytes": 181807,
+      "sha256": "5b1046629ba7dceddd9306c1296e6633cc55ef6f150753a21419cf36dfdaa444"
+    },
+    {
+      "path": "native/donors/sensei.svg",
+      "bytes": 14809324,
+      "sha256": "bcd68fdce993f7dc49c7512e6bdcb003e7b2614c23018220462a7d982fa5c1a1"
+    },
+    {
+      "path": "native/fonts/BarlowCondensed-Bold.ttf",
+      "bytes": 109912,
+      "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+    },
+    {
+      "path": "native/fonts/BarlowCondensed-OFL.txt",
+      "bytes": 4378,
+      "sha256": "f15bcb147f45ca7edb47109f4a887a3eecd09d29fc251f3fbb2d748b32abdaa2"
+    },
+    {
+      "path": "native/fonts/BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": "native/fonts/Michroma-OFL.txt",
+      "bytes": 4396,
+      "sha256": "794cd6af4f25094b76d08f6324ced0f2e860742771c261dfe6612f5f95d73dbd"
+    },
+    {
+      "path": "native/fonts/Michroma-Regular.ttf",
+      "bytes": 64344,
+      "sha256": "b62301163788bc5b7f8fcac0b74b184e34e1827e577b499ecb724da065098f87"
+    },
+    {
+      "path": "native/fonts/NimbusSans-Bold.otf",
+      "bytes": 83264,
+      "sha256": "7f33328e6b4d4cd21b45fa625791928c9407dc702db6780e56b09ca9a3ecaa67"
+    },
+    {
+      "path": "native/fonts/NimbusSans-license.txt",
+      "bytes": 52517,
+      "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+    },
+    {
+      "path": "native/fonts/Rajdhani-OFL.txt",
+      "bytes": 4373,
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
+    },
+    {
+      "path": "native/fonts/Rajdhani-SemiBold.ttf",
+      "bytes": 390340,
+      "sha256": "94bbd25a18ca665999feb05a537de9fd2b860dcfb78bbe9ca00270825bf235da"
+    },
+    {
+      "path": "native/fonts/RussoOne-OFL.txt",
+      "bytes": 4390,
+      "sha256": "3ac1301549523d9861fedca12871f24e575fbd26d520632fc00ba849b471d275"
+    },
+    {
+      "path": "native/fonts/RussoOne-Regular.ttf",
+      "bytes": 39124,
+      "sha256": "bc0abcc660bd8b7ad3000ecb2898a27c58a29a50f7ec81652fa12e75148d09df"
+    },
+    {
+      "path": "native/fonts/Teko-OFL.txt",
+      "bytes": 4384,
+      "sha256": "87373a80b1915a60ddb8386983b57c403c210c3bfa29742eeccf88f9cd27b5ea"
+    },
+    {
+      "path": "native/fonts/Teko-SemiBold.ttf",
+      "bytes": 173812,
+      "sha256": "c6e312589232623060ab3d55b86d2b2978c5f5af958e96781acaf0f7043bc9b3"
+    },
+    {
+      "path": "native/masters/majin-buu-101-saiyan-energy-bomb.svg",
+      "bytes": 253797,
+      "sha256": "e32b7bd297334c2b3d06f86a866df145113ab947243b7fbfc0843b9cc907acb8"
+    },
+    {
+      "path": "native/masters/majin-buu-102-saiyan-concentrated-blast.svg",
+      "bytes": 232298,
+      "sha256": "a6508b12030ed4b8c2fb19423657d48b45f0da7cc33aa7082e152275527f7ac5"
+    },
+    {
+      "path": "native/masters/majin-buu-103-saiyan-gambit.svg",
+      "bytes": 238915,
+      "sha256": "ecb8fea31cc2d54f4e6c9a163949bf00081c87b8ca365e25f7ad4d8266ff41ab"
+    },
+    {
+      "path": "native/masters/majin-buu-104-saiyan-hurricane-kick.svg",
+      "bytes": 241436,
+      "sha256": "0d0511960fa86df6b2f2987503913ca466fbdc048bb5dfbeefa6cedc5ed3edd8"
+    },
+    {
+      "path": "native/masters/majin-buu-105-saiyan-ki-ball.svg",
+      "bytes": 203876,
+      "sha256": "e5413fc4a50f3527e7957d21476d0ecb3bd0495e45bfa87e9bf16d21b042beb6"
+    },
+    {
+      "path": "native/masters/majin-buu-106-saiyan-onslaught.svg",
+      "bytes": 238295,
+      "sha256": "04f17fc7bc6e629345e16809ae47a4001e92bb6735f0dc12ae6f45beea6e9aca"
+    },
+    {
+      "path": "native/masters/majin-buu-107-saiyan-overwhelming-drill.svg",
+      "bytes": 193179,
+      "sha256": "6d10ed7cd471d54e2199b76e2e23915508d6579b096bd68c7242014d171727c0"
+    },
+    {
+      "path": "native/masters/majin-buu-108-saiyan-power-beam.svg",
+      "bytes": 249773,
+      "sha256": "51c16e118a5377c7df16337d5b451cfbae6d932e8d3e982c5107e47f346f6ed3"
+    },
+    {
+      "path": "native/masters/majin-buu-109-saiyan-strength-blast.svg",
+      "bytes": 206817,
+      "sha256": "be90eabbbfbda0c0cfc58f131a6fe6302d97341a5f6912ff251cc11d9b015caf"
+    },
+    {
+      "path": "native/masters/majin-buu-110-the-other-world.svg",
+      "bytes": 195984,
+      "sha256": "938267235570299ac7c934101b6b50564421732603912723e13261e9a79385c4"
+    },
+    {
+      "path": "native/masters/majin-buu-111-vegeta-s-sacrifice.svg",
+      "bytes": 245236,
+      "sha256": "4624df585f0b090e54d00d167764d3288c9d1c98103d440d597218fd358f79e9"
+    },
+    {
+      "path": "native/masters/majin-buu-112-whiplash.svg",
+      "bytes": 207190,
+      "sha256": "a8d6048a65daace20f0350f7380f9202bff4efc2e8307cf0b4af63f8eb4c6afc"
+    },
+    {
+      "path": "native/masters/majin-buu-113-z-sword-plateau.svg",
+      "bytes": 129478,
+      "sha256": "2305238c8297cccc8e98c7c167b9e76d8a741bd5817d74b717660c0884cf9bf5"
+    },
+    {
+      "path": "native/masters/majin-buu-114-majin-buu.svg",
+      "bytes": 174627,
+      "sha256": "0747a8976a15bb7a854b85357d137c6328526b0801101118c106a5ea97f22357"
+    },
+    {
+      "path": "native/masters/majin-buu-115-korin.svg",
+      "bytes": 211786,
+      "sha256": "573cf4ee29a9a91b9170292494978ff98594d279c4cc574de0eaa20eb1181802"
+    },
+    {
+      "path": "native/masters/majin-buu-116-goku-super-saiyan-ascended.svg",
+      "bytes": 297123,
+      "sha256": "6467e4b70496abe5448bdc0618b506474aad2df641a29075ba5d9652ee9d7e9e"
+    },
+    {
+      "path": "native/masters/majin-buu-117-kid-trunks.svg",
+      "bytes": 224405,
+      "sha256": "ac289c25d65e8f6b4abef43a1654e295024d8ddb22c59422a0c61fc5d08f6fe3"
+    },
+    {
+      "path": "native/masters/majin-buu-118-goten.svg",
+      "bytes": 269370,
+      "sha256": "533e1e1708305dfc166fb7f59f2cc533f03a40c9e7f222637b490a2806a1b80a"
+    },
+    {
+      "path": "native/masters/majin-buu-119-majin-dabura-d-o-a.svg",
+      "bytes": 198308,
+      "sha256": "bfaa5acf4a3c50e4ecf3ca927a9e4acc2edb2f5ae7f9d67153bac7f1b4137a8f"
+    },
+    {
+      "path": "native/masters/majin-buu-120-majin-babidi.svg",
+      "bytes": 282983,
+      "sha256": "8aeb9d3149679c217cc46bed56e46591a72ae7e4800f640694ffb0e1bc841537"
+    },
+    {
+      "path": "native/masters/majin-buu-121-alt-dende-dragon-ball-6.svg",
+      "bytes": 218453,
+      "sha256": "f5a1cc0a82dc3d45ea170c5cbe1ee910779a3d234feb3b8978cb6b3049003218"
+    },
+    {
+      "path": "native/masters/majin-buu-122-alt-dende-dragon-ball-7.svg",
+      "bytes": 181257,
+      "sha256": "f948880a125f539b7c17a13527ba6fea3370a73f22d40c3892fe420050710197"
+    },
+    {
+      "path": "native/masters/majin-buu-123-black-front-punch.svg",
+      "bytes": 258360,
+      "sha256": "f6b3466b51d61941ed7b7abb0527ea587e8e024ee389db9960c952b87227d520"
+    },
+    {
+      "path": "native/masters/majin-buu-124-black-right-kick.svg",
+      "bytes": 193750,
+      "sha256": "7fe190d5a867348a905b5a27f5fa88399df07fef240d5b68359f8f85e3eb2221"
+    },
+    {
+      "path": "native/masters/majin-buu-125-black-royal-flush-drill.svg",
+      "bytes": 261327,
+      "sha256": "6ee60bd83503653777690061e6d0348500b32e50fc3c7cf9319217f49f30c716"
+    },
+    {
+      "path": "native/masters/majin-buu-126-black-style-mastery.svg",
+      "bytes": 329733,
+      "sha256": "cb4e8382a1a886d8a0b043f97e3f22b3469b69fe0676469ac70645016607678a"
+    },
+    {
+      "path": "native/masters/majin-buu-127-blue-electrical-gunk.svg",
+      "bytes": 297186,
+      "sha256": "50ae4dffdfa497055d161c96ae1ac15fdeac94777ab9c873436db11e9ee08fa4"
+    },
+    {
+      "path": "native/masters/majin-buu-128-blue-style-mastery.svg",
+      "bytes": 342852,
+      "sha256": "d8296eb6b05b1f1a3ed4540ec0c721372d2052d82b35556255a4af6cdf11d4f3"
+    },
+    {
+      "path": "native/masters/majin-buu-129-deal.svg",
+      "bytes": 250888,
+      "sha256": "06066e87772d45bbd4f86c49f74ed225ea273014ea3958814128c1bef2334f98"
+    },
+    {
+      "path": "native/masters/majin-buu-130-dende.svg",
+      "bytes": 283991,
+      "sha256": "6b497e0e53f1b334a942b72562d6a1d43fec8d6b8e7de4c612d918d816c0fd9f"
+    },
+    {
+      "path": "native/masters/majin-buu-131-freestyle-mastery.svg",
+      "bytes": 347437,
+      "sha256": "86f7da82d10cecda4a13c0f1989ff9b1f99f353362b91b4e84be960adcbcfb4b"
+    },
+    {
+      "path": "native/masters/majin-buu-132-gotenks-flight.svg",
+      "bytes": 212921,
+      "sha256": "a3b111a1bcc1fd3880130576740cb681055ca5caf9707bb0c9733456abe4b899"
+    },
+    {
+      "path": "native/masters/majin-buu-133-hercule.svg",
+      "bytes": 262054,
+      "sha256": "012f96db99dfc9c86264807db90a888ce8bdce428358fd65e7529dcf0af975c9"
+    },
+    {
+      "path": "native/masters/majin-buu-134-losing-battle.svg",
+      "bytes": 248476,
+      "sha256": "7032420cb37f0198e2199929396f3cf721f87544b978dd220d1fd916306e3401"
+    },
+    {
+      "path": "native/masters/majin-buu-135-majin-buu-s-body-slam.svg",
+      "bytes": 168563,
+      "sha256": "8237415b23b6253b84a8f09847123c17d7d8f608aebf5665e570270848b3e95c"
+    },
+    {
+      "path": "native/masters/majin-buu-136-majin-buu-s-charged-attack.svg",
+      "bytes": 199811,
+      "sha256": "4a3800047da64de0dcaf8cb15d600eb69be704778c4818640d97298a41bf43a6"
+    },
+    {
+      "path": "native/masters/majin-buu-137-majin-buu-s-flight.svg",
+      "bytes": 186918,
+      "sha256": "4ee48d419e85f131f588657e4669bdf948e0146587c6f65c8fba074c36576f6b"
+    },
+    {
+      "path": "native/masters/majin-buu-138-elder-kai-sensei.svg",
+      "bytes": 159597,
+      "sha256": "e0eb0a972d33e95f7b722f6207d0bc832a2a390c8601e246f5cf3ed02c296d24"
+    },
+    {
+      "path": "native/masters/majin-buu-139-namekian-style-mastery.svg",
+      "bytes": 325076,
+      "sha256": "096af2499ec08792e3137dbbba14fff8b408be10bd56ec5daf46eb5791cb0484"
+    },
+    {
+      "path": "native/masters/majin-buu-140-oolong.svg",
+      "bytes": 172082,
+      "sha256": "8662a117bafa8ab0e280f72c9f8b6416890c4975b90042c87cb134537ddb4251"
+    },
+    {
+      "path": "native/masters/majin-buu-141-orange-destruction-ball.svg",
+      "bytes": 270808,
+      "sha256": "722871adae6a5109d0e226245122c95587ee2c385711722ffc3d4dbe2e796cd5"
+    },
+    {
+      "path": "native/masters/majin-buu-142-orange-style-mastery.svg",
+      "bytes": 337974,
+      "sha256": "f557de5c4c073e919bc1ffce73fa4b30045f54496eff2093cb7cd8bf12b12b15"
+    },
+    {
+      "path": "native/masters/majin-buu-143-red-cross-punch.svg",
+      "bytes": 319923,
+      "sha256": "7d2cfb5fb1d6626b13fcf16395fb713feaf8f0f9b54d2f449c6325bf09d18a57"
+    },
+    {
+      "path": "native/masters/majin-buu-144-red-style-mastery.svg",
+      "bytes": 363779,
+      "sha256": "a8cc85b5564331dc1f0189542d6ba3c9fba04a6d999d35cf588aec3a9424098c"
+    },
+    {
+      "path": "native/masters/majin-buu-145-saiyan-pressure-technique.svg",
+      "bytes": 278362,
+      "sha256": "92fb78d098974bd801d3f7df20b1f066b0e5181fc6dc1697391f8c604f2e9116"
+    },
+    {
+      "path": "native/masters/majin-buu-146-saiyan-style-mastery.svg",
+      "bytes": 370843,
+      "sha256": "263bf393afa1a780e1ddbd728f6e0afecf46f6031181a187e590710fe7faa7b0"
+    },
+    {
+      "path": "native/masters/majin-buu-147-supreme-kai-s-help.svg",
+      "bytes": 275537,
+      "sha256": "9280626be473c4a6b7ae6be23174ad49267324da288f6e7622b70d30c26effac"
+    },
+    {
+      "path": "native/masters/majin-buu-148-supreme-kai-s-ki-push.svg",
+      "bytes": 252771,
+      "sha256": "503d1a1d843eefb4675eb556cc7b74fb452864443dd433e90eb661d25449789c"
+    },
+    {
+      "path": "native/masters/majin-buu-149-the-fusion-dance.svg",
+      "bytes": 165466,
+      "sha256": "da609202d1a49f7f86f93f96adddbce4eef99128d7f6b05f16f0b51baa41462d"
+    },
+    {
+      "path": "native/masters/majin-buu-150-the-eternal-dragon-s-quest.svg",
+      "bytes": 288868,
+      "sha256": "e315a0b485d38fa0e6729020b6635884fe67b6e5a204f08aca37eb429ea6da64"
+    },
+    {
+      "path": "native/native_helpers.py",
+      "bytes": 8276,
+      "sha256": "3a434105358f57af9e8a8f79c394814ae16561b61775d1f7850af61f6a89e579"
+    },
+    {
+      "path": "native/personality-levels.json",
+      "bytes": 3512,
+      "sha256": "9a49a3f7ac453e928eaf649a67facaa0a11c7aa34e15180336942cd5537f025a"
+    },
+    {
+      "path": "native/reference/reference-numerals.json",
+      "bytes": 1104,
+      "sha256": "9e484b6c8d8c1fa0f6f0978c2d1c7adfca5640b8fdf45f28a2b5615537d6d0cf"
+    },
+    {
+      "path": "native/scripts/align_power_icon.py",
+      "bytes": 7385,
+      "sha256": "f81dae1265a6ac2baf0a0819b092aae5d7aa039801da4f6c646a1c51553a0744"
+    },
+    {
+      "path": "native/scripts/clean_brush_alpha.py",
+      "bytes": 3830,
+      "sha256": "316e465127d38710d49b22b1762f5b6a5195327978a2991d60bbc67a64ec9dde"
+    },
+    {
+      "path": "native/scripts/dragon_ball_v3.py",
+      "bytes": 3036,
+      "sha256": "cc70c7428c4d900272adceeb9db36188ec749a7d2697b13912415956f3492816"
+    },
+    {
+      "path": "native/scripts/footer_revision.py",
+      "bytes": 1308,
+      "sha256": "3a4e9f4dec46f4fdf1ca580d821d5461e6f95bb7539b33a9246bf82264b04a9b"
+    },
+    {
+      "path": "native/scripts/footer_spacing.py",
+      "bytes": 3059,
+      "sha256": "d6f8f75f9da4a69e9dbb8ad49d5a55460d28654ab5e2e5effd01539233f21997"
+    },
+    {
+      "path": "native/scripts/middle_label_v3.py",
+      "bytes": 2832,
+      "sha256": "4b379235bd1bd6b16ed565dba76c1cf03aba13593916630fa61827da4d18fcae"
+    },
+    {
+      "path": "native/scripts/personality_corners_v3.py",
+      "bytes": 1734,
+      "sha256": "117dcebe388e1f5bbc591b3adef6d32e1c63dce4df04855527a3806cac4b80dc"
+    },
+    {
+      "path": "native/scripts/personality_levels.py",
+      "bytes": 1188,
+      "sha256": "5f91e8e4ca862e03187b12247430013ea752b0112bffe76772c2d1b68235be16"
+    },
+    {
+      "path": "native/scripts/personality_middle_v3.py",
+      "bytes": 3461,
+      "sha256": "2970c9f1d75073d688cc8035e0f36f21311da1db607a03c1dab44b9c3e1c08ac"
+    },
+    {
+      "path": "native/scripts/power_icons.py",
+      "bytes": 3039,
+      "sha256": "030feb6b0e3ee9a225a9cc60ebeb8bfc12eebc37f217f5b3eac262e982b24df6"
+    },
+    {
+      "path": "native/scripts/render_v3.py",
+      "bytes": 2378,
+      "sha256": "82f2f813d7cdebbee13a8a95cb1e034649411723e58d86c1f1c25e90adefe329"
+    },
+    {
+      "path": "native/scripts/sensei_details_v3.py",
+      "bytes": 1542,
+      "sha256": "3059e9df80794fa1af5b7fd980a0413ec9ce41107280d2fd65fd0e5519b409da"
+    },
+    {
+      "path": "native/scripts/sensei_emblem_v3.py",
+      "bytes": 4184,
+      "sha256": "d6e7862d8dd6b43c9ebd35d698b6dc280e8d5109e5af907a7dfe732d816ff71c"
+    },
+    {
+      "path": "native/scripts/text_layout_v3.py",
+      "bytes": 2878,
+      "sha256": "3c151edee1c34084628e3daf1af1aae560351b117770ef0408c245848029cb16"
+    },
+    {
+      "path": "native/scripts/text_v3.py",
+      "bytes": 1837,
+      "sha256": "ecbb0354be817e46a578807dc5c3fd3838815848669d213bf32994a42c4a03a0"
+    },
+    {
+      "path": "native/scripts/title_fit_v3.py",
+      "bytes": 2870,
+      "sha256": "fd1c1629562ad87a7d35a97390a4a3842a8a81433b6a810315188b3f968b7d34"
+    },
+    {
+      "path": "native/scripts/title_width_v3.py",
+      "bytes": 3785,
+      "sha256": "c063d91931bce7d9ce214dfda1aa0d9dc915289805ec6f59b1841a34a59dff3f"
+    },
+    {
+      "path": "native/scripts/tokui_backing.py",
+      "bytes": 3570,
+      "sha256": "967839339ecd1ecfee08fb9967618ac0b3120e9c6d596132762ffa9054446194"
+    },
+    {
+      "path": "native/verify_batch.py",
+      "bytes": 4493,
+      "sha256": "fd17a16d2cf08454955d2f33e8c1bf6987d1818ff6f65a8c3d940ef9dd7a2b67"
+    },
+    {
+      "path": "new-cards.json",
+      "bytes": 137825,
+      "sha256": "a7d3d86c5c76a2862f4f3b8a296da99ae39cefa4c16af895ad628121f9bff6e7"
+    },
+    {
+      "path": "ocr/101.txt",
+      "bytes": 425,
+      "sha256": "1cf9548ab2f853679b17a88ea325054dd99a920187c62f92fe850d1a99af24c2"
+    },
+    {
+      "path": "ocr/102.txt",
+      "bytes": 444,
+      "sha256": "d7067e2dd661bedfae3647799fcc6458a4b57f0ab86e2739103ea95f65aeca59"
+    },
+    {
+      "path": "ocr/103.txt",
+      "bytes": 543,
+      "sha256": "39a14774e3cd39e107984a92a49a7c32b36b88c8656c2b285486beb7808b9ee6"
+    },
+    {
+      "path": "ocr/104.txt",
+      "bytes": 513,
+      "sha256": "9a6de56b7cee1289d5c5ad48d3f602b3b59e52cd33bd5846b06b7fa6d37a634e"
+    },
+    {
+      "path": "ocr/105.txt",
+      "bytes": 343,
+      "sha256": "f22dd69da77c6b285a9324bb220c89548cbeaf5115cd50ea7d6ad38093f68cf7"
+    },
+    {
+      "path": "ocr/106.txt",
+      "bytes": 531,
+      "sha256": "aa9be8825154643a2a46315154472d8622de96e6b772822e869c8c1a1a5ad1b2"
+    },
+    {
+      "path": "ocr/107.txt",
+      "bytes": 400,
+      "sha256": "7dfdd0116c26a35c4dedfe57d77b579cc733cfbb7b831c12f3035e41e5a9bfef"
+    },
+    {
+      "path": "ocr/108.txt",
+      "bytes": 451,
+      "sha256": "9428f29af5d9c1a75a3c1b44981f820333b7b916da3da4befe28d544c0d98e1d"
+    },
+    {
+      "path": "ocr/109.txt",
+      "bytes": 402,
+      "sha256": "1b1dc73b0df0406f6096cd04fc25df533dcd8c80fd7d45872d59eb19a4bce085"
+    },
+    {
+      "path": "ocr/110.txt",
+      "bytes": 500,
+      "sha256": "087d63f67855bda1b6f9ae382cf7035a1ad24bb5c0a03e8839fb2e5e73910a0e"
+    },
+    {
+      "path": "ocr/111.txt",
+      "bytes": 435,
+      "sha256": "d9b1329f0b62a772ccccffd1dee8113f80c6287b57e47d0ecf7ffeda1c627146"
+    },
+    {
+      "path": "ocr/112.txt",
+      "bytes": 463,
+      "sha256": "6834fb660e94c42c476d5eaf19efdbaeab1777fbf00de3b99ce9e0e0739a2c2f"
+    },
+    {
+      "path": "ocr/113.txt",
+      "bytes": 262,
+      "sha256": "4b6e6cbc28547a950706da7ec43ee97ec4fd4f272b97c6ad8e5d16b63c317c11"
+    },
+    {
+      "path": "ocr/114.txt",
+      "bytes": 267,
+      "sha256": "8c8835a3af39284eef8d9991c1faee4659b2d7d3df28d5ecfbbce3de42fcac4f"
+    },
+    {
+      "path": "ocr/115.txt",
+      "bytes": 508,
+      "sha256": "3b5a0f1e1c6c059e92da177b5b8953eb6a9b79c0813ff4f0adbd5bf44e30ae29"
+    },
+    {
+      "path": "ocr/116.txt",
+      "bytes": 659,
+      "sha256": "220a31670deeb4e1a89ebafc02aa60042321788e19f6d0d19db97907abcfb332"
+    },
+    {
+      "path": "ocr/117.txt",
+      "bytes": 414,
+      "sha256": "57dad76d7dfa88cb150a684023a980cd9628d669957e5fd38dd5d555d4482d95"
+    },
+    {
+      "path": "ocr/118.txt",
+      "bytes": 510,
+      "sha256": "e4f8074de5d7fed2b19719a75a29fda5a7840059f4142b8cc5579ff22ce97caa"
+    },
+    {
+      "path": "ocr/119.txt",
+      "bytes": 605,
+      "sha256": "7b776adb73334850a827175d6e900b8ca863d1ed3d4ef2e265669bf1eb158c81"
+    },
+    {
+      "path": "ocr/120.txt",
+      "bytes": 669,
+      "sha256": "3d3e6fb8f507188296c480ab4d8b1227bb9b6e7324ca14472eb3e340d5cd3f0c"
+    },
+    {
+      "path": "ocr/121.txt",
+      "bytes": 357,
+      "sha256": "275faa937e58747cbb40e7e8fbc12dd274ada6504719f319f46b01c018749352"
+    },
+    {
+      "path": "ocr/122.txt",
+      "bytes": 437,
+      "sha256": "8378b88b79c680861644be1f7c7c106c6bb77f15c3656c0460987f64923d4413"
+    },
+    {
+      "path": "ocr/123.txt",
+      "bytes": 459,
+      "sha256": "6e174f6eb8f72842a4709c43e30b8b9006d367bc23c57018f2f5fcbc015c146d"
+    },
+    {
+      "path": "ocr/124.txt",
+      "bytes": 338,
+      "sha256": "1801b220a970886940680bf2fc5652a7e151f626f54d99098bcd6d70e8695ec3"
+    },
+    {
+      "path": "ocr/125.txt",
+      "bytes": 487,
+      "sha256": "721e404cf5687db8d8a959246d843399b5a19bdbcc578197e1284ac738bff9dc"
+    },
+    {
+      "path": "ocr/126.txt",
+      "bytes": 495,
+      "sha256": "947725920f3b73c1557374833efe86fc1c1a6a556a023d8833604cd2095d439b"
+    },
+    {
+      "path": "ocr/127.txt",
+      "bytes": 539,
+      "sha256": "361dfdf7278277d47dddeecaa4b175b6b882441723282a520d8c56c2478cd604"
+    },
+    {
+      "path": "ocr/128.txt",
+      "bytes": 355,
+      "sha256": "fe66ccf12790ab51c66effaf7899aa9a707661a09652a901c00411ddc8b78e8b"
+    },
+    {
+      "path": "ocr/129.txt",
+      "bytes": 488,
+      "sha256": "926d63f8c378e78b30f3e90a8ee143a8d3c489d57842aeaca7bb921ebf9db31a"
+    },
+    {
+      "path": "ocr/130.txt",
+      "bytes": 574,
+      "sha256": "3be0dfcddc90554ab405165f74adfba05cbebda673649a00335bb3c834fe158f"
+    },
+    {
+      "path": "ocr/131.txt",
+      "bytes": 469,
+      "sha256": "4d8e9e10f47ae0629eff318dd8ce0282ce07f6221138e1662dc3b516b10c8b2f"
+    },
+    {
+      "path": "ocr/132.txt",
+      "bytes": 535,
+      "sha256": "c59531758b500953312b1c92173e13e3beef479d3a6132e17f748ab8c32245b5"
+    },
+    {
+      "path": "ocr/133.txt",
+      "bytes": 512,
+      "sha256": "9b9c11ddd6dc6a22fcf5940f2c8ef99a4a1386866871a39b0414d5ac69fe6066"
+    },
+    {
+      "path": "ocr/134.txt",
+      "bytes": 403,
+      "sha256": "96cf08b555264a91a0891fac8dc6e5892303febe5bc634a70e3060ec0637a8b4"
+    },
+    {
+      "path": "ocr/135.txt",
+      "bytes": 422,
+      "sha256": "b2a7a5abf05d2b0e91282c16e48cb802c34d856f61fe8ccff97b0923b1f799be"
+    },
+    {
+      "path": "ocr/136.txt",
+      "bytes": 365,
+      "sha256": "103be9c8c3cb9ab22f60106f38eb928635087c6b95a704c1800ab6cb53bb8249"
+    },
+    {
+      "path": "ocr/137.txt",
+      "bytes": 476,
+      "sha256": "43eeeb612a52cccce3ab65e53e61a11f03bd479ec8e7d7744abf629393b49054"
+    },
+    {
+      "path": "ocr/138.txt",
+      "bytes": 231,
+      "sha256": "48c78705a9dfc806a79289abb6ce43e59461300c2610cda0ab4a2ee948ac070c"
+    },
+    {
+      "path": "ocr/139.txt",
+      "bytes": 609,
+      "sha256": "154ccbf95f776052d40f60ac8035e30afe79d3713df7a59ae47d324b341fdc39"
+    },
+    {
+      "path": "ocr/140.txt",
+      "bytes": 493,
+      "sha256": "4b7968e54a3e36119e9c06155921b24268f4c0305968262e9f44bced097ca088"
+    },
+    {
+      "path": "ocr/141.txt",
+      "bytes": 468,
+      "sha256": "7f982d933b1f3d832dcbfab7901f042788d9a81760c2b187c17a85b94baf656e"
+    },
+    {
+      "path": "ocr/142.txt",
+      "bytes": 702,
+      "sha256": "06baba841acf8edf33cb4841c961d5a36248927dbdf331a228bf79764d252d6c"
+    },
+    {
+      "path": "ocr/143.txt",
+      "bytes": 448,
+      "sha256": "611fa95c67d47cfa9f6c3ab7ea4cfb8b0f62686ce1f370260537310afd2fc562"
+    },
+    {
+      "path": "ocr/144.txt",
+      "bytes": 463,
+      "sha256": "b14c9a20b46d03f5cd4a142c21d45de91d8e28087e76f0727bee70ea6f0d3783"
+    },
+    {
+      "path": "ocr/145.txt",
+      "bytes": 553,
+      "sha256": "ef582098164c8452bf9bf816cf702ba11542b45d165eeb6b6ae1145b93739f50"
+    },
+    {
+      "path": "ocr/146.txt",
+      "bytes": 545,
+      "sha256": "62fef084522397e3dd3b42c889e043427d6aa72e4debb04fce9a07596ccdddcb"
+    },
+    {
+      "path": "ocr/147.txt",
+      "bytes": 500,
+      "sha256": "e3dcdf5ffaf26457cd282fd4f4aa4d66486862c462c369bbbec53d4d64412380"
+    },
+    {
+      "path": "ocr/148.txt",
+      "bytes": 484,
+      "sha256": "4ebf70ca1ac4fdac5242977fbf26661bf7e2c1b7a845c4f65563e7777651fb90"
+    },
+    {
+      "path": "ocr/149.txt",
+      "bytes": 373,
+      "sha256": "6ff75567b1c70b4882f047fd28a81c2151db07a46fb9b4cecf2cf3c56d6ab629"
+    },
+    {
+      "path": "ocr/150.txt",
+      "bytes": 249,
+      "sha256": "40ba77ec5263ed20fd9157402404298865ba1fb12ec496345431af7a6a273ce8"
+    },
+    {
+      "path": "originals/101.jpg",
+      "bytes": 791824,
+      "sha256": "722d6db95dacee56a0ad6ad7832e4955d09e3e781940866f240f35ef0db1d039"
+    },
+    {
+      "path": "originals/102.jpg",
+      "bytes": 593057,
+      "sha256": "c53924315ecb259632f20b5375e9c27da2c1c8543e78ce39c788db33b58acba0"
+    },
+    {
+      "path": "originals/103.jpg",
+      "bytes": 668164,
+      "sha256": "956d8479ff8529b31a5489fa992c3b907f8d2bf32dad0ef7f98364c260754b54"
+    },
+    {
+      "path": "originals/104.jpg",
+      "bytes": 550362,
+      "sha256": "34fd5179aefdfa075e99a502c50194b5449d9dc60fb93fdea86984016a1d07b8"
+    },
+    {
+      "path": "originals/105.jpg",
+      "bytes": 667902,
+      "sha256": "7e28c3ad9ee1fb130680c0e6c4f7267b52f0eafb2fc5c855d6e5c06615231eaf"
+    },
+    {
+      "path": "originals/106.jpg",
+      "bytes": 674005,
+      "sha256": "67fcf992945623d787d0844b18b59201c4e00ede3f5097f2e289268a868880aa"
+    },
+    {
+      "path": "originals/107.jpg",
+      "bytes": 728307,
+      "sha256": "85a33b78ceab6162fd7678312367cd2037f2fc43ef172def89e5350c8a55a14b"
+    },
+    {
+      "path": "originals/108.jpg",
+      "bytes": 618222,
+      "sha256": "43dcb1f2e4ca58b49d36870363260c0c15b34a558b77594719651faf741f8c42"
+    },
+    {
+      "path": "originals/109.jpg",
+      "bytes": 732209,
+      "sha256": "ba9159503450341f4f6ca340de3fe4a475f3b2de2123cb91e078ff269c32cb6a"
+    },
+    {
+      "path": "originals/110.jpg",
+      "bytes": 835272,
+      "sha256": "cd511884daf59c6e7b543df05a8b9a7cc1401cbff22b0e91e4613a870967b408"
+    },
+    {
+      "path": "originals/111.jpg",
+      "bytes": 695356,
+      "sha256": "bde14d555b56b6bf2397d2c4f0d39a1ab86a6db69d00820eecbc100972b92269"
+    },
+    {
+      "path": "originals/112.jpg",
+      "bytes": 669969,
+      "sha256": "bc6479c81780b132f93f2dc9188630e3076d26a115f7ad9f916396573c422e63"
+    },
+    {
+      "path": "originals/113.jpg",
+      "bytes": 640791,
+      "sha256": "74b99ff2c1ef0372365963d2703992fdd959e96377efa28435f2765f4ff239ad"
+    },
+    {
+      "path": "originals/114.jpg",
+      "bytes": 767583,
+      "sha256": "c988ac867af93ae6108807d8468dde2bf4a8ea9367c2e9cb703ae0e9fd7d3580"
+    },
+    {
+      "path": "originals/115.jpg",
+      "bytes": 551216,
+      "sha256": "69a385a50893e2efaf8715ffe72bc0f526aef641fac3e7676192e48f05c0ea5e"
+    },
+    {
+      "path": "originals/116.jpg",
+      "bytes": 614990,
+      "sha256": "ccb329c30a3ac69e9f4bd3add031f6eeb2c6c19c5463ba9537ea5706b7803332"
+    },
+    {
+      "path": "originals/117.jpg",
+      "bytes": 684965,
+      "sha256": "e6bf77404b251d14984805f87722cb5df2290166f33508aea8897de8c2d3eefa"
+    },
+    {
+      "path": "originals/118.jpg",
+      "bytes": 589326,
+      "sha256": "a13c3cb5681b03f9e5c3fa26d1c82f99c6af64508829eab0cb1d44eabd78fded"
+    },
+    {
+      "path": "originals/119.jpg",
+      "bytes": 609743,
+      "sha256": "792e5b1456e8fe9cc9c8136448b60e02dd371484935d6fe0f851f15b95ea8d5b"
+    },
+    {
+      "path": "originals/120.jpg",
+      "bytes": 465933,
+      "sha256": "b9d3e2f26a83c2a33756e6c2e1758a69f0dc944d2e8436d2e07479227c2a15d6"
+    },
+    {
+      "path": "originals/121.jpg",
+      "bytes": 483537,
+      "sha256": "faa517eb21bb8a2c3bc07c1e8c31264a263baf50064117bb8f63598f0cb5cc09"
+    },
+    {
+      "path": "originals/122.jpg",
+      "bytes": 538409,
+      "sha256": "ed302b1eee322edd369714512f63fb045557c6e6b34e133be41ef93a4fa40669"
+    },
+    {
+      "path": "originals/123.jpg",
+      "bytes": 490209,
+      "sha256": "8623104639e32b69cb3955152c6f00145b74d6d74c77371eef5cdb39e250a129"
+    },
+    {
+      "path": "originals/124.jpg",
+      "bytes": 499895,
+      "sha256": "8afec671560af0ed5bf1833b557bb294dc3f8976d9bfd8c833892fe0a0d6cde7"
+    },
+    {
+      "path": "originals/125.jpg",
+      "bytes": 527643,
+      "sha256": "974abeab63781cb4607af7bed34308961f26557eebd27f29c744207eea88a98b"
+    },
+    {
+      "path": "originals/126.jpg",
+      "bytes": 500268,
+      "sha256": "15d1c810146203219406d7031d12767038ebb89e0c41d2a15fbd0d2894b169a6"
+    },
+    {
+      "path": "originals/127.jpg",
+      "bytes": 424567,
+      "sha256": "c226fa27f591648b81f5189a871e844ecb4df593ffe04b4badc690c39efcd915"
+    },
+    {
+      "path": "originals/128.jpg",
+      "bytes": 593445,
+      "sha256": "9d926ce815487e874dcd8a48d51262ef839554881a051c18109e763eb9967936"
+    },
+    {
+      "path": "originals/129.jpg",
+      "bytes": 533868,
+      "sha256": "ebe58d1be4d631a7a206d6fa3d5cca6656c88d0249fff6943e66c74e459b74bf"
+    },
+    {
+      "path": "originals/130.jpg",
+      "bytes": 412444,
+      "sha256": "2398b7deb21f04fe1a4e3864e6c6d34a510c3e6c955e1095c641e4e70b135f02"
+    },
+    {
+      "path": "originals/131.jpg",
+      "bytes": 735548,
+      "sha256": "42ad1bb3e636b80fb620fd763633a56fa8d9c4482b6d8e6a82744047c0fec2e5"
+    },
+    {
+      "path": "originals/132.jpg",
+      "bytes": 648802,
+      "sha256": "9d8f9081d4a321a5c37a9d64d5179413bafd21c4aa5f2c45f4d7cc269a979244"
+    },
+    {
+      "path": "originals/133.jpg",
+      "bytes": 575687,
+      "sha256": "1a2aaa96e187716e697c2ed9459ab4009063eb4646c3678f8959e6805ce872ed"
+    },
+    {
+      "path": "originals/134.jpg",
+      "bytes": 494433,
+      "sha256": "0e544e665df76b01e9678780d12052d3884332ca792330a0df84ffd1f9991b6f"
+    },
+    {
+      "path": "originals/135.jpg",
+      "bytes": 621791,
+      "sha256": "8f21d1503410cb9e36fab6a1b0e45c9e69c23321f92c3559c82fe221c77def22"
+    },
+    {
+      "path": "originals/136.jpg",
+      "bytes": 521585,
+      "sha256": "e4c628e8e6689c84ce2bf460470842a678fdb6a90abd8591f5f3b03e6200ecd6"
+    },
+    {
+      "path": "originals/137.jpg",
+      "bytes": 677818,
+      "sha256": "4f3726b907c5d7b0e8d14726bc431b18f6e25eeb89400d720b755f5f49abbb06"
+    },
+    {
+      "path": "originals/138.jpg",
+      "bytes": 514462,
+      "sha256": "1b98264ca3d7509c18da42b5d05b759ce05230a77dfa5c3b9f8876981913a795"
+    },
+    {
+      "path": "originals/139.jpg",
+      "bytes": 509753,
+      "sha256": "b0110fe6bc1e128d8d2bf435f8404c8a1e2990a21cd5b2e3a101c3eed6edf00a"
+    },
+    {
+      "path": "originals/140.jpg",
+      "bytes": 689658,
+      "sha256": "3e1c8477a5125ef5a062d4812f06e50fba2cbefa46c3b26bea1052ee8d8a12a7"
+    },
+    {
+      "path": "originals/141.jpg",
+      "bytes": 555236,
+      "sha256": "aa81fd4447f4ee6606e337f1dd40116bbdbe4f262ee53c969f08ade01b11a7b1"
+    },
+    {
+      "path": "originals/142.jpg",
+      "bytes": 495320,
+      "sha256": "51199d3bd8062ff79d75b161fb96641f2d4e9cb5f8ab7275588dbf7f3970f726"
+    },
+    {
+      "path": "originals/143.jpg",
+      "bytes": 512840,
+      "sha256": "f94aff05ab154e8a594ef13b7ddad7027a9f3ffb661c10518e98589f3e79259b"
+    },
+    {
+      "path": "originals/144.jpg",
+      "bytes": 635806,
+      "sha256": "5d85f197133f5328ffe8f9b516d6ec7873923793005f5a20849d25e3bfa893a6"
+    },
+    {
+      "path": "originals/145.jpg",
+      "bytes": 554028,
+      "sha256": "bf5b376ce19f4dc506caccc6fece04b1d7f8214b548427b1a0ebb4156b051c52"
+    },
+    {
+      "path": "originals/146.jpg",
+      "bytes": 662406,
+      "sha256": "a45e754a139130c5de8a556c88abe9797ac1ba61b3e66ac927a8f7b9b577f969"
+    },
+    {
+      "path": "originals/147.jpg",
+      "bytes": 644544,
+      "sha256": "9dfe9baaeb6860100e102bbbbb1829c7ad359cbc7cdcecd47098794a0d645439"
+    },
+    {
+      "path": "originals/148.jpg",
+      "bytes": 696727,
+      "sha256": "e2891e967698f27f41f3abf833f52299cb560365b138a98425d03346ffb7ebff"
+    },
+    {
+      "path": "originals/149.jpg",
+      "bytes": 654305,
+      "sha256": "358e14ad9e0d10adde839afab12d341f8850a9674c6e5743a292cfb6e3d2ad6c"
+    },
+    {
+      "path": "originals/150.jpg",
+      "bytes": 215721,
+      "sha256": "b4a4127629a8abc2236f6ad45299681266af0991bc2be7b6e8e95808af4be260"
+    },
+    {
+      "path": "previews/Majin-Buu-101-110.jpg",
+      "bytes": 1079599,
+      "sha256": "3f22ffff3694f53ad0da0bc6e5f5c6882afbdd4e948c3c22d1807d0d5feb98b9"
+    },
+    {
+      "path": "previews/Majin-Buu-111-120.jpg",
+      "bytes": 1059516,
+      "sha256": "3332084c3facc4d992cc1ee76e7f97b3890d379f5f447eeb4b1d91483f1cce5f"
+    },
+    {
+      "path": "previews/Majin-Buu-121-130.jpg",
+      "bytes": 1115998,
+      "sha256": "68ff7ae61949705ed733854e8f7e427e3c5058505162e99a13eb35d713412cbe"
+    },
+    {
+      "path": "previews/Majin-Buu-131-140.jpg",
+      "bytes": 1139068,
+      "sha256": "7522bb6e0bd8cb1ac0cc0572b682bcbdf8b799a843260100a09aa02e412fb204"
+    },
+    {
+      "path": "previews/Majin-Buu-141-150.jpg",
+      "bytes": 1184985,
+      "sha256": "5b8a60973a0e582a1aa3bd2f29b6b2add2fcd6613ddb7fb9c8f171c98654ec46"
+    },
+    {
+      "path": "ready-cards.json",
+      "bytes": 125337,
+      "sha256": "2fd6a1e67ad5b499b80de4fd16492efe162f0a9289c56c535fff39a4863cc54c"
+    },
+    {
+      "path": "review-only/display/majin-buu-116-goku-super-saiyan-ascended.webp",
+      "bytes": 1553420,
+      "sha256": "56c997767e6d84e1f7121643e5451feef3a6d4d34e356822125ed769abab6e79"
+    },
+    {
+      "path": "review-only/display/majin-buu-117-kid-trunks.webp",
+      "bytes": 1602016,
+      "sha256": "508e516e77c9f54ba7bd5a24b9ecac2d1d6c6fdba96f45d133c6f029bd81ebbd"
+    },
+    {
+      "path": "review-only/display/majin-buu-131-freestyle-mastery.webp",
+      "bytes": 1177506,
+      "sha256": "b29beb705ec3a5b9c6848b98d0a219c9ba046130431d29f5bf85274cce22e04b"
+    },
+    {
+      "path": "review-only/display/majin-buu-146-saiyan-style-mastery.webp",
+      "bytes": 1572484,
+      "sha256": "077e44e13bfe83a7d3b70b47e7445dd871d53dd6bcdfdddd930c42519a6dd850"
+    },
+    {
+      "path": "review-only/downloads/majin-buu-116-goku-super-saiyan-ascended.webp",
+      "bytes": 4721906,
+      "sha256": "6aaa02d1d12dd932f49fa6bbc47daf92dc07aa26eaf14f345e1ba05b29c2ba38"
+    },
+    {
+      "path": "review-only/downloads/majin-buu-117-kid-trunks.webp",
+      "bytes": 4901210,
+      "sha256": "8b3bd1ead11cce8b630ca0201affa1d9f75630c2db8d75a22f46e3e1dad32526"
+    },
+    {
+      "path": "review-only/downloads/majin-buu-131-freestyle-mastery.webp",
+      "bytes": 3243042,
+      "sha256": "8761a75b40c9f1340d672973c5d6aac73ba7582781116eef42f70fc92c5c9a52"
+    },
+    {
+      "path": "review-only/downloads/majin-buu-146-saiyan-style-mastery.webp",
+      "bytes": 4626260,
+      "sha256": "4ba0eee69cd8000507aa593973f5b9c03e1e10e48a8dc932d9f1e024ac992b4c"
+    },
+    {
+      "path": "review-only/pending-cards.json",
+      "bytes": 12490,
+      "sha256": "d999ff6566ed150e35d9a68a6956dbe5682c7f85a39ea280a19f726deb9799ad"
+    },
+    {
+      "path": "rules-101-110.json",
+      "bytes": 2332,
+      "sha256": "bcda86bf4cb98600e21dc5095994d9f918fc102fcbc1f5fb67eabb6a7df13493"
+    },
+    {
+      "path": "rules-111-132.json",
+      "bytes": 4937,
+      "sha256": "fc75540eccc982813bce33a6af72d8d41c88aaa5fc4733c0bfef3e515df5729d"
+    },
+    {
+      "path": "rules-133-150.json",
+      "bytes": 4173,
+      "sha256": "3bd92fe42d8e03940d28212e61680968114f2954bc45f769ed8f3960b5351846"
+    },
+    {
+      "path": "set-logo/Majin-Buu-Card-Emblem.svg",
+      "bytes": 1133137,
+      "sha256": "0e359174be357818646c9e0fb570afa9519fd3618e80d31546b0061548b3fa5d"
+    },
+    {
+      "path": "set-logo/Majin-Buu-Saga-Logo.png",
+      "bytes": 825922,
+      "sha256": "6bd22b7168affa9cdde57c36c57f88545f6d65aba5d605668689cc9c84b4c234"
+    },
+    {
+      "path": "set-logo/Majin-Buu-Saga-Logo.svg",
+      "bytes": 2265947,
+      "sha256": "8421489c625b04abf17dffc7753fa02af8b6e8ab2252effbe57f42c8fb9787e6"
+    },
+    {
+      "path": "set-logo/placement-check.json",
+      "bytes": 634,
+      "sha256": "a77f35f7dc1bbd84f4bac968a70195607af9848e73998b48a8e6810a2a89017d"
+    },
+    {
+      "path": "source-products.json",
+      "bytes": 18727,
+      "sha256": "d4b24bf0cdcd968e590245038f49baf9c2e6f1e7aea2862552005c7ae9d9a6a6"
+    }
+  ]
+}

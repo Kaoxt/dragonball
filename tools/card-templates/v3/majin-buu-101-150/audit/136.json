@@ -1,0 +1,107 @@
+{
+  "bounds": {
+    "card-title": [
+      149.5,
+      47.2971,
+      760.0,
+      63.4058
+    ],
+    "card-category": [
+      270.969,
+      891.391,
+      517.061,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      787.697,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.497,
+      1392.65,
+      59.307,
+      33.708
+    ],
+    "rules-line-1": [
+      105.525,
+      1013.53,
+      847.949,
+      45.913
+    ],
+    "rules-line-2": [
+      68.508,
+      1072.53,
+      921.984,
+      45.521
+    ],
+    "rules-line-3": [
+      70.9825,
+      1131.53,
+      917.035,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Villains only. Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 850.5951555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 3 life cards, +1 for each \"Villains only\" card",
+      "baseline": 1108.3,
+      "width": 926.0020000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "in your discard pile. Lower your opponent's anger 2.",
+      "baseline": 1167.3,
+      "width": 920.073,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 136,
+  "id": "majin-buu-136-majin-buu-s-charged-attack",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-136-majin-buu-s-charged-attack.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "ed68fff0d96fe7b9c8c4ab7aa2ee40551c21eef92da2482113f25e23ead6acfe",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-136-majin-buu-s-charged-attack.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "75f6b3741d13f4a28b1b7e444c699ec98d7b5573548c268c015a5e31557fbf73",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "4a3800047da64de0dcaf8cb15d600eb69be704778c4818640d97298a41bf43a6",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-136.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "visual_review_notes": "Buu charged-energy pose, cape and Villains-only restriction checked."
+}

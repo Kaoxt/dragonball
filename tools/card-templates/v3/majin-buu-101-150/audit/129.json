@@ -1,0 +1,131 @@
+{
+  "bounds": {
+    "card-title": [
+      454.908,
+      50.2213,
+      149.185,
+      57.5574
+    ],
+    "card-category": [
+      433.596,
+      891.991,
+      191.808,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      788.333,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      848.133,
+      1392.65,
+      58.035,
+      33.708
+    ],
+    "rules-line-1": [
+      192.356,
+      1013.53,
+      674.289,
+      44.884
+    ],
+    "rules-line-2": [
+      114.936,
+      1072.53,
+      829.129,
+      45.913
+    ],
+    "rules-line-3": [
+      176.259,
+      1131.53,
+      706.482,
+      45.521
+    ],
+    "rules-line-4": [
+      166.974,
+      1190.53,
+      725.053,
+      45.913
+    ],
+    "rules-line-5": [
+      166.875,
+      1249.53,
+      725.249,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Limit 1 per deck. Your opponent's Main",
+      "baseline": 1049.3,
+      "width": 678.111,
+      "icon_inline": false
+    },
+    {
+      "text": "Personality may pay 1 stage to stop this effect.",
+      "baseline": 1108.3,
+      "width": 832.804,
+      "icon_inline": false
+    },
+    {
+      "text": "Both players may search their Life Deck",
+      "baseline": 1167.3,
+      "width": 709.618,
+      "icon_inline": false
+    },
+    {
+      "text": "for any card, including a Dragon Ball, and",
+      "baseline": 1226.3,
+      "width": 727.797,
+      "icon_inline": false
+    },
+    {
+      "text": "put it into their hand without revealing it.",
+      "baseline": 1285.3,
+      "width": 728.826,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 129,
+  "id": "majin-buu-129-deal",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-129-deal.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "5078a9bba53fdf706c6d9c7ffc72470495e1cf2887292121931320a864bbad3f",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-129-deal.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "6dcb5c0c1503efda04eb6cb9abe0a33b3e293af4162c7d081199bb336b7bfa97",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "06066e87772d45bbd4f86c49f74ed225ea273014ea3958814128c1bef2334f98",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-129.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "visual_review_notes": "Goku/Elder Kai hand interaction, title punctuation and deck-limit prefix checked."
+}

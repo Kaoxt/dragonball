@@ -1,0 +1,107 @@
+{
+  "bounds": {
+    "card-title": [
+      263.179,
+      44.5,
+      532.642,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      789.022,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      848.822,
+      1392.65,
+      56.657,
+      33.708
+    ],
+    "rules-line-1": [
+      135.839,
+      1013.53,
+      841.869,
+      45.521
+    ],
+    "rules-line-2": [
+      106.336,
+      1072.53,
+      846.328,
+      45.913
+    ],
+    "rules-line-3": [
+      142.988,
+      1132.61,
+      773.024,
+      44.835
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 1 life card, +1 for each",
+      "baseline": 1049.3,
+      "width": 898.0811555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "card with \"Flight\" in its title in your discard pile.",
+      "baseline": 1108.3,
+      "width": 849.4149999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "Empower 2. Lower your opponent's anger 2.",
+      "baseline": 1167.3,
+      "width": 776.7479999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 137,
+  "id": "majin-buu-137-majin-buu-s-flight",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-137-majin-buu-s-flight.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "7a99e2bf1d08c3dcef33695de49f47a007ca4b216d3674111b98499bcdd6ed57",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-137-majin-buu-s-flight.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "46dc8b2f51de3204e79484e23baabd0225ffed0d6ae48426510446fd9b7a83e3",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "4ee48d419e85f131f588657e4669bdf948e0146587c6f65c8fba074c36576f6b",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-137.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "visual_review_notes": "Buu/Babidi flight through building, bystanders and flight-title effect checked."
+}

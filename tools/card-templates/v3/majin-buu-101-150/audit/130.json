@@ -1,0 +1,122 @@
+{
+  "bounds": {
+    "card-title": [
+      437.572,
+      50.2213,
+      183.857,
+      57.5574
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      787.67,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.47,
+      1392.65,
+      59.36,
+      33.708
+    ],
+    "rules-line-1": [
+      156.013,
+      1013.53,
+      814.723,
+      45.913
+    ],
+    "rules-line-2": [
+      72.477,
+      1072.53,
+      914.046,
+      45.913
+    ],
+    "rules-line-3": [
+      78.2345,
+      1131.53,
+      902.531,
+      45.913
+    ],
+    "rules-line-4": [
+      109.325,
+      1191.46,
+      840.35,
+      44.982
+    ]
+  },
+  "rules": [
+    {
+      "text": "During your Power Up Step, your Allies gain +X",
+      "baseline": 1049.3,
+      "width": 883.6977499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "stages; X is the number of Dragon Balls you control.",
+      "baseline": 1108.3,
+      "width": 916.79,
+      "icon_inline": false
+    },
+    {
+      "text": "During your Attack Phase, you may discard 2 cards",
+      "baseline": 1167.3,
+      "width": 905.5199999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "from your hand to set Dende at 1 stage above 0.",
+      "baseline": 1226.3,
+      "width": 842.8,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed",
+  "number": 130,
+  "id": "majin-buu-130-dende",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-130-dende.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "286fe1bdbbd54ce37bf979dee66e23bc72d6f4db2d0d2fdc13fe4ac68aeb16a9",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-130-dende.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "539864fbbc5dacaf8d73f47a33ff27fa99f97db5ba7a792c8604f2678dc533cd",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "6b497e0e53f1b334a942b72562d6a1d43fec8d6b8e7de4c612d918d816c0fd9f",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "art-130.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true,
+  "visual_review_notes": "Dende natural temple background replaces unwanted generated boxes; Lv3/PUR4/stages checked."
+}
