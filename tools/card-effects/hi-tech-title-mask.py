@@ -35,7 +35,8 @@ def native_roots():
         "console.log(JSON.stringify(catalog.filter(c=>"
         "/hi[\\s-]?tech/i.test(c.rarity||'')||/(?:^|-)ht(?:-|$)/i.test(c.id||''))))"
     ], cwd=ROOT, text=True))
-    paths = list((ROOT / 'tools/card-templates/v3').glob('*/*.svg'))
+    templates = ROOT / 'tools/card-templates/v3'
+    paths = [*templates.glob('*/*.svg'), *templates.glob('*/native/masters/*.svg')]
     roots = []
     for card in cards:
         matches = [p for p in paths if p.stem == card['id']]
