@@ -5,7 +5,7 @@ import {readFileSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gunzipSync} from 'node:zlib';
-import {beforeMajinBuuCompletionFile} from './pre-majin-buu-completion.js';
+import {beforeMajinBuuCompletionFile, sourceFileAt} from './pre-majin-buu-completion.js';
 import revisions from '../../tools/card-corrections/v3-majin-buu-151-200/integration-files.json' with {type:'json'};
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
@@ -14,7 +14,7 @@ const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 
 export function beforeMajinBuu151File(file) {
   const absolute = file instanceof URL ? fileURLToPath(file) : path.resolve(file);
-  const current = beforeMajinBuuCompletionFile(absolute);
+  const current = sourceFileAt('4b310ead0417a240095437dcd55c8b3d4cd204e4', absolute, beforeMajinBuuCompletionFile);
   const revision = files.get(path.relative(root, absolute));
   if (!revision) return current;
   assert.equal(hash(current), revision.after_sha256, revision.path);
