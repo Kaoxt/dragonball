@@ -1,0 +1,108 @@
+{
+  "bounds": {
+    "card-title": [
+      457.102,
+      50.2213,
+      144.797,
+      57.5574
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      787.538,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.338,
+      1392.65,
+      59.625,
+      33.708
+    ],
+    "rules-line-1": [
+      301.592,
+      1013.53,
+      522.585,
+      45.521
+    ],
+    "rules-line-2": [
+      181.845,
+      1072.53,
+      695.31,
+      45.913
+    ],
+    "rules-line-3": [
+      194.046,
+      1131.53,
+      670.908,
+      44.884
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your physical attacks deal +2",
+      "baseline": 1049.3,
+      "width": 590.1877499999999,
+      "icon_inline": true
+    },
+    {
+      "text": "stages of damage, or +3 stages instead",
+      "baseline": 1108.3,
+      "width": 698.3480000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "if performed with a Goku Named card.",
+      "baseline": 1167.3,
+      "width": 673.9460000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 159,
+  "id": "majin-buu-159-goku",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-159-goku.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a65aaa0e43f78cbcda7ff0b97415c63cf67c4c7992a69c39d7c7d06c4e3f0ae7",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-159-goku.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "b131ffa659f74aa5437edfe999759a229e542f8b76f4c0b787e868edc6da5ea1",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "cbd6b9df9d21b2310e44f28a346e68b75f6780f899a7f9a2e870e8bee878a992",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "art-159.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

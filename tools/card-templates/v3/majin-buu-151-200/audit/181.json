@@ -1,0 +1,109 @@
+{
+  "bounds": {
+    "card-title": [
+      333.857,
+      44.5,
+      391.287,
+      69.0
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      791.566,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      851.366,
+      1392.65,
+      51.569,
+      33.708
+    ],
+    "rules-line-1": [
+      294.193,
+      1013.53,
+      537.383,
+      45.521
+    ],
+    "rules-line-2": [
+      192.821,
+      1072.53,
+      673.358,
+      45.913
+    ],
+    "rules-line-3": [
+      204.557,
+      1131.53,
+      649.887,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your focused physical attacks",
+      "baseline": 1049.3,
+      "width": 604.98575,
+      "icon_inline": true
+    },
+    {
+      "text": "deal +2 life cards of damage and gain:",
+      "baseline": 1108.3,
+      "width": 677.67,
+      "icon_inline": false
+    },
+    {
+      "text": "HIT: Discard an opposing Ally in play.",
+      "baseline": 1167.3,
+      "width": 653.611,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 181,
+  "id": "majin-buu-181-majin-dabura",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-181-majin-dabura.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "5a4be6e90f9c120708fb998f96970851ca8b5d11c851b1c5c17b8fe1b016a647",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-181-majin-dabura.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "de1ceea0a3ce21801c1b51b34cee3af009422c951725af32a3fb0bf9027c38a4",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "163bbc3c88da80efa90b74a75226229c15acda67b055b196aa7cd8178d5c7146",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-181.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

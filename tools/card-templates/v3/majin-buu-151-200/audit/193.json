@@ -1,0 +1,120 @@
+{
+  "bounds": {
+    "card-title": [
+      336.352,
+      44.5,
+      386.297,
+      69.0
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      787.882,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.682,
+      1392.65,
+      58.936,
+      33.708
+    ],
+    "rules-line-1": [
+      240.661,
+      1013.53,
+      644.252,
+      45.521
+    ],
+    "rules-line-2": [
+      140.562,
+      1072.53,
+      777.875,
+      45.913
+    ],
+    "rules-line-3": [
+      129.66,
+      1131.53,
+      799.68,
+      45.913
+    ],
+    "rules-line-4": [
+      148.55,
+      1190.53,
+      761.901,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "When either player uses the AT for a",
+      "baseline": 1049.3,
+      "width": 712.34475,
+      "icon_inline": true
+    },
+    {
+      "text": "physical attack, its base damage is reduced",
+      "baseline": 1108.3,
+      "width": 781.746,
+      "icon_inline": false
+    },
+    {
+      "text": "by 2 against your Majin Vegeta and increased",
+      "baseline": 1167.3,
+      "width": 803.404,
+      "icon_inline": false
+    },
+    {
+      "text": "by 2 when performed by your Majin Vegeta.",
+      "baseline": 1226.3,
+      "width": 765.3309999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 193,
+  "id": "majin-buu-193-majin-vegeta",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-193-majin-vegeta.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "8d26a5389afbb9db0ecbc506a9a61240adb9fd53cedb0a8a662d1c666e83a6e4",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-193-majin-vegeta.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "4a62889f81796f15a3d1aa481dacdcee5a10ba6f4a991dc44b32ef7919183bc1",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "04ba5d22774cfdc8f1c1894854724efbc07d6fd95e1d131bbb1af6b007750c2a",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "art-193.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/v3-majin-buu-151-200/before/package.json.gz",
+    "before_sha256": "4f1e04920ed9dbaddea340ac15912ac5015de26b7e59b9dbd7aabec9a0bef784",
+    "after_sha256": "40262bcd0d208ceb072b9230fa77f1f20d321eb3a0af9a5a60e3f274206e7d07"
+  },
+  {
+    "path": "public/cards/catalog.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-151-200/before/public/cards/catalog.js.gz",
+    "before_sha256": "8142d5768059f19408a05563bf8b6e85a7648c021e78b965f0c42261b148c57b",
+    "after_sha256": "ee017e4801c31cbe35e12ed4758462c17c9ca9fc7d2173806f29e9382e821ae5"
+  },
+  {
+    "path": "public/decks/code-card-ids.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-151-200/before/public/decks/code-card-ids.js.gz",
+    "before_sha256": "0893902929cc9ed3b59668894ccaea3c7a2416eef5d17f9d6d0191319da7a5d0",
+    "after_sha256": "5e258c710b31cc42c87d81a7d4034592ed3ae0b14c744b63ca0170bf7ce66400"
+  },
+  {
+    "path": "public/personality-power.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-151-200/before/public/personality-power.js.gz",
+    "before_sha256": "d86d5b3dae65759b8ecc9070fccb7ae1c82aad3f3c89a30e9143fa691d2d1c9d",
+    "after_sha256": "fcfca0f76912c4191f5244bc979587578a86a830ea6adae24ef32ff2c669fdb2"
+  },
+  {
+    "path": "tests/card-majin-buu-101-150.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-151-200/before/tests/card-majin-buu-101-150.test.js.gz",
+    "before_sha256": "3934b47090f98f1867494668d89dfb0df3ca4a6ec6aef15ce6dd15a8ccdc3fdd",
+    "after_sha256": "1362a67101080099dddfb988e3706885dc8e00e5dd68569b74c4753e7a2be080"
+  },
+  {
+    "path": "tests/helpers/pre-majin-buu-101-150.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-151-200/before/tests/helpers/pre-majin-buu-101-150.js.gz",
+    "before_sha256": "0f45df7229a89bffefd84dd235c1dc8472030ef912d72064b4dbca165c2b6acb",
+    "after_sha256": "bf0bae0b9377980b01f5ac4d653fdb81ab4fa66574bf6c84e3f8718a3d558127"
+  },
+  {
+    "path": "tests/card-surface.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-151-200/before/tests/card-surface.test.js.gz",
+    "before_sha256": "33ed63125d508aecf4fea57243b4b64e738ac0bf015201849cc6f0117f9cff8e",
+    "after_sha256": "196e7d7ea2dc37315f5874da284b580fcab46707ba0901033957982dab98ed1b"
+  }
+]

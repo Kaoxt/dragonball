@@ -1,0 +1,58 @@
+{
+  "range": [
+    151,
+    200
+  ],
+  "record_count": 50,
+  "finished_count": 48,
+  "pending_artwork": [
+    160,
+    175
+  ],
+  "published": false,
+  "visual_review": {
+    "method": "All 50 full cards reviewed in five ten-card contact sheets, with targeted larger artwork checks. Originals visually transcribed and compared.",
+    "revisions": [
+      "Sensei rules wrap around emblem at locked font size",
+      "Personality horizontal positioning beside stage column",
+      "Removed invented clouds from 157, 158, 177",
+      "Corrected 162 young-adult Gohan proportions and removed invented earring",
+      "Removed copied stage UI from 180 artwork",
+      "Recomposed 159 and 193 to retain hands within art area"
+    ],
+    "not_claimed": "No claim of pixel-identical illustration to original scans; these are modernized illustrations."
+  },
+  "source_rules": {
+    "source": "Expanded-CRD.txt",
+    "card_specific": [
+      156,
+      157,
+      161,
+      167
+    ],
+    "defaults": [
+      "Energy attacks with omitted cost use 2 stages.",
+      "Energy attacks with omitted base damage use 4 life cards.",
+      "Physical attacks retain AT base unless fixed damage is explicitly printed."
+    ],
+    "gohan_161_clarifications": "Full CRD entry retained in metadata, including amount limited by current hand size and revealing specific matching cards."
+  },
+  "scope": "Cards 151\u2013200 only; earlier pending 116, 117, 131 and 146 are not included.",
+  "technical_validation": {
+    "native_cards_passed": 50,
+    "ready_exports": 48,
+    "review_only_exports": 2,
+    "checks": [
+      "SVG assets resolve",
+      "no duplicate SVG IDs",
+      "text fully outlined",
+      "native rules match verified metadata",
+      "five rows maximum at 49-unit font size",
+      "exact stage and PUR and level values",
+      "footer and icon placement stable on second pass",
+      "correct image dimensions",
+      "PNG and lossless WebP pixels identical",
+      "SHA-256 hashes match"
+    ]
+  }
+}

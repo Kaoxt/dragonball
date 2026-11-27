@@ -24,8 +24,8 @@ test('standard art, private backs, and external custom art never acquire a rarit
 
 test('all catalog Ultra Rares use their catalog identity and the appropriate masks', () => {
   const cards = catalog.filter(isUltraRare);
-  assert.equal(cards.length, 26);
-  assert.deepEqual(cards.filter(c => c.set === 'Majin Buu Saga').map(c => c.number), ['150']);
+  assert.equal(cards.length, 29);
+  assert.deepEqual(cards.filter(c => c.set === 'Majin Buu Saga').map(c => c.number), ['150','151','152','153']);
   assert.deepEqual(cards.filter(c => c.set === 'Babidi Saga').map(c => c.number), ['122','123']);
   assert.deepEqual(Object.fromEntries(['Saiyan Saga','Frieza Saga','Trunks Saga','Android Saga','Cell Saga','Cell Games Saga','World Games Saga'].map(set => [set,cards.filter(c=>c.set===set).length])),
     {'Saiyan Saga':4,'Frieza Saga':2,'Trunks Saga':5,'Android Saga':2,'Cell Saga':4,'Cell Games Saga':2,'World Games Saga':4});

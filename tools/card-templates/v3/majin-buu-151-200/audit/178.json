@@ -1,0 +1,109 @@
+{
+  "bounds": {
+    "card-title": [
+      420.881,
+      50.2213,
+      217.238,
+      57.5574
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      789.26,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      849.06,
+      1392.65,
+      56.18,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      98.5695,
+      1072.53,
+      861.861,
+      45.521
+    ],
+    "rules-line-3": [
+      87.275,
+      1131.53,
+      884.45,
+      36.162
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 7 life cards. For the rest of Combat, you",
+      "baseline": 1108.3,
+      "width": 865.879,
+      "icon_inline": false
+    },
+    {
+      "text": "do not have to banish a card to use its Endurance.",
+      "baseline": 1167.3,
+      "width": 887.537,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 178,
+  "id": "majin-buu-178-piccolo",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-178-piccolo.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "682a95580e5c60acfb82d2c42f03b28948319026d88067be561941e9c40b9223",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-178-piccolo.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "1d61038785c56e9aa2ee0216f7b61e8dbfd5201c501f4e67177eb3c20dfa3ecb",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "5205b48e0a4b9593c2cc20a29a973437b95dde678380bc418a4dfd68b970175f",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "art-178.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

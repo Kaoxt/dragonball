@@ -1,0 +1,108 @@
+{
+  "bounds": {
+    "card-title": [
+      437.873,
+      50.2213,
+      183.254,
+      57.5574
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      786.186,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      845.986,
+      1392.65,
+      62.328,
+      33.708
+    ],
+    "rules-line-1": [
+      129.91,
+      1013.53,
+      853.727,
+      45.913
+    ],
+    "rules-line-2": [
+      106.385,
+      1072.53,
+      846.23,
+      45.521
+    ],
+    "rules-line-3": [
+      68.7775,
+      1131.53,
+      921.445,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages. HIT: You",
+      "baseline": 1049.3,
+      "width": 910.1351555438591,
+      "icon_inline": true
+    },
+    {
+      "text": "may search your Life Deck for a Drill that raises",
+      "baseline": 1108.3,
+      "width": 848.8760000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your PUR or lets you gain stages and put it into play.",
+      "baseline": 1167.3,
+      "width": 923.6500000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 164,
+  "id": "majin-buu-164-gohan",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-164-gohan.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a1dc60401c96b743c2d62aff9873aba0a70b865fb60e49e900f05b1a4b022fb8",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-164-gohan.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "c796edd5f39b63e2bc7e13afd8cdff34bf0adc0397900e120da36efb946a7bab",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "b6082d95d262ded7990f76762bc638c5e518dc91c458a9ff15ef3488a2093f9f",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "art-164.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

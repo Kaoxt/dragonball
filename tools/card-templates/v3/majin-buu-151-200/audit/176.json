@@ -1,0 +1,109 @@
+{
+  "bounds": {
+    "card-title": [
+      420.881,
+      50.2213,
+      217.238,
+      57.5574
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      789.26,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      849.06,
+      1392.65,
+      56.18,
+      33.708
+    ],
+    "rules-line-1": [
+      208.555,
+      1013.53,
+      696.437,
+      45.913
+    ],
+    "rules-line-2": [
+      72.183,
+      1072.53,
+      914.634,
+      45.521
+    ],
+    "rules-line-3": [
+      69.5125,
+      1131.53,
+      919.975,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 752.5511555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "Put your discard pile's bottom card at the bottom of",
+      "baseline": 1108.3,
+      "width": 917.7699999999998,
+      "icon_inline": false
+    },
+    {
+      "text": "your Life Deck. Lower your opponent's anger 1 level.",
+      "baseline": 1167.3,
+      "width": 922.18,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 176,
+  "id": "majin-buu-176-piccolo",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-176-piccolo.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "d4980e59a5fbaedd312104167a4616702bb567b107d3ac2e4903b969917c29ea",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-176-piccolo.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "ab190eab2c0728795c039696aa8625c369483c1d30bcca0fd45811eccdf0e898",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "966974e46a77146ca6095cf986f90476c88bd4f9da5b869af1d5a1ee40da2ac4",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "art-176.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

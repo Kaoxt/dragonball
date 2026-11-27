@@ -1,0 +1,123 @@
+{
+  "bounds": {
+    "card-title": [
+      226.055,
+      50.2213,
+      606.89,
+      57.5574
+    ],
+    "card-category": [
+      329.076,
+      891.391,
+      211.17,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      788.015,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.815,
+      1392.65,
+      58.671,
+      33.708
+    ],
+    "rules-line-1": [
+      260.317,
+      1015.0,
+      226.135,
+      34.692
+    ],
+    "rules-line-2": [
+      98.479,
+      1072.53,
+      483.042,
+      45.913
+    ],
+    "rules-line-3": [
+      124.449,
+      1133.0,
+      431.102,
+      43.414
+    ],
+    "rules-line-4": [
+      101.1,
+      1190.53,
+      477.799,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your attacks",
+      "baseline": 1049.3,
+      "width": 293.73775,
+      "icon_inline": true
+    },
+    {
+      "text": "deal +1 life card of damage.",
+      "baseline": 1108.3,
+      "width": 486.1290000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Your opponent's attacks",
+      "baseline": 1167.3,
+      "width": 433.1110000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "deal -1 life card of damage.",
+      "baseline": 1226.3,
+      "width": 480.886,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 153,
+  "id": "majin-buu-153-master-roshi-sensei",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-153-master-roshi-sensei.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "2d66e2bed258cbee19941e9959a5e7eec36d7fc6a1552b4ad1dfda69985d0c70",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-153-master-roshi-sensei.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "18b2339ba233c78af0d67906c8d3a75fbbc1b5bdc31183ac006907f4a5545981",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "82a3c6727e393719a79deaf78974bcd9219ac6d0173769bc860f246cc238d018",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-153.png",
+    "Red-Black-Brush-User-Reference.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "Goku-Sensei-Emblem-User-Reference.jpg",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

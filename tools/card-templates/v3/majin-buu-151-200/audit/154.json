@@ -1,0 +1,108 @@
+{
+  "bounds": {
+    "card-title": [
+      409.137,
+      50.2213,
+      240.726,
+      57.5574
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      786.372,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      846.172,
+      1392.65,
+      61.957,
+      33.708
+    ],
+    "rules-line-1": [
+      129.959,
+      1013.53,
+      853.629,
+      45.913
+    ],
+    "rules-line-2": [
+      78.5645,
+      1072.53,
+      901.871,
+      45.913
+    ],
+    "rules-line-3": [
+      85.9765,
+      1131.53,
+      887.047,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Physical attack. DAMAGE: 7 stages. Usable twice",
+      "baseline": 1049.3,
+      "width": 909.4981555438592,
+      "icon_inline": true
+    },
+    {
+      "text": "per Combat. When performing this attack, you may",
+      "baseline": 1108.3,
+      "width": 904.54,
+      "icon_inline": false
+    },
+    {
+      "text": "discard a card from your hand to make it focused.",
+      "baseline": 1167.3,
+      "width": 890.134,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 154,
+  "id": "majin-buu-154-gotenks",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-154-gotenks.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "8398a55c3fd3e451f3c82efd5e24bb87eaad79d8bf645af050a1a323fe015581",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-154-gotenks.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "843e08d14c39e84fd6ac42724a7012075be5e68357ddd487e704a44fc3414e74",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "6489a905f6d62a00bc5392805c28e30c9600f27861e10ed53762c7d70396c5ec",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "art-154.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

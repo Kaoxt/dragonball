@@ -1,0 +1,121 @@
+{
+  "bounds": {
+    "card-title": [
+      336.352,
+      44.5,
+      386.297,
+      69.0
+    ],
+    "card-category": [
+      419.002,
+      891.991,
+      220.996,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      787.22,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      847.02,
+      1392.65,
+      60.261,
+      33.708
+    ],
+    "rules-line-1": [
+      278.11,
+      1013.53,
+      557.375,
+      45.913
+    ],
+    "rules-line-2": [
+      190.876,
+      1072.53,
+      677.249,
+      45.521
+    ],
+    "rules-line-3": [
+      202.768,
+      1131.53,
+      653.464,
+      45.768
+    ],
+    "rules-line-4": [
+      196.3,
+      1190.53,
+      666.4,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Energy attack costing 2 stages.",
+      "baseline": 1049.3,
+      "width": 613.5381555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: 5 life cards. HIT: Search your",
+      "baseline": 1108.3,
+      "width": 679.777,
+      "icon_inline": false
+    },
+    {
+      "text": "discard pile for a card with \"Majin\" in",
+      "baseline": 1167.3,
+      "width": 656.6490000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "its title and put it atop your Life Deck.",
+      "baseline": 1226.3,
+      "width": 669.4380000000001,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_finished",
+  "number": 189,
+  "id": "majin-buu-189-majin-vegeta",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-189-majin-vegeta.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "a305719168c7883edc2aefea374f8e403e94a2d9cf86acc06648774c1d4bcf82",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-189-majin-vegeta.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "9009b474d0c4b3848d89f20be591492ab26ca3cb6b5112f55971733df830e82c",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "8900799fc17eee9e51f4bf71e3ab12630e50fd35ec81a784eb735e686d319485",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-189.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}
