@@ -1,5 +1,5 @@
 import {gtBackers} from '../../public/cards/gt-backers.js';
-import {assertNoHiTechAllyAdditions, assertNoBannedCards} from '../../public/decks/eligibility.js';
+import {assertNoHiTechAllyAdditions, assertNoBannedCards, assertTokuiRestrictions} from '../../public/decks/eligibility.js';
 import {readSession,assertSameOrigin} from './session.js';
 import {IssueError} from './issues.js';
 import {API_SECURITY_HEADERS} from './security.js';
@@ -51,6 +51,7 @@ export async function decksRequest(request,env,{backers=gtBackers}={}){
    try{
     for(const deck of data.decks){
      assertNoBannedCards(deck);
+     assertTokuiRestrictions(deck);
      assertNoHiTechAllyAdditions(deck,previous.get(deck.id));
     }
    }

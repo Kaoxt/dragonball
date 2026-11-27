@@ -38,8 +38,27 @@ export function banReason(card) {
   return current?.banned ? current.banReason || (current.name + ' is banned from decks.') : '';
 }
 
-export function deckAdditionError(card, destination) {
-  return banReason(card) || (blocksHiTechAlly(card, destination) ? HI_TECH_ALLY_ERROR : '');
+function tokuiRestriction(card, zone, tokui) {
+  const current = byId.get(String(card?.id ?? '').trim());
+  const rule = current?.deckRestrictions;
+  if (!rule?.zones.includes(zone)) return '';
+  const declared = String(tokui || '').trim().toLowerCase();
+  const style = rule.disallowedTokuiWaza.find(value => value.toLowerCase() === declared);
+  return style ? `${current.name} cannot be in the ${zone === 'senseiDeck' ? 'Sensei Deck' : 'Life Deck'} with a declared ${style} Tokui-Waza.` : '';
+}
+
+export function assertTokuiRestrictions(deck, tokui = deck.tokui) {
+  for (const zone of allyZones) {
+    for (const card of deck[zone] || []) {
+      const reason = tokuiRestriction(card, zone, tokui);
+      if (reason) throw new Error(reason);
+    }
+  }
+}
+
+export function deckAdditionError(card, destination, tokui) {
+  return banReason(card) || (blocksHiTechAlly(card, destination) ? HI_TECH_ALLY_ERROR : '') ||
+    tokuiRestriction(card, destination === 'auto' ? 'cards' : destination, tokui);
 }
 
 export function assertNoBannedCards(deck) {
@@ -53,4 +72,5 @@ export function assertNoBannedCards(deck) {
 export function assertDeckEligible(deck) {
   assertNoBannedCards(deck);
   assertNoHiTechAllies(deck);
+  assertTokuiRestrictions(deck);
 }

@@ -109,6 +109,30 @@
  html:root body .site-header nav .account-dropdown-panel a:is(:hover,:focus-visible) :is(strong,small){color:inherit}
  html:root body .site-header :is(a,button,summary):focus-visible{outline-color:var(--site-nav-red)}
 }
+/* Shared account menus use the current charcoal surfaces and action red. */
+@media screen{
+ html[data-site-design=v2] body .site-header #site-navigation .account-dropdown-panel{
+  background:var(--surface-panel,#1e2428);border-color:#39434b;color:#f5f6fa;
+  -webkit-backdrop-filter:none;backdrop-filter:none;
+ }
+ html[data-site-design=v2] body .site-header #site-navigation :is(.account-nav-actions,.account-menu-footer){border-color:#39434b}
+ html[data-site-design=v2] body .site-header .account-menu-profile strong{color:inherit}
+ html[data-site-design=v2] body .site-header .account-menu-profile small{color:#b8c0c6}
+ html[data-site-design=v2] body .site-header .account-trigger-avatar{background:var(--surface-inset,#151a1e)}
+ html[data-site-design=v2] body .site-header .account-badge{background:var(--action-red,#b50d1b);color:#fff}
+ html[data-site-design=v2] body .site-header #site-navigation .account-menu-footer :is(a,button),
+ html[data-site-design=v2] body .site-header #site-navigation .account-menu-footer :is(a,button):is(:hover,:focus-visible){
+  background:var(--action-red,#b50d1b);border-color:var(--action-red,#b50d1b);color:#fff;box-shadow:none;
+ }
+ html[data-site-design=v2] body .site-header #account-menu-error{color:#ed929e}
+ @media(max-width:899px),(max-width:1200px) and (orientation:portrait){
+  html[data-site-design=v2] body .site-header #site-navigation{
+   background:var(--surface-panel,#1e2428);border-color:#39434b;
+   -webkit-backdrop-filter:none;backdrop-filter:none;
+  }
+  html[data-site-design=v2] body .site-header #site-navigation .account-dropdown-panel{background:transparent}
+ }
+}
 /* Menu controls keep neutral ink without hover or pressed decoration in either design. */
 @media screen{
  html:root body .site-header #nav-toggle,

@@ -9,19 +9,19 @@ for(const key of ['type','style']) for(const value of [...new Set(catalog.map(c=
 // The URL selects the set; older browser-saved searches never override it.
 try{localStorage.removeItem('dbocg:cards:filters:v1');}catch{}
 const PAGE_SIZE=52;
+const DEFAULT_SORT='number';
 let activeSet='';
 let currentPage=1;
 let currentCard=null;
 function resetFilters(){
- $('filters').reset();$('set').value=activeSet&&![...$('set').options].some(option=>option.value===activeSet)?PROMOTIONAL_SET:activeSet;$('subset').value='';$('sort').value='name';
+ $('filters').reset();$('set').value=activeSet&&![...$('set').options].some(option=>option.value===activeSet)?PROMOTIONAL_SET:activeSet;$('subset').value='';$('sort').value=DEFAULT_SORT;
  currentPage=1;
 }
 function browserURL(page=currentPage){
  const url=new URL(activeSet?setPath(activeSet):'/cards/',location.origin);
  for(const key of ['query','type','style'])if($(key).value)url.searchParams.set(key,$(key).value);
  if(activeSet===PROMOTIONAL_SET&&$('subset').value)url.searchParams.set('subset',$('subset').value);
- const defaultSort='name';
- if($('sort').value!==defaultSort)url.searchParams.set('sort',$('sort').value);
+ if($('sort').value!==DEFAULT_SORT)url.searchParams.set('sort',$('sort').value);
  if(page>1)url.searchParams.set('page',page);
  return url.pathname+url.search;
 }

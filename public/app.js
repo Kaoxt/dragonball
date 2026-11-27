@@ -1,7 +1,9 @@
 import { powerChart, personalityPower } from './personality-power.js';
 import {readDecks, exportDeck} from './decks/store.js';
-import { practiceDeck } from './practice-deck.js';
-import { newGame, addPlayer, act, view, cardImage } from './game.js?v=20261106-banished';
+import { practiceDeck } from './practice-deck.js?v=20261127-catalog';
+import { cardPlayPlan } from './card-play.js';
+import { capturePlayMotion, animatePlayMotion } from './arena-play-motion.js';
+import { newGame, addPlayer, act, view, cardImage } from './game.js?v=20261127-play-routing';
 import { saveArenaSession, readArenaSession, clearArenaSession, sessionToRestore } from './arena-session.js';
 const $ = id => document.getElementById(id);
 const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -118,7 +120,7 @@ function practice() {
   act(practiceGame, 0, { type: 'load', deck: demo() }); act(practiceGame, 1, { type: 'load', deck: practiceDeck(true) }); act(practiceGame, 0, { type: 'start' });
   game = view(practiceGame, seat); selected = null; status('Solo practice · both seats'); render();
 }
-const labels = { deck: 'Life Deck', hand: 'Hand', combat: 'Combat cards', noncombat: 'Non-Combat', drills: 'Drills', allies: 'Allies', dragonballs: 'Dragon Balls', location: 'Battleground / Location', discard: 'Discard', removed: 'Banished', senseiDeck: 'Sensei Deck', mp: 'Main Personality', mastery: 'Mastery', sensei: 'Sensei' };
+const labels = { deck: 'Life Deck', hand: 'Hand', combat: 'Combat cards', noncombat: 'Setups', drills: 'Drills', allies: 'Allies', dragonballs: 'Dragon Balls', location: 'Battleground / Location', discard: 'Discard', removed: 'Banished', senseiDeck: 'Sensei Deck', mp: 'Main Personality', mastery: 'Mastery', sensei: 'Sensei' };
 function startDrawTest() {
   if (!practiceGame || practiceGame.status !== 'setup') return;
   const next = structuredClone(practiceGame);
@@ -128,7 +130,7 @@ function startDrawTest() {
   act(next, seat, { type: 'draw', count: 3 });
   practiceGame = next; game = view(practiceGame, seat); selected = null; render();
   $('hand').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  toast('Three cards drawn. Use Draw 1 or Draw 3 to draw more, or drag a card onto the table.');
+  toast('Three cards drawn. Use Draw 1 or Draw 3 to draw more, or tap a card and choose Play. Dragging onto the table also plays it.');
 }
 function cardHTML(c, owner, zone) {
   c = {...c, image: cardImage(c)};
@@ -202,6 +204,7 @@ function fieldHTML(p, owner) {
 }
 
 function render() {
+  const motion = capturePlayMotion(game, seat);
   rememberTable(); $('arena-resume').hidden = true;
   $('lobby').hidden = true; $('table').hidden = false;
   $('room-label').hidden = !!practiceGame;
@@ -224,6 +227,7 @@ function render() {
   $('hand').dataset.zone='hand';$('hand').dataset.owner=seat;
   $('search-panel').hidden=!p.searchCards;$('search-cards').innerHTML=p.searchCards?p.searchCards.map(c=>cardHTML(c,seat,'deck')).join(''):'';
   $('log').innerHTML=game.log.map(x=>`<li><time>${new Date(x.at).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}</time>${esc(x.text)}</li>`).join('');$('log').scrollTop=$('log').scrollHeight;renderInspector();renderPile();
+  animatePlayMotion(motion);
 }
 function getSelected() {
   if (!selected) return null;
@@ -254,6 +258,9 @@ function renderInspector() {
   }
   const {owner, zone, c} = s, mine = owner === seat, hidden = c.faceDown && !mine;
   const fixed = ['mp', 'mastery', 'sensei'].includes(zone);
+  const plan = mine && game.status === 'playing' ? cardPlayPlan(c) : null;
+  const quick = plan && (zone === 'hand' || plan.resolve && ['noncombat','combat'].includes(zone));
+  const target = zone === 'hand' ? plan?.to : plan?.afterUse;
   const image = $('card-zoom-image');
   const source = hidden ? '/assets/dragon-ball-online-card-back.webp?v=burnt-red-1' : c.image;
   $('card-zoom-art').hidden = !source;
@@ -264,7 +271,7 @@ function renderInspector() {
   $('inspect').innerHTML = `<span class="eyebrow">${esc(labels[zone])}${level ? ` · Level ${level}` : ''}</span><h2 id="inspect-name">${esc(hidden ? 'Face-down card' : c.name)}</h2><p class="inspect-meta">${esc(hidden ? 'Hidden card' : c.id)}${c.rested && !hidden ? ' · Used' : ''}${mine && c.faceDown ? ' · Face down' : ''}</p>
     ${zone === 'mp' ? '<button type="button" id="view-mp-levels">View all levels</button>' : ''}
     ${mine && zone === 'senseiDeck' && game.status === 'setup' ? '<p class="fine">Close this view to choose your Sensei swap cards below the table.</p>' : ''}
-    ${mine && game.status === 'playing' && !fixed ? `<div class="inspect-actions"><label for="destination">Move to</label><select id="destination">${Object.entries(labels).filter(([z]) => z !== zone && !['mp','mastery','sensei'].includes(z)).map(([z,l]) => `<option value="${z}">${l}${z === 'deck' ? ' (top)' : ''}</option>`).join('')}${zone !== 'deck' ? '<option value="deck-bottom">Life Deck (bottom)</option>' : ''}</select><button type="button" class="primary wide" id="move-selected">Move card <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+    ${mine && game.status === 'playing' && !fixed ? `<div class="inspect-actions">${quick ? `<button type="button" class="primary wide arena-play-card" data-card-action="${zone === 'hand' ? 'play' : 'resolve'}">${zone === 'hand' ? plan.label : zone === 'noncombat' ? 'Use Setup' : 'Finish card'} <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button><p class="arena-play-destination">Moves to ${esc(labels[target])}</p>${plan.note ? `<p class="fine">${esc(plan.note)}</p>` : ''}` : ''}<label for="destination">Move to</label><select id="destination">${Object.entries(labels).filter(([z]) => z !== zone && !['mp','mastery','sensei'].includes(z)).map(([z,l]) => `<option value="${z}">${l}${z === 'deck' ? ' (top)' : ''}</option>`).join('')}${zone !== 'deck' ? '<option value="deck-bottom">Life Deck (bottom)</option>' : ''}</select><button type="button" class="primary wide" id="move-selected">Move card <svg class="ui-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
       ${!['hand','deck','senseiDeck'].includes(zone) ? `<div class="toolbar"><button type="button" data-card-action="rest">${c.rested ? 'Mark unused' : 'Mark used'}</button><button type="button" data-card-action="flip">Flip</button></div>${zone === 'allies' ? '<div class="toolbar"><button type="button" data-card-action="stages" data-delta="-1">−1 stage</button><button type="button" data-card-action="stages" data-delta="1">+1 stage</button></div>' : ''}${zone === 'dragonballs' ? '<button type="button" class="wide" data-card-action="giveDragonBall">Transfer to opponent</button>' : ''}` : ''}</div>` : ''}`;
 }
 
@@ -317,6 +324,7 @@ document.addEventListener('pointerup',e=>{
  const fixed=['mp','mastery','sensei'].includes(from);
  if(table){const r=table.getBoundingClientRect(),width=Number(table.dataset.cardWidth)||80,height=Number(table.dataset.cardHeight)||114,position={x:Math.max(0,Math.min(1,(e.clientX-r.left-width/2)/Math.max(1,r.width-width))),y:Math.max(0,Math.min(1,(e.clientY-r.top-height/2)/Math.max(1,r.height-height)))};
  if(fixed||playZones.includes(from))send({type:'position',from,uid,position});
+ else if(from==='hand' && cardPlayPlan(game.players[seat].zones.hand.find(c=>c.uid===uid)))send({type:'play',uid});
  else send({type:'move',from,uid,to:'combat',position});
  }else if(fixed){if(z.dataset.zone===from)send({type:'position',from,uid,position:null});}
  else if(!['mp','mastery','sensei'].includes(z.dataset.zone)&&z.dataset.zone!==from)send({type:'move',from,uid,to:z.dataset.zone});
@@ -350,7 +358,7 @@ $('close-deck').onclick = () => $('deck-dialog').close();
 $('close-pile').onclick = () => $('pile-dialog').close();
 $('pile-dialog').addEventListener('close', () => { openPile = null; });
 $('save-deck').onclick = () => { localStorage.setItem('score-deck', JSON.stringify({ leader: $('mp-ids').value, mastery:$('mastery-id').value, sensei:$('sensei-id').value, tokui:$('tokui').value, text: $('deck-text').value })); toast('Deck draft saved in this browser.'); };
-$('demo-deck').onclick = () => { $('deck-text').value = JSON.stringify(demo(), null, 2); $('mp-ids').value = 'PRACTICE-MP-1, PRACTICE-MP-2, PRACTICE-MP-3'; };
+$('demo-deck').onclick = () => { const deck = demo(); $('deck-text').value = JSON.stringify(deck, null, 2); $('mp-ids').value = deck.personalities.map(c=>c.id).join(', '); $('mastery-id').value = deck.mastery.id; $('sensei-id').value = deck.sensei.id; $('tokui').value = deck.tokui || ''; };
 function deckInput() {
   const text = $('deck-text').value.trim(); if (text.startsWith('{')) return JSON.parse(text);
   const cards = text.split(/\r?\n/).filter(l => l.trim() && !l.trim().startsWith('#')).map(line => {

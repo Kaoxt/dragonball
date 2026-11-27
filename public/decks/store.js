@@ -41,7 +41,7 @@ export function selectBacker(deck, card, backers = gtBackers) {
 }
 export function addCard(deck, card, destination = 'auto') {
   if (destination === 'auto') destination = isPersonality(card) ? 'personalities' : card.type === 'Mastery' ? 'mastery' : card.type === 'Sensei' ? 'sensei' : 'cards';
-  const error = deckAdditionError(card, destination);
+  const error = deckAdditionError(card, destination, deck.tokui);
   if (error) throw new Error(error);
   const c = snapshot(card);
   const character=name=>String(name||'').trim().toLowerCase();

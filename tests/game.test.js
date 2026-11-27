@@ -47,9 +47,9 @@ test('practice card images use WebP and legacy JPG deck imports migrate', async 
   const releaseManifest = new URL('../deployment/card-assets.json', import.meta.url);
   const storedImages = existsSync(releaseManifest) ? JSON.parse(readFileSync(releaseManifest, 'utf8')).assets : null;
   for (const card of sampleCards) {
-    assert.ok(card.image.endsWith('.webp'));
-    if (storedImages) assert.ok(Object.hasOwn(storedImages, card.image), `Missing stored practice image: ${card.image}`);
-    else assert.ok(existsSync(new URL(`../public${card.image}`, import.meta.url)));
+    assert.ok(/\.webp(?:\?|$)/.test(card.image));
+    if (storedImages) assert.ok(Object.hasOwn(storedImages, card.image.split('?')[0]), `Missing stored practice image: ${card.image}`);
+    else assert.ok(existsSync(new URL(`../public${card.image.split('?')[0]}`, import.meta.url)));
   }
   const input = practiceDeck();
   input.personalities[0].image = '/assets/cards/goku-super-saiyan-3.jpg';
@@ -62,7 +62,7 @@ test('practice card images use WebP and legacy JPG deck imports migrate', async 
   for (let seat = 0; seat < 2; seat++) act(g, seat, {type:'ready'});
   act(g, 0, {type:'draw', count:3});
   assert.equal(g.players[0].zones.hand.length, 3);
-  assert.ok(g.players[0].zones.hand.every(card => card.image.endsWith('.webp')));
+  assert.ok(g.players[0].zones.hand.every(card => /\.webp(?:\?|$)/.test(card.image)));
 });
 
 test('manual power is shared, validated, and cleared when MP stages or level change',()=>{

@@ -122,7 +122,7 @@ test('Promotional Cards loads directly with the shared collection filter and can
  assert.ok(body.includes('<option value="Promotional Cards" selected>'));
  assert.ok(!body.includes('<option value="Movie 7: Super Android 13"'));
  assert.ok(!body.includes('id="promo-subsets-section"'));
- assert.ok(body.includes('Browse 141 promotional cards by category'));
+ assert.ok(body.includes('Browse 151 promotional cards by category'));
  assert.ok(body.includes('rel="canonical" href="https://dragonballocg.com/cards/promotional-cards/"'));
  const alias=await cardPage(new Request('https://dragonballocg.com/cards/Promotional-Cards?query=Movie+7'),assets);
  assert.equal(alias.status,308);
