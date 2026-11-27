@@ -120,9 +120,15 @@
  html[data-site-design=v2] body .site-header .account-menu-profile small{color:#b8c0c6}
  html[data-site-design=v2] body .site-header .account-trigger-avatar{background:var(--surface-inset,#151a1e)}
  html[data-site-design=v2] body .site-header .account-badge{background:var(--action-red,#b50d1b);color:#fff}
- html[data-site-design=v2] body .site-header #site-navigation .account-menu-footer :is(a,button),
- html[data-site-design=v2] body .site-header #site-navigation .account-menu-footer :is(a,button):is(:hover,:focus-visible){
+ html[data-site-design=v2] body .site-header #site-navigation .account-menu-footer .account-menu-admin,
+ html[data-site-design=v2] body .site-header #site-navigation .account-menu-footer .account-menu-admin:is(:hover,:focus-visible){
   background:var(--action-red,#b50d1b);border-color:var(--action-red,#b50d1b);color:#fff;box-shadow:none;
+ }
+ html[data-site-design=v2] body .site-header #site-navigation #nav-logout{
+  background:#252c31;border-color:#465058;color:#f5f6fa;box-shadow:none;
+ }
+ html[data-site-design=v2] body .site-header #site-navigation #nav-logout:is(:hover,:focus-visible){
+  background:#303940;border-color:#65717a;color:#fff;outline-color:#c2c8cd;
  }
  html[data-site-design=v2] body .site-header #account-menu-error{color:#ed929e}
  @media(max-width:899px),(max-width:1200px) and (orientation:portrait){
