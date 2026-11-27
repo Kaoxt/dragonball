@@ -29026,8 +29026,8 @@ export const catalog = [
     "width": 1060,
     "height": 1484,
     "legality": "not_banned_in_checked_crd",
-    "image": "/assets/cards/majin-buu-001-alt-dende-dragon-ball-1.webp?v=1bb497206991",
-    "downloadImage": "/assets/cards/downloads/majin-buu-001-alt-dende-dragon-ball-1.webp?v=0432838dcede"
+    "image": "/assets/cards/majin-buu-001-alt-dende-dragon-ball-1.webp?v=efa790408ce3",
+    "downloadImage": "/assets/cards/downloads/majin-buu-001-alt-dende-dragon-ball-1.webp?v=67294958d670"
   },
   {
     "id": "majin-buu-002-alt-dende-dragon-ball-2",
@@ -29044,8 +29044,8 @@ export const catalog = [
     "width": 1060,
     "height": 1484,
     "legality": "not_banned_in_checked_crd",
-    "image": "/assets/cards/majin-buu-002-alt-dende-dragon-ball-2.webp?v=c4d22fbc0759",
-    "downloadImage": "/assets/cards/downloads/majin-buu-002-alt-dende-dragon-ball-2.webp?v=2f84387b4bc8"
+    "image": "/assets/cards/majin-buu-002-alt-dende-dragon-ball-2.webp?v=b1d62067db8f",
+    "downloadImage": "/assets/cards/downloads/majin-buu-002-alt-dende-dragon-ball-2.webp?v=b858b3c94d94"
   },
   {
     "id": "majin-buu-003-black-arm-stretch",
@@ -29674,8 +29674,8 @@ export const catalog = [
     "width": 1060,
     "height": 1484,
     "legality": "not_banned_in_checked_crd",
-    "image": "/assets/cards/majin-buu-038-alt-dende-dragon-ball-3.webp?v=2eb546c01afe",
-    "downloadImage": "/assets/cards/downloads/majin-buu-038-alt-dende-dragon-ball-3.webp?v=bdf006ec2c58"
+    "image": "/assets/cards/majin-buu-038-alt-dende-dragon-ball-3.webp?v=bbb7b0bcdad3",
+    "downloadImage": "/assets/cards/downloads/majin-buu-038-alt-dende-dragon-ball-3.webp?v=5a1e16c7a2e8"
   },
   {
     "id": "majin-buu-039-alt-dende-dragon-ball-4",
@@ -29692,8 +29692,8 @@ export const catalog = [
     "width": 1060,
     "height": 1484,
     "legality": "not_banned_in_checked_crd",
-    "image": "/assets/cards/majin-buu-039-alt-dende-dragon-ball-4.webp?v=af2ea845f29d",
-    "downloadImage": "/assets/cards/downloads/majin-buu-039-alt-dende-dragon-ball-4.webp?v=2b708eb82516"
+    "image": "/assets/cards/majin-buu-039-alt-dende-dragon-ball-4.webp?v=04bffdb48f49",
+    "downloadImage": "/assets/cards/downloads/majin-buu-039-alt-dende-dragon-ball-4.webp?v=63c0b8af2b7f"
   },
   {
     "id": "majin-buu-040-alt-dende-dragon-ball-5",
@@ -29710,8 +29710,8 @@ export const catalog = [
     "width": 1060,
     "height": 1484,
     "legality": "not_banned_in_checked_crd",
-    "image": "/assets/cards/majin-buu-040-alt-dende-dragon-ball-5.webp?v=a9557c364fe2",
-    "downloadImage": "/assets/cards/downloads/majin-buu-040-alt-dende-dragon-ball-5.webp?v=93cba8d929a3"
+    "image": "/assets/cards/majin-buu-040-alt-dende-dragon-ball-5.webp?v=7597e2e26ed7",
+    "downloadImage": "/assets/cards/downloads/majin-buu-040-alt-dende-dragon-ball-5.webp?v=2f79941265e3"
   },
   {
     "id": "majin-buu-041-bee",
