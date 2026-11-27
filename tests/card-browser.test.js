@@ -22,7 +22,7 @@ function browser(path='/cards/',navigatorOverrides={}) {
   }
   const elements=Object.fromEntries([...html.matchAll(/id="([^"]+)"/g)].map(match=>[match[1],new Element()]));
   for(const key of ['set','subset','type','style'])elements[key].options=[{value:''}];
-  elements.sort.options=[{value:'name'},{value:'number'}];elements.sort.value='name';
+  elements.sort.options=[{value:'number'},{value:'name'}];elements.sort.value='number';
   elements.filters.reset=()=>{for(const key of ['query','set','subset','type','style'])elements[key].value='';};
   const events={},location={origin:'https://dragonballocg.com',assign(value){this.assigned=value;}};
   const setLocation=path=>{const url=new URL(path,location.origin);location.pathname=url.pathname;location.search=url.search;};
@@ -206,7 +206,7 @@ test('complete Android Saga includes 125 numbered cards, P1–P11, and a reachab
  for(const n of [...Array.from({length:125},(_,i)=>String(i+1)),...Array.from({length:11},(_,i)=>`P${i+1}`)])
   assert.ok(android.some(c=>c.number===n),`Missing Android ${n}`);
  const b=browser('/cards/android-saga/?page=3');
- const expected=[...android].sort((a,b)=>a.name.localeCompare(b.name)).slice(104).map(cardPath);
+ const expected=[...android].sort((a,b)=>a.number.localeCompare(b.number,undefined,{numeric:true})).slice(104).map(cardPath);
  assert.deepEqual(grid(b).map(c=>c.href),expected);
  assert.equal(b.elements['results-count'].textContent,'Showing 105–136 of 136 cards in Android Saga');
  assert.equal(android.find(c=>c.number==='P10').width,1484);
@@ -222,6 +222,7 @@ test('Cards opens all sets directly with 52 cards and no set directory',()=>{
  assert.equal(grid(b).length,52);
  assert.equal(b.elements['set-directory'],undefined);
  assert.equal(b.elements.set.value,'');
+ assert.equal(b.elements.sort.value,'number');
  assert.equal(b.elements['pagination-top'].hidden,false);
  assert.equal(b.elements['pagination-bottom'].hidden,false);
  assert.equal(b.elements['results-count'].textContent,`Showing 1–52 of ${catalog.length} cards`);
@@ -229,7 +230,7 @@ test('Cards opens all sets directly with 52 cards and no set directory',()=>{
 });
 
 test('every page contains its 52-card slice without omissions or duplicates',()=>{
- const expected=[...catalog].sort((a,b)=>a.name.localeCompare(b.name)).map(cardPath),seen=[];
+ const expected=[...catalog].sort((a,b)=>a.number.localeCompare(b.number,undefined,{numeric:true})).map(cardPath),seen=[];
  const b=browser();
  for(let n=1;n<=Math.ceil(catalog.length/52);n++){
   if(n>1)b.click(pageLink(b,n));
@@ -254,12 +255,15 @@ test('page and filter URLs survive refresh and invalid pages are corrected',()=>
  const filtered=browser('/cards/saiyan-saga/?query=goku&type=Main+Personality&sort=name&page=2');
  assert.equal(filtered.elements.query.value,'goku');assert.equal(filtered.elements.type.value,'Main Personality');
  assert.ok(grid(filtered).every(c=>c.children[1].textContent.toLowerCase().includes('goku')));
+ assert.equal(filtered.elements.sort.value,'name');
+ const names=grid(filtered).map(c=>c.children[1].textContent);
+ assert.deepEqual(names,[...names].sort((a,b)=>a.localeCompare(b)));
 });
 
 test('search, type, style, sort and Reset return to page one; empty results hide pagination',()=>{
  for(const key of ['query','type','style','sort']){
   const b=browser('/cards/?page=3'),el=b.elements;
-  el[key].value={query:'goku',type:'Physical Combat',style:'Orange',sort:'number'}[key];
+  el[key].value={query:'goku',type:'Physical Combat',style:'Orange',sort:'name'}[key];
   (key==='query'?el[key].oninput:el[key].onchange)();
   assert.ok(!b.location.search.includes('page='));assert.ok(grid(b).length<=52);
  }
@@ -272,30 +276,30 @@ test('search, type, style, sort and Reset return to page one; empty results hide
 test('set pages and Reset stay within their set; small sets hide pagination',()=>{
  const b=browser('/cards/frieza-saga/'),el=b.elements;
  const count=catalog.filter(c=>c.set==='Frieza Saga').length;
- assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'name');
- const expected=catalog.filter(c=>c.set==='Frieza Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,52).map(cardPath);
+ assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'number');
+ const expected=catalog.filter(c=>c.set==='Frieza Saga').sort((a,b)=>a.number.localeCompare(b.number,undefined,{numeric:true})).slice(0,52).map(cardPath);
  assert.deepEqual(grid(b).map(c=>c.href),expected);
  assert.equal(grid(b).length,Math.min(52,count));assert.equal(el['pagination-top'].hidden,count<=52);
  el.query.value='suspension';el.query.oninput();assert.equal(grid(b).length,1);
  b.events.pageshow();assert.equal(el.query.value,'suspension');
- el.sort.value='number';el.sort.onchange();
- assert.equal(new URLSearchParams(b.location.search).get('sort'),'number');
- b.events.pageshow();assert.equal(el.sort.value,'number');
- b.click(el.clear);assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'name');
+ el.sort.value='name';el.sort.onchange();
+ assert.equal(new URLSearchParams(b.location.search).get('sort'),'name');
+ b.events.pageshow();assert.equal(el.sort.value,'name');
+ b.click(el.clear);assert.equal(el.set.value,'Frieza Saga');assert.equal(el.sort.value,'number');
  assert.equal(b.location.search,'');assert.deepEqual(grid(b).map(c=>c.href),expected);
  el.set.value='Saiyan Saga';el.set.onchange();assert.equal(b.location.assigned,'/cards/saiyan-saga/');
  el.set.value='';el.set.onchange();assert.equal(b.location.assigned,'/cards/');
 });
 
 test('card modal preserves page, set and filters through Close, Back and Forward',async()=>{
- const b=browser('/cards/?sort=number&page=3'),el=b.elements;
+ const b=browser('/cards/?sort=name&page=3'),el=b.elements;
  const before=grid(b).map(c=>c.href);b.click(grid(b)[0]);
  assert.equal(el['card-detail'].open,true);
  await el['share-card'].onclick();assert.equal(b.copied(),'https://dragonballocg.com'+before[0]);
- b.history.back();assert.equal(el['card-detail'].open,false);assert.equal(b.location.search,'?sort=number&page=3');
+ b.history.back();assert.equal(el['card-detail'].open,false);assert.equal(b.location.search,'?sort=name&page=3');
  assert.deepEqual(grid(b).map(c=>c.href),before);
  b.history.forward();assert.equal(el['card-detail'].open,true);b.click(el['close-detail']);
- assert.deepEqual(grid(b).map(c=>c.href),before);assert.equal(b.location.search,'?sort=number&page=3');
+ assert.deepEqual(grid(b).map(c=>c.href),before);assert.equal(b.location.search,'?sort=name&page=3');
  const filtered=browser('/cards/frieza-saga/?query=rapid+deflection');
  filtered.click(grid(filtered)[0]);filtered.history.back();assert.equal(filtered.elements.query.value,'rapid deflection');
  const direct=browser('/cards/frieza-saga/011');direct.click(direct.elements['close-detail']);
@@ -353,7 +357,7 @@ test('Android set shows its banner through refresh and hides it outside that set
  assert.equal(el['collection-logo-android'].src,'/assets/sets/android-saga-logo-brushed-crimson.webp?v=20261026-set-banners');
  assert.equal(el['collection-name'].hidden,true);
  for(const id of ['collection-logo','collection-logo-frieza','collection-logo-trunks'])assert.equal(el[id].hidden,true);
- const expected=catalog.filter(c=>c.set==='Android Saga').sort((a,b)=>a.name.localeCompare(b.name)).slice(0,52).map(cardPath);
+ const expected=catalog.filter(c=>c.set==='Android Saga').sort((a,b)=>a.number.localeCompare(b.number,undefined,{numeric:true})).slice(0,52).map(cardPath);
  assert.ok(expected.length>0);assert.deepEqual(grid(b).map(c=>c.href),expected);
  b.events.pageshow();assert.equal(el['collection-logo-android'].hidden,false);
  assert.equal(browser('/cards/').elements['collection-logo-android'].hidden,true);
