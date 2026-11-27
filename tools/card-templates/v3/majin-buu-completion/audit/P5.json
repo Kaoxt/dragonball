@@ -1,0 +1,121 @@
+{
+  "bounds": {
+    "card-title": [
+      209.5,
+      46.3652,
+      640.0,
+      66.2462
+    ],
+    "card-category": [
+      450.823,
+      891.391,
+      157.354,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      795.488,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      855.287,
+      1392.65,
+      43.725,
+      33.708
+    ],
+    "rules-line-1": [
+      129.714,
+      1013.53,
+      854.168,
+      45.913
+    ],
+    "rules-line-2": [
+      166.141,
+      1072.53,
+      726.719,
+      45.521
+    ],
+    "rules-line-3": [
+      204.63,
+      1131.53,
+      649.74,
+      45.521
+    ],
+    "rules-line-4": [
+      151.318,
+      1190.53,
+      756.364,
+      45.913
+    ]
+  },
+  "rules": [
+    {
+      "text": "Focused physical attack. DAMAGE: AT +3 stages.",
+      "baseline": 1049.3,
+      "width": 910.3311555438593,
+      "icon_inline": true
+    },
+    {
+      "text": "Shuffle any Goten Personality cards from",
+      "baseline": 1108.3,
+      "width": 729.7080000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "your discard pile into your Life Deck.",
+      "baseline": 1167.3,
+      "width": 651.9449999999999,
+      "icon_inline": false
+    },
+    {
+      "text": "You may raise either player's anger 1 level.",
+      "baseline": 1226.3,
+      "width": 759.108,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_ready",
+  "number": "P5",
+  "id": "majin-buu-p5-kid-trunks-the-fighter",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-p5-kid-trunks-the-fighter.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "2e2aaf945793d684910413558cd0ca297292c07f8bb24406e4bc409901ca59ef",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-p5-kid-trunks-the-fighter.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "9e984e0a755f4380530c415c1e80a504284f09929294f22a395613f61cbaf6c1",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "a79d0faaf57985ecb58de754952e2b5e8c4f8c1dd8a0ed150ab4f75c8e8fe5c4",
+  "assets": [
+    "f1e082fd2d5e46ab217bee4732f1a2f9c2b5c571453000db96a36e1fb0879245.png",
+    "2229bba0945e4e92dab0fef87d4930b80a324f0d90e74a8f80c177d82d23adb9.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "286728f7329f91b3ac6a61c3ad21e7840da1b8c71459a4bf2b4de83219f397ed.png",
+    "art-P5.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

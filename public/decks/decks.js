@@ -1,6 +1,6 @@
 import {gtBackers} from '../cards/gt-backers.js';
 import {cardTypeLabel} from '../cards/card-types.js';
-import {deckAdditionError, hiTechAllies, assertDeckEligible} from './eligibility.js';
+import {deckAdditionError, hiTechAllies, assertDeckEligible, assertTokuiRestrictions} from './eligibility.js';
 import {setupDeckImages} from './deck-image.js';
 import {catalog} from '../cards/catalog.js';
 import {parseDeck} from '../game.js';
@@ -59,7 +59,7 @@ function changed(){
 function add(c){try{addCard(deck,c,$('destination').value);changed();message(`Added ${c.name}`);$('preview-status').textContent=`Added ${c.name}`;}catch(e){message(e.message);$('preview-status').textContent=e.message;}}
 function openPreview(c){previewCard=c;let shown=c;try{if(deck.personalities.some(p=>p?.id===c.id))shown=gtBackers.preview(c,deck);}catch(e){message(e.message);}$('preview-image').src=shown.image;$('preview-image').alt=c.name;$('preview-name').textContent=c.name;$('preview-meta').textContent=[c.set,c.number&&`#${c.number}`].filter(Boolean).join(' · ');$('preview-type').textContent=[cardTypeLabel(c.type),c.style,c.level&&`Level ${c.level}`].filter(Boolean).join(' · ');$('preview-rules').textContent=shown.rules||'';$('download-composite').hidden=!shown.backerId;$('download-composite').href=shown.backerId?shown.downloadImage:'#';$('download-composite').download=c.id+'-with-backer.svg';updatePreviewEligibility();$('card-preview').showModal();}
 function updatePreviewEligibility(){
- const error=deckAdditionError(previewCard,$('destination').value);
+ const error=deckAdditionError(previewCard,$('destination').value,deck.tokui);
  $('preview-add').disabled=Boolean(error);
  $('preview-status').textContent=error;
 }
@@ -70,7 +70,7 @@ function renderCounts(){
  document.querySelectorAll('.remove-card').forEach(b=>{b.disabled=!removalTarget(deck,{id:b.dataset.id},destination);});
  document.querySelectorAll('.add-card').forEach(button=>{
   const card=catalogById.get(button.dataset.id);
-  const error=deckAdditionError(card,destination);
+  const error=deckAdditionError(card,destination,deck.tokui);
   const copies=totalFor(card.id);
   button.disabled=Boolean(error);
   button.title=error;
@@ -142,7 +142,13 @@ $('filters').onsubmit=e=>e.preventDefault();$('query').oninput=()=>{visible=48;b
 $('deck-name').oninput=()=>{deck.name=$('deck-name').value.slice(0,70);save();library();};$('deck-name').onblur=()=>{if(!deck.name.trim()){deck.name='Untitled deck';save();library();renderDeck();}};
 $('deck-visibility').onchange=()=>{deck.visibility=$('deck-visibility').value;changed();};
 $('share-deck').onclick=async()=>{if(!shares[deck.id])return;const url=location.origin+'/decks/shared.html?id='+encodeURIComponent(shares[deck.id]);try{await navigator.clipboard.writeText(url);message('Share link copied');}catch{window.prompt('Copy your public deck link',url);}};
-$('tokui').onchange=()=>{deck.tokui=$('tokui').value;changed();};$('saved-decks').onchange=()=>{deck=data.decks.find(d=>d.id===$('saved-decks').value);changed();};
+$('tokui').onchange=()=>{
+ const next=$('tokui').value;
+ try { assertTokuiRestrictions(deck,next); }
+ catch(error) { $('tokui').value=deck.tokui;message(error.message);return; }
+ deck.tokui=next;changed();
+};
+$('saved-decks').onchange=()=>{deck=data.decks.find(d=>d.id===$('saved-decks').value);changed();};
 $('new-deck').onclick=()=>{deck=createDeck();data.decks.push(deck);changed();library();message('New deck created');};
 $('duplicate-deck').onclick=()=>{try{assertDeckEligible(deck);}catch(e){message(e.message);return;}deck=structuredClone(deck);deck.id=crypto.randomUUID();deck.visibility='private';deck.name=(deck.name+' copy').slice(0,70);data.decks.push(deck);changed();library();message('Deck duplicated');};
 $('delete-deck').onclick=()=>{$('delete-name').textContent=`“${deck.name||'Untitled deck'}” will be removed from ${syncUser?'your account':'this browser'}.`;$('delete-dialog').showModal();};$('cancel-delete').onclick=()=>$('delete-dialog').close();

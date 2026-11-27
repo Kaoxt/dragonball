@@ -1,0 +1,130 @@
+{
+  "bounds": {
+    "card-title": [
+      275.525,
+      44.5,
+      507.95,
+      69.0
+    ],
+    "card-category": [
+      242.726,
+      891.391,
+      573.549,
+      34.2188
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      794.428,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      854.228,
+      1392.65,
+      45.845,
+      33.708
+    ],
+    "rules-line-1": [
+      178.78,
+      1013.53,
+      701.439,
+      45.521
+    ],
+    "rules-line-2": [
+      175.744,
+      1073.61,
+      707.511,
+      44.835
+    ],
+    "rules-line-3": [
+      151.685,
+      1131.53,
+      755.629,
+      40.572
+    ],
+    "rules-line-4": [
+      122.188,
+      1190.53,
+      814.625,
+      45.521
+    ],
+    "rules-line-5": [
+      165.7,
+      1249.53,
+      727.601,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "No Red Tokui-Waza. Physical attack.",
+      "baseline": 1049.3,
+      "width": 705.1631555438594,
+      "icon_inline": true
+    },
+    {
+      "text": "DAMAGE: AT +3 stages. If you declared a",
+      "baseline": 1108.3,
+      "width": 711.1860000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Tokui-Waza, for the rest of Combat shuffle",
+      "baseline": 1167.3,
+      "width": 758.128,
+      "icon_inline": false
+    },
+    {
+      "text": "your non-Drill Styled cards into your Life Deck",
+      "baseline": 1226.3,
+      "width": 816.2420000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "after use unless they Banish themselves.",
+      "baseline": 1285.3,
+      "width": 730.2959999999999,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_ready",
+  "number": "P4",
+  "id": "majin-buu-p4-deceptive-moves",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-p4-deceptive-moves.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "5643de7036e773c33e1ac0f53b1230e83764bab42d4654eb6d1177278952737c",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-p4-deceptive-moves.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "dea9418cb9740aac67c0c69d55432bd5bea51e9402dabbd75193aed3ab47ed53",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "a86b2fbf103745a4c5f55de4c823b57076e8da59221577340b348f2a5a4d8e5e",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-P4.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}

@@ -589,6 +589,38 @@ test('account saves reject new Hi-Tech Allies while existing invalid decks remai
  assert.equal((await call()).data.data.decks[0].cards.length,0);
 });
 
+test('account saves enforce Deceptive Moves in both zones before publishing a deck', async () => {
+ const {catalog} = await import('../public/cards/catalog.js');
+ const {createDeck, snapshot} = await import('../public/decks/store.js');
+ const card = catalog.find(card => card.id === 'majin-buu-p4-deceptive-moves');
+ const deck = createDeck();
+ deck.visibility = 'public';
+ const f = await fixture();
+ await f.register('alice');
+ const request = async body => {
+  const options = {headers:{Cookie:f.cookies.alice, Origin:'https://dragonball.test', 'Content-Type':'application/json'}};
+  if (body) Object.assign(options, {method:'POST', body:JSON.stringify(body)});
+  const response = await decksRequest(new Request('https://dragonball.test/api/decks', options), f.env);
+  return {status:response.status, data:await response.json()};
+ };
+ const {data:owner} = await request();
+ const save = version => request({userId:owner.userId, version, data:{decks:[deck], active:deck.id}});
+ deck.tokui = 'Red';
+ for (const zone of ['cards','senseiDeck']) {
+  deck[zone] = [snapshot(card)];
+  const rejected = await save(0);
+  assert.equal(rejected.status, 400);
+  assert.match(rejected.data.error, /Deceptive Moves.*Red Tokui-Waza/);
+  assert.equal((await request()).data.version, 0);
+  deck[zone] = [];
+ }
+ deck.tokui = 'Blue';
+ deck.cards = [snapshot(card)];
+ const allowed = await save(0);
+ assert.equal(allowed.status, 200);
+ assert.ok(allowed.data.shares[deck.id]);
+});
+
 test('GT Backer survives account and public saves; forged fields and invalid selections never persist',async()=>{
  const {gtFixture}=await import('./support/gt-backer-fixture.js');
  const {createBackerSystem}=await import('../public/cards/gt-backers.js');

@@ -900,5 +900,20 @@ export const codeCardIds = [
   "majin-buu-197-majin-buu",
   "majin-buu-198-majin-buu",
   "majin-buu-199-majin-buu",
-  "majin-buu-200-majin-buu"
+  "majin-buu-200-majin-buu",
+  "majin-buu-117-kid-trunks",
+  "majin-buu-131-freestyle-mastery",
+  "majin-buu-146-saiyan-style-mastery",
+  "majin-buu-175-goten",
+  "majin-buu-p1-outburst-drill",
+  "majin-buu-p2-gokus-power-strike",
+  "majin-buu-p3-majin-buus-fury",
+  "majin-buu-p4-deceptive-moves",
+  "majin-buu-p5-kid-trunks-the-fighter",
+  "majin-buu-p6-red-mouth-shot",
+  "majin-buu-p7-black-misguiding-punch",
+  "majin-buu-p8-gokus-face-break",
+  "majin-buu-p9-releasing-untapped-potential",
+  "majin-buu-p10-majin-buus-smooch",
+  "majin-buu-201-earth-dragon-ball-3"
 ];

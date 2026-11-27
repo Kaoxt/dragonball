@@ -1,0 +1,80 @@
+[
+  {
+    "path": "package.json",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/package.json.gz",
+    "before_sha256": "40262bcd0d208ceb072b9230fa77f1f20d321eb3a0af9a5a60e3f274206e7d07",
+    "after_sha256": "22ef49913aa9a7f8371dd5bcdc0d6bff690e51661ebde5e8da6b0f86d6ce8c6a"
+  },
+  {
+    "path": "public/cards/catalog.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/public/cards/catalog.js.gz",
+    "before_sha256": "ee017e4801c31cbe35e12ed4758462c17c9ca9fc7d2173806f29e9382e821ae5",
+    "after_sha256": "2201baddb74d7cf99b1968e8b588b9fc66aca88a4f7a50e325c85ee5efa5e6fc"
+  },
+  {
+    "path": "public/decks/code-card-ids.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/public/decks/code-card-ids.js.gz",
+    "before_sha256": "5e258c710b31cc42c87d81a7d4034592ed3ae0b14c744b63ca0170bf7ce66400",
+    "after_sha256": "92b86881e5cc274bed5133b09f83329e986afee7a407f63b9c7a36badccaeace"
+  },
+  {
+    "path": "public/decks/decks.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/public/decks/decks.js.gz",
+    "before_sha256": "f0f3be4106c18e73fa4908461ecc625962cb1f338da7f7c2093453511dd563b8",
+    "after_sha256": "3aea1c993a68737bd5007670ebd9d09750e28dc44ff55c250e10b007a3789acd"
+  },
+  {
+    "path": "public/decks/eligibility.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/public/decks/eligibility.js.gz",
+    "before_sha256": "155804f076ac2c62a706465c386673db52c7e283a52423bb15aababdcc28fd9f",
+    "after_sha256": "c3837315d59b78c6ec6952cc628930dbbbfe6793c781c3fea9217b39e10e8b97"
+  },
+  {
+    "path": "public/decks/store.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/public/decks/store.js.gz",
+    "before_sha256": "03c6467d6039ccea4c8cb0fa05dfa16ce87dcd01ad70d78f49817759772d8d3d",
+    "after_sha256": "978a2924f875f49acd320237e06db2b3d884972c6f6072d553a89f7d52d3a04c"
+  },
+  {
+    "path": "public/personality-power.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/public/personality-power.js.gz",
+    "before_sha256": "fcfca0f76912c4191f5244bc979587578a86a830ea6adae24ef32ff2c669fdb2",
+    "after_sha256": "21e348887dbcf71e06e1a54322f5d7d1bffb7821b9f82bc5a6629d093bdb33ce"
+  },
+  {
+    "path": "src/community/decks-api.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/src/community/decks-api.js.gz",
+    "before_sha256": "1f9e4b7ecdc88bd1fea14003d511e5bd6e445ad33b23c6437875cf5890b4078c",
+    "after_sha256": "c7adfc9a8feab4994cd48f4bcf42e0d36d35c5c16175d7927bb44c3d818d8232"
+  },
+  {
+    "path": "tests/card-browser.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/tests/card-browser.test.js.gz",
+    "before_sha256": "907f2e223fa241ce3f1ca7aabc59f88ac25257634250d7cb7e22a01ec7c13482",
+    "after_sha256": "071f8abbd6a55a1f23ba23d7e18a224bbaae94b6d8b968d1ba2450e4019fc49e"
+  },
+  {
+    "path": "tests/card-majin-buu-151-200.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/tests/card-majin-buu-151-200.test.js.gz",
+    "before_sha256": "a0ffd9ae35d3c8a7309c76a3d4d7c9cabd23e2a117a9466704c548b3bf05b3b6",
+    "after_sha256": "8245cabf0e10c628a83845ab6ce1d39bf9c423ab16554ff62ae83c2d70924781"
+  },
+  {
+    "path": "tests/card-pages.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/tests/card-pages.test.js.gz",
+    "before_sha256": "23dfd3144ccf2d6b1df2eb64eab86d6fc85f82d74234014fd4611b022cd0544f",
+    "after_sha256": "8b7a95f632bcb532a27c555d1f05672a3e5a2c7ff90c6cc8ec599ed0439fe160"
+  },
+  {
+    "path": "tests/community.test.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/tests/community.test.js.gz",
+    "before_sha256": "8e1b835183bbd4b751f460f6bf388f2dd90d5d1101417f92cf2905e5bb42e004",
+    "after_sha256": "5b3d68ccbf4a8b6cbe66036be5fc541a6dff56cf52a6e1b967855ce7fbe951cb"
+  },
+  {
+    "path": "tests/helpers/pre-majin-buu-151-200.js",
+    "before_file": "tools/card-corrections/v3-majin-buu-completion/before/tests/helpers/pre-majin-buu-151-200.js.gz",
+    "before_sha256": "85ca029c767bf57e403ba49876b0cf9cd3992d05e709ab17bfee6202bdd8db5b",
+    "after_sha256": "e5b11195d2a6660b3d2e8d5a219d130431adbe66c8f1a83db1de08e04d79f39f"
+  }
+]

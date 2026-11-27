@@ -66,12 +66,12 @@ test('promos render in named categories across 52-card pages without duplicates 
   assert.equal(b.elements['collection-name'].textContent,'Promotional Cards');
   const children=grid(b),cards=children.filter(el=>el.className==='catalog-card');
   assert.equal(children[0].className,'promo-category-heading');
-  assert.equal(cards.length,page===3?37:52);
+  assert.equal(cards.length,page===3?47:52);
   links.push(...cards.map(el=>el.href));
   headings.push(...children.filter(el=>el.className==='promo-category-heading').map(el=>el.textContent));
   assert.ok(cards.every(el=>el.children[1].tagName==='h3'));
  }
- assert.equal(links.length,141);assert.equal(new Set(links).size,141);
+ assert.equal(links.length,151);assert.equal(new Set(links).size,151);
  assert.equal(headings[0],'Movie 7');
  for(const category of ['Saiyan Saga Promos','Frieza Saga Promos','Trunks Saga Promos','Android Saga Promos','Cell Saga Promos','Cell Games Saga Promos','World Games Saga Promos','Cell Games Saga Previews','World Games Saga Previews','Babidi Saga Previews'])assert.ok(headings.includes(category));
  assert.deepEqual(links.slice(0,34),Array.from({length:34},(_,i)=>`/cards/movie-7-super-android-13/m${i+1}`));
@@ -105,7 +105,7 @@ test('Subset chooser filters promotional categories and preserves selections thr
  const b=browser('/cards/promotional-cards/?page=3&sort=number');
  assert.equal(b.elements['subset-field'].hidden,false);
  assert.equal(b.elements.subset.disabled,false);
- assert.equal(b.elements.subset.options.length,14);
+ assert.equal(b.elements.subset.options.length,15);
  assert.equal(b.elements.subset.options[1].text,'Movie 7');
  b.elements.subset.value='Movie 7';b.elements.subset.onchange();
  assert.equal(b.elements['results-count'].textContent,'Showing 1–34 of 34 cards in Promotional Cards');
@@ -132,7 +132,7 @@ test('Subset chooser filters promotional categories and preserves selections thr
 });
 
 test('every promo subset is selectable, and stale subset parameters cannot hide ordinary set cards',()=>{
- const expected={'Movie 7':34,'Android Saga Promos':11,'Babidi Saga Previews':7,'Babidi Saga Promos':10,'Majin Buu Saga Previews':8,'Cell Games Saga Previews':6,'Cell Games Saga Promos':10,'Cell Saga Promos':10,'Frieza Saga Promos':11,'Saiyan Saga Promos':7,'Trunks Saga Promos':10,'World Games Saga Previews':7,'World Games Saga Promos':10};
+ const expected={'Movie 7':34,'Android Saga Promos':11,'Babidi Saga Previews':7,'Babidi Saga Promos':10,'Majin Buu Saga Promos':10,'Majin Buu Saga Previews':8,'Cell Games Saga Previews':6,'Cell Games Saga Promos':10,'Cell Saga Promos':10,'Frieza Saga Promos':11,'Saiyan Saga Promos':7,'Trunks Saga Promos':10,'World Games Saga Previews':7,'World Games Saga Promos':10};
  for(const [category,count] of Object.entries(expected)){
   const b=browser('/cards/promotional-cards/?subset='+encodeURIComponent(category));
   assert.equal(b.elements.subset.value,category);

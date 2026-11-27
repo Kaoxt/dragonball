@@ -1,0 +1,106 @@
+{
+  "bounds": {
+    "card-title": [
+      332.91,
+      50.2213,
+      393.18,
+      57.5574
+    ],
+    "card-category": [
+      448.339,
+      891.991,
+      162.322,
+      33.0187
+    ],
+    "saga-emblem": [
+      176.426,
+      1383.41,
+      70.6481,
+      52.1759
+    ],
+    "footer-rarity": [
+      799.94,
+      1385.7,
+      47.6,
+      47.6
+    ],
+    "card-number": [
+      859.739,
+      1392.65,
+      34.821,
+      33.708
+    ],
+    "rules-line-1": [
+      245.389,
+      1013.53,
+      634.991,
+      36.162
+    ],
+    "rules-line-2": [
+      113.465,
+      1072.53,
+      832.069,
+      45.913
+    ],
+    "rules-line-3": [
+      181.649,
+      1131.53,
+      695.702,
+      45.521
+    ]
+  },
+  "rules": [
+    {
+      "text": "Your non-Drill cards with headshots",
+      "baseline": 1049.3,
+      "width": 702.59375,
+      "icon_inline": true
+    },
+    {
+      "text": "matching your Main Personality are considered",
+      "baseline": 1108.3,
+      "width": 835.7440000000001,
+      "icon_inline": false
+    },
+    {
+      "text": "Named cards for your Main Personality.",
+      "baseline": 1167.3,
+      "width": 699.4260000000002,
+      "icon_inline": false
+    }
+  ],
+  "native_text_outlines": true,
+  "review_status": "reviewed_ready",
+  "number": "P1",
+  "id": "majin-buu-p1-outburst-drill",
+  "status": "ready",
+  "exports": [
+    {
+      "path": "display/majin-buu-p1-outburst-drill.webp",
+      "size": [
+        1060,
+        1484
+      ],
+      "sha256": "dc51bc07b3c315ff9de7b2c5ed976e15aa0c282a01bf78197a7f69e8de3ffd2a",
+      "lossless_verified": true
+    },
+    {
+      "path": "downloads/majin-buu-p1-outburst-drill.webp",
+      "size": [
+        2120,
+        2968
+      ],
+      "sha256": "4f9e2a0a3d1ab0cc5633a71deaa68be0b1328723ead90705a814b9947befaf91",
+      "lossless_verified": true
+    }
+  ],
+  "source_svg_sha256": "abce3fff6702df3bf76f3fe78b44fca8b72152991495aaaf82cfe877e304e156",
+  "assets": [
+    "a2ee2eebc46e2e2016fd2f05e7187543bbd1c6687ee9814ddce92a378f6751b7.png",
+    "7bd0b9808c3c20fb8f1b9083d78ebd6f78a6b6a732179729be538988ec2bd099.png",
+    "art-P1.png",
+    "d97f846b81db9edf6cb3b665f237d984ae36478f09bdf9ec0d0a23730b6c7ecb.png",
+    "ac0ba841d29e9676c9ee04aea08f646bd0b4c191ee4505bac64de8f1f062a9b3.png"
+  ],
+  "native_buu_emblem": true
+}
