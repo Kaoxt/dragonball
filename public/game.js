@@ -1,3 +1,4 @@
+import { cardPlayPlan } from './card-play.js';
 import {gtBackers} from './cards/gt-backers.js';
 import { assertDeckEligible } from './decks/eligibility.js';
 import { powerChart, personalityPower } from './personality-power.js';
@@ -56,6 +57,9 @@ function mpStatus(p) {
 }
 function validPosition(q) { return q && Number.isFinite(q.x) && Number.isFinite(q.y) && q.x >= 0 && q.x <= 1 && q.y >= 0 && q.y <= 1; }
 function draw(p, n) { check(p.zones.deck.length >= n, 'Not enough Life Deck cards. Resolve survival victory or card effects manually.'); p.zones.hand.push(...p.zones.deck.splice(0, n)); }
+function moveCard(p, a, say, verb = null) {
+  if(a.position !== undefined) check(PUBLIC.includes(a.to) && validPosition(a.position), 'Invalid table position.'); check(ZONES.includes(a.from) && ZONES.includes(a.to) && a.from !== a.to, 'Choose a different area.'); const source = p.zones[a.from], index = a.from === 'deck' ? (p.searching && a.uid ? source.findIndex(c => c.uid === a.uid) : 0) : source.findIndex(c => c.uid === a.uid); check(index >= 0 && index < source.length, 'Card no longer in that area.'); const [c] = source.splice(index, 1); const named = PUBLIC.includes(a.to) || (PUBLIC.includes(a.from) && !c.faceDown); c.rested = false; c.faceDown = false; delete c.position; if(a.position) c.position={x:a.position.x,y:a.position.y}; if (['deck','hand','senseiDeck'].includes(a.to)) c.uid = crypto.randomUUID(); if (a.to === 'deck' && !a.bottom) p.zones.deck.unshift(c); else p.zones[a.to].push(c); const areas = {deck:'Life Deck',hand:'hand',combat:'combat',noncombat:'Setups',drills:'Drills',allies:'Allies',dragonballs:'Dragon Balls',location:'Battleground / Location',discard:'discard pile',removed:'banished pile',senseiDeck:'Sensei Deck'}; const played = verb || a.from === 'hand' && PUBLIC.includes(a.to) && !['discard','removed'].includes(a.to); say(played ? `${verb || 'played'} ${c.name} from ${areas[a.from]} to ${areas[a.to]}.` : `moved ${named ? c.name : 'a card'} from ${areas[a.from]} to ${areas[a.to]}${a.to === 'deck' ? a.bottom ? ' (bottom)' : ' (top)' : ''}.`);
+}
 function applyAction(g, seat, a) {
   check(a && typeof a === 'object' && !Array.isArray(a), 'Invalid action.'); const p = g.players[seat]; check(p, 'Not a player.'); const say = text => log(g, `${p.name} ${text}`);
   if (a.type === 'chat') { const text = clean(a.text, 300); check(text, 'Enter a message.'); say(`: ${text}`); }
@@ -92,7 +96,17 @@ function applyAction(g, seat, a) {
         say(`powered up: ${mpStatus(p)}. Allies increased by one stage. ${note}`);
         break;
       }
-      case 'move': { if(a.position !== undefined) check(PUBLIC.includes(a.to) && validPosition(a.position), 'Invalid table position.'); check(ZONES.includes(a.from) && ZONES.includes(a.to) && a.from !== a.to, 'Choose a different area.'); const source = p.zones[a.from], index = a.from === 'deck' ? (p.searching && a.uid ? source.findIndex(c => c.uid === a.uid) : 0) : source.findIndex(c => c.uid === a.uid); check(index >= 0 && index < source.length, 'Card no longer in that area.'); const [c] = source.splice(index, 1); const named = PUBLIC.includes(a.to) || (PUBLIC.includes(a.from) && !c.faceDown); c.rested = false; c.faceDown = false; delete c.position; if(a.position) c.position={x:a.position.x,y:a.position.y}; if (['deck','hand','senseiDeck'].includes(a.to)) c.uid = crypto.randomUUID(); if (a.to === 'deck' && !a.bottom) p.zones.deck.unshift(c); else p.zones[a.to].push(c); const areas = {deck:'Life Deck',hand:'hand',combat:'combat',noncombat:'Non-Combat',drills:'Drills',allies:'Allies',dragonballs:'Dragon Balls',location:'Battleground / Location',discard:'discard pile',removed:'banished pile',senseiDeck:'Sensei Deck'}; const played = a.from === 'hand' && PUBLIC.includes(a.to) && !['discard','removed'].includes(a.to); say(played ? `played ${c.name} from hand to ${areas[a.to]}.` : `moved ${named ? c.name : 'a card'} from ${areas[a.from]} to ${areas[a.to]}${a.to === 'deck' ? a.bottom ? ' (bottom)' : ' (top)' : ''}.`); break; }
+      case 'play': case 'resolve': {
+        const from = a.type === 'play' ? 'hand' : a.from;
+        check(a.type === 'play' || ['combat','noncombat'].includes(from), 'Choose a played card or Setup.');
+        const c = p.zones[from]?.find(card => card.uid === a.uid), plan = cardPlayPlan(c);
+        check(c && plan && (a.type === 'play' || plan.resolve), 'Use manual movement for this card.');
+        const to = a.type === 'play' ? plan.to : plan.afterUse;
+        moveCard(p, {from, to, uid:c.uid}, say, a.type === 'play' ? 'played' : 'used');
+        g.lastPlay = {version:g.version+1, owner:seat, uid:c.uid, from, to};
+        break;
+      }
+      case 'move': moveCard(p, a, say); break;
       case 'giveDragonBall': { const index = p.zones.dragonballs.findIndex(c => c.uid === a.uid); check(index >= 0, 'Choose a Dragon Ball you control.'); const [c] = p.zones.dragonballs.splice(index, 1); c.faceDown = false; g.players[1-seat].zones.dragonballs.push(c); say(`transferred ${c.name} to ${g.players[1-seat].name}; resolve capture conditions manually.`); break; }
       case 'rest': case 'flip': case 'stages': { check(PUBLIC.includes(a.from), 'Select a card in play.'); const c = p.zones[a.from].find(c => c.uid === a.uid); check(c, 'Card not found.'); if (a.type === 'rest') c.rested = !c.rested; if (a.type === 'flip') c.faceDown = !c.faceDown; if (a.type === 'stages') { check([-1,1].includes(a.delta), 'Invalid stage change.'); c.stages = Math.max(0, Math.min(c.maxStages, c.stages + a.delta)); } say(`adjusted ${a.type} in ${a.from === 'removed' ? 'banished pile' : a.from}.`); break; }
       case 'phase': { check(g.turn === seat, 'Only the active player advances steps.'); if (g.phase === 'Declare') { check(typeof a.combat === 'boolean', 'Choose declare or skip Combat.'); g.combatDeclared = a.combat; g.phase = a.combat ? 'Combat' : 'Discard'; } else if (g.phase === 'Rejuvenation') { g.turn = 1-g.turn; g.turnNumber++; g.phase = 'Draw'; g.combatDeclared = false; g.rejuvenated = false; } else g.phase = PHASES[PHASES.indexOf(g.phase === 'Non-Combat' ? 'Planning' : g.phase)+1]; log(g, `Turn ${g.turnNumber} · ${g.players[g.turn].name} · ${g.phase} Step.`); break; }
@@ -103,7 +117,7 @@ function applyAction(g, seat, a) {
   g.version++; g.updated = Date.now();
 }
 // One action of history, kept server-side and never included in a player view.
-const undoable = new Set(['counter','power','powerUp','move','position','rest','flip','stages','damage','draw','rejuvenate','shuffle','senseiSwap','phase','giveDragonBall']);
+const undoable = new Set(['play','resolve','counter','power','powerUp','move','position','rest','flip','stages','damage','draw','rejuvenate','shuffle','senseiSwap','phase','giveDragonBall']);
 export function act(g, seat, a) {
  check(g.players[seat], 'Not a player.');
  if (a?.type === 'undo') {
@@ -111,7 +125,7 @@ export function act(g, seat, a) {
   const name=g.players[seat].name, history=g.log, version=g.version, previous=g.undo.state, action=g.undo.action;
   Object.keys(g).forEach(key=>delete g[key]);
   Object.assign(g,previous,{log:history,version:version+1,updated:Date.now()});
-  delete g.undo;
+  delete g.undo; delete g.lastPlay;
   log(g, `${name} undid their last action (${action}). ${mpStatus(g.players[seat])}.`);
   return;
  }
@@ -119,9 +133,10 @@ export function act(g, seat, a) {
  const previous=undoable.has(a?.type)?structuredClone(state):null;
  applyAction(g,seat,a);
  if(a.type!=='chat') {
+  if(!['play','resolve'].includes(a.type)) delete g.lastPlay;
   delete g.undo;
   if(previous) g.undo={seat,state:previous,action:a.type};
  }
 }
-export function view(g, seat) { return { canUndo: g.undo?.seat===seat && ['setup','playing'].includes(g.status), ruleset: g.ruleset, status: g.status, turn: g.turn, turnNumber: g.turnNumber, phase: g.phase === 'Non-Combat' ? 'Planning' : g.phase, combatDeclared: g.combatDeclared, winner: g.winner, log: g.log, version: g.version, players: g.players.map((p,i) => ({ name:p.name, personalities:p.personalities, level:p.level, anger:p.anger, stages:p.stages, power:personalityPower(p), mastery:p.mastery, sensei:p.sensei, backer:p.backer || null, tokui:p.tokui, loaded:p.loaded, ready:p.ready, senseiSwapped:!!p.senseiSwapped, warnings: i===seat?p.warnings:[], searchCards: i===seat&&p.searching?[...p.zones.deck].sort((a,b)=>a.id.localeCompare(b.id)):null, zones:Object.fromEntries(ZONES.map(z=>[z,z==='deck'||(['hand','senseiDeck'].includes(z)&&i!==seat)?{count:p.zones[z].length}:p.zones[z].map(c=>c.faceDown&&i!==seat?{uid:c.uid,faceDown:true,rested:c.rested,...(c.position?{position:c.position}:{})}:c)])) })) }; }
+export function view(g, seat) { return { lastPlay:g.lastPlay || null, canUndo: g.undo?.seat===seat && ['setup','playing'].includes(g.status), ruleset: g.ruleset, status: g.status, turn: g.turn, turnNumber: g.turnNumber, phase: g.phase === 'Non-Combat' ? 'Planning' : g.phase, combatDeclared: g.combatDeclared, winner: g.winner, log: g.log, version: g.version, players: g.players.map((p,i) => ({ name:p.name, personalities:p.personalities, level:p.level, anger:p.anger, stages:p.stages, power:personalityPower(p), mastery:p.mastery, sensei:p.sensei, backer:p.backer || null, tokui:p.tokui, loaded:p.loaded, ready:p.ready, senseiSwapped:!!p.senseiSwapped, warnings: i===seat?p.warnings:[], searchCards: i===seat&&p.searching?[...p.zones.deck].sort((a,b)=>a.id.localeCompare(b.id)):null, zones:Object.fromEntries(ZONES.map(z=>[z,z==='deck'||(['hand','senseiDeck'].includes(z)&&i!==seat)?{count:p.zones[z].length}:p.zones[z].map(c=>c.faceDown&&i!==seat?{uid:c.uid,faceDown:true,rested:c.rested,...(c.position?{position:c.position}:{})}:c)])) })) }; }
 

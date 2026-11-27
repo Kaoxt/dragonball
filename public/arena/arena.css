@@ -150,3 +150,11 @@ body.arena-table-page #card-zoom {
 @media (max-width: 480px) {
   .arena-table-page main:has(> .lobby:not([hidden])) {padding-top: 25px}
 }
+
+/* A play moves one existing card image with compositor-only transform and opacity. */
+.arena-play-ghost{position:fixed;z-index:1000;pointer-events:none;object-fit:contain;transform-origin:top left;border-radius:5%;contain:layout paint;will-change:transform,opacity}
+body.arena-table-page #inspect .arena-play-card{display:flex;align-items:center;justify-content:center;gap:8px}
+body.arena-table-page #inspect .arena-play-destination{margin:4px 0 14px;color:#b8c0c6;font-size:13px;text-align:center}
+@media(prefers-reduced-motion:reduce){.arena-play-ghost{display:none}}
+html[data-site-design=v2] body.arena-table-page #inspect button.arena-play-card,
+html[data-site-design=v2] body.arena-table-page #inspect button.arena-play-card:is(:hover,:focus-visible){background:var(--action-red,#b50d1b);border-color:var(--action-red,#b50d1b);color:#fff}

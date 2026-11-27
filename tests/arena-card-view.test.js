@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import {newGame, addPlayer, act, view, cardImage} from '../public/game.js';
+import {cardPlayPlan} from '../public/card-play.js';
 import {practiceDeck} from '../public/practice-deck.js';
 
 const source = readFileSync(new URL('../public/app.js', import.meta.url), 'utf8');
@@ -10,7 +11,7 @@ const pileRendering = source.slice(source.indexOf('function cardHTML('), source.
 // Exercise the production selection, click and drag handlers with real game rules.
 const handlers = source.slice(source.indexOf('function getSelected()'), source.indexOf("$('room-form').onsubmit"));
 const closeHandler = source.slice(source.indexOf("$('card-zoom').addEventListener('close'"), source.lastIndexOf('restoreTable();'));
-const labels = {deck:'Life Deck',hand:'Hand',combat:'Combat cards',noncombat:'Non-Combat',drills:'Drills',allies:'Allies',dragonballs:'Dragon Balls',location:'Battleground / Location',discard:'Discard',removed:'Banished',senseiDeck:'Sensei Deck',mp:'Main Personality',mastery:'Mastery',sensei:'Sensei'};
+const labels = {deck:'Life Deck',hand:'Hand',combat:'Combat cards',noncombat:'Setups',drills:'Drills',allies:'Allies',dragonballs:'Dragon Balls',location:'Battleground / Location',discard:'Discard',removed:'Banished',senseiDeck:'Sensei Deck',mp:'Main Personality',mastery:'Mastery',sensei:'Sensei'};
 function arena() {
   const game = newGame();
   addPlayer(game, 'a', 'You'); addPlayer(game, 'b', 'Opponent');
@@ -27,7 +28,7 @@ function arena() {
   const elements = Object.fromEntries(ids.map(id => [id, node()]));
   elements['pile-dialog'].querySelector = () => elements['pile-help'];
   const document = {addEventListener:(type, handler) => {events[type] = handler;},querySelectorAll:() => [],body:{append(){}},elementFromPoint:() => null};
-  const context = vm.createContext({selected:null, openPile:null, seat:0, game:view(game,0), labels, cardImage,
+  const context = vm.createContext({selected:null, openPile:null, seat:0, game:view(game,0), labels, cardImage, cardPlayPlan,
     $:id => elements[id], esc:value => String(value ?? '').replaceAll('<','&lt;'), document,
     setTimeout:fn => timers.push(fn), requestAnimationFrame(){}, window:{scrollBy(){}},
     send(action) {act(game, context.seat, action);context.game = view(game,context.seat);vm.runInContext('renderInspector()',context);}
@@ -185,4 +186,38 @@ test('compact play rows resize without collisions, clipped cards or altered game
       if(count===25)assert.ok(parseFloat(table.style.height)>114,'additional cards remain visible');
     }
   }
+});
+
+
+test('Play and Use actions are reachable from the card preview and route without a destination selection', () => {
+  const a = arena(), p = a.game.players[0];
+  const card = p.zones.deck.find(c=>c.id === 'frieza-013-empowerment') || p.zones.hand.find(c=>c.id === 'frieza-013-empowerment');
+  p.zones.deck = p.zones.deck.filter(c=>c.uid!==card.uid);
+  if (!p.zones.hand.includes(card)) p.zones.hand.push(card);
+  a.refresh(); a.tap('hand',card);
+  assert.match(a.elements.inspect.innerHTML,/data-card-action="play"/);
+  assert.match(a.elements.inspect.innerHTML,/Moves to Setups/);
+  a.click('[data-card-action]',{cardAction:'play'});
+  assert.ok(p.zones.noncombat.some(c=>c.uid===card.uid));
+  assert.equal(a.elements['card-zoom'].open,false);
+  a.tap('noncombat',card); assert.match(a.elements.inspect.innerHTML,/Use Setup/);
+  a.click('[data-card-action]',{cardAction:'resolve'});
+  assert.ok(p.zones.removed.some(c=>c.uid===card.uid));
+});
+
+test('dragging a hand card onto the board uses its card type instead of placing every card in combat', () => {
+  const a = arena(), p = a.game.players[0];
+  const card = p.zones.deck.find(c=>c.id==='android-008-gravity-chamber') || p.zones.hand.find(c=>c.id==='android-008-gravity-chamber');
+  p.zones.deck=p.zones.deck.filter(c=>c.uid!==card.uid);
+  if(!p.zones.hand.includes(card))p.zones.hand.push(card);
+  a.refresh();a.context.playZones=['combat','noncombat','drills','allies','dragonballs','location'];
+  const table={dataset:{owner:'0',zone:'combat',cardWidth:'70',cardHeight:'98'},getBoundingClientRect:()=>({left:0,top:0,width:300,height:150})};
+  a.context.document.elementFromPoint=()=>({closest:selector=>['[data-table]','[data-zone]'].includes(selector)?table:null});
+  const target={...a.node(),dataset:{card:`0:hand:${card.uid}`}};
+  target.closest=selector=>selector==='[data-movable]'?target:null;
+  a.events.pointerdown({target,button:0,pointerId:1,clientX:20,clientY:200});
+  a.events.pointermove({pointerId:1,clientX:100,clientY:50,preventDefault(){}});
+  a.events.pointerup({pointerId:1,clientX:100,clientY:50});
+  assert.ok(p.zones.location.some(c=>c.uid===card.uid));
+  assert.equal(p.zones.combat.length,0);
 });
