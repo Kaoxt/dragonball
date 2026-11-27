@@ -1,3 +1,17 @@
+## Majin Buu alternate Dende summoning artwork — November 26, 2026
+
+Alternate Dende Dragon Balls 1–5 (set #1, #2, #38, #39, #40) use the
+user-approved summoning scene with the redesigned Shenron. Preserve the exact
+ten supplied display/download WebPs, current cache revisions and the native
+sources in `tools/card-corrections/v3-majin-buu-dende-summoning/production/`.
+All gameplay fields and permanent deck IDs remain unchanged. The original
+first-50 source/audit package remains immutable history; do not restore its
+superseded Dende artwork. `production/artwork-selection.json` retains the same
+artwork choice for alternate Dragon Balls 6 and 7 when they are produced.
+Historical checks first use `tests/helpers/pre-dende-summoning.js`, followed
+by the existing GT Backers and earlier release chain. No other set's Dende
+Dragon Balls change in this revision.
+
 ## Cell Games P5 completion — November 22, 2026
 
 Cell Games P5 Goku Charges is now finished with the user-approved artwork.
