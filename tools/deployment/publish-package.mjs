@@ -1,5 +1,6 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import { resolve } from 'node:path';
 
 const root = resolve(process.argv[2] || '');
@@ -20,9 +21,13 @@ async function api(path, method = 'GET', data) {
 }
 async function mainStillMatches() { return (await api('git/ref/heads/main'))?.object.sha === source; }
 if (!await mainStillMatches()) { console.log('A newer source commit exists; this release was superseded.'); process.exit(0); }
-const sourceTree = await api(`git/trees/${source}?recursive=1`);
-if (!sourceTree || sourceTree.truncated) throw new Error('Unable to read the complete source tree');
-const knownBlobs = new Set(sourceTree.tree.filter(e => e.type === 'blob').map(e => e.sha));
+// The workflow already checked out this exact source with blob:none. Read its
+// local tree objects without downloading artwork or asking GitHub for one huge
+// recursive tree response (which can fail with HTTP 500 as the repo grows).
+const objects = execFileSync('git', ['ls-tree', '-r', '--format=%(objecttype) %(objectname)', source], {
+  encoding: 'utf8', maxBuffer: 16 * 1024 * 1024,
+});
+const knownBlobs = new Set(objects.trim().split('\n').filter(line => line.startsWith('blob ')).map(line => line.slice(5)));
 const entries = []; let total = 0;
 async function walk(directory, prefix = '') {
   for (const file of (await readdir(directory, { withFileTypes: true })).sort((a, b) => a.name.localeCompare(b.name))) {
