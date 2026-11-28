@@ -2,7 +2,7 @@ import { powerChart, personalityPower } from './personality-power.js';
 import {readDecks, exportDeck} from './decks/store.js';
 import { practiceDeck } from './practice-deck.js?v=20261127-catalog';
 import { cardPlayPlan } from './card-play.js';
-import { capturePlayMotion, animatePlayMotion } from './arena-play-motion.js';
+import { capturePlayMotion, animatePlayMotion, resetPlayMotion } from './arena-play-motion.js?v=20261128-center-reveal';
 import { newGame, addPlayer, act, view, cardImage } from './game.js?v=20261127-play-routing';
 import { saveArenaSession, readArenaSession, clearArenaSession, sessionToRestore } from './arena-session.js';
 const $ = id => document.getElementById(id);
@@ -20,6 +20,7 @@ function rememberTable() {
   }
 }
 function disconnect() {
+  resetPlayMotion();
   clearTimeout(reconnectTimer);
   if (socket) { socket.onclose = socket.onmessage = socket.onerror = null; socket.close(); socket = null; }
   connected = false;
@@ -205,7 +206,7 @@ function fieldHTML(p, owner) {
 
 function render() {
   cancelCardDrag();
-  const motion = capturePlayMotion(game, seat);
+  const motion = capturePlayMotion(game, seat, cardImage);
   rememberTable(); $('arena-resume').hidden = true;
   $('lobby').hidden = true; $('table').hidden = false;
   $('room-label').hidden = !!practiceGame;
@@ -313,19 +314,9 @@ function cancelCardDrag() {
  $('arena-play-target').classList.toggle('is-ready',false);
 }
 function showPlayTarget(d) {
- const target=$('arena-play-target'),pad=12,gap=48;
+ const target=$('arena-play-target');
  $('arena-play-target-destination').textContent='Moves to '+labels[d.play.to];
- target.style.width='';target.hidden=false;
- let size=target.getBoundingClientRect().width;
- const centerX=(innerWidth-size)/2,centerY=(innerHeight-size)/2;
- const positions=[{x:centerX,y:d.startY-size-gap},{x:centerX,y:d.startY+gap},{x:d.startX+gap,y:centerY},{x:d.startX-size-gap,y:centerY}];
- let position=positions.find(p=>p.x>=pad&&p.y>=pad&&p.x+size<=innerWidth-pad&&p.y+size<=innerHeight-pad);
- if(!position){
-  const above=d.startY-gap-pad,below=innerHeight-d.startY-gap-pad;
-  size=Math.min(size,Math.max(above,below));target.style.width=size+'px';
-  position={x:(innerWidth-size)/2,y:above>=below?d.startY-size-gap:d.startY+gap};
- }
- target.style.left=position.x+'px';target.style.top=position.y+'px';
+ target.hidden=false;
  d.targetRect=target.getBoundingClientRect();
 }
 function insidePlayTarget(d,x,y) {
