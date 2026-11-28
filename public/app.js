@@ -2,7 +2,7 @@ import { powerChart, personalityPower } from './personality-power.js';
 import {readDecks, exportDeck} from './decks/store.js';
 import { practiceDeck } from './practice-deck.js?v=20261127-catalog';
 import { cardPlayPlan } from './card-play.js';
-import { capturePlayMotion, animatePlayMotion } from './arena-play-motion.js';
+import { capturePlayMotion, animatePlayMotion, resetPlayMotion } from './arena-play-motion.js?v=20261128-center-reveal';
 import { newGame, addPlayer, act, view, cardImage } from './game.js?v=20261127-play-routing';
 import { saveArenaSession, readArenaSession, clearArenaSession, sessionToRestore } from './arena-session.js';
 const $ = id => document.getElementById(id);
@@ -20,6 +20,7 @@ function rememberTable() {
   }
 }
 function disconnect() {
+  resetPlayMotion();
   clearTimeout(reconnectTimer);
   if (socket) { socket.onclose = socket.onmessage = socket.onerror = null; socket.close(); socket = null; }
   connected = false;
@@ -130,7 +131,7 @@ function startDrawTest() {
   act(next, seat, { type: 'draw', count: 3 });
   practiceGame = next; game = view(practiceGame, seat); selected = null; render();
   $('hand').scrollIntoView({ behavior: 'smooth', block: 'center' });
-  toast('Three cards drawn. Use Draw 1 or Draw 3 to draw more, or tap a card and choose Play. Dragging onto the table also plays it.');
+  toast('Three cards drawn. Use Draw 1 or Draw 3 to draw more, or tap a card and choose Play. Drag into the Play here square to play it.');
 }
 function cardHTML(c, owner, zone) {
   c = {...c, image: cardImage(c)};
@@ -204,7 +205,8 @@ function fieldHTML(p, owner) {
 }
 
 function render() {
-  const motion = capturePlayMotion(game, seat);
+  cancelCardDrag();
+  const motion = capturePlayMotion(game, seat, cardImage);
   rememberTable(); $('arena-resume').hidden = true;
   $('lobby').hidden = true; $('table').hidden = false;
   $('room-label').hidden = !!practiceGame;
@@ -306,30 +308,61 @@ document.addEventListener('click', e => {
   if (e.target.closest('#move-selected')) { const s = getSelected(), dest = $('destination').value; if (s) send({ type: 'move', from: s.zone, uid: s.c.uid, to: dest === 'deck-bottom' ? 'deck' : dest, bottom: dest === 'deck-bottom' }); }
 });
 let dragging=null, suppressClick=false;
+function cancelCardDrag() {
+ dragging?.ghost?.remove(); dragging=null;
+ $('arena-play-target').hidden=true;
+ $('arena-play-target').classList.toggle('is-ready',false);
+}
+function showPlayTarget(d) {
+ const target=$('arena-play-target');
+ $('arena-play-target-destination').textContent='Moves to '+labels[d.play.to];
+ target.hidden=false;
+ d.targetRect=target.getBoundingClientRect();
+}
+function insidePlayTarget(d,x,y) {
+ const r=d.targetRect;
+ return !!r && x>=r.left && x<=r.right && y>=r.top && y<=r.bottom;
+}
 document.addEventListener('dragstart',e=>{if(e.target.closest('[data-card]'))e.preventDefault();});
 document.addEventListener('pointerdown',e=>{
- const c=e.target.closest('[data-movable]');if(!c||e.button!==0||!['playing','setup'].includes(game.status))return;
- dragging={key:c.dataset.card,startX:e.clientX,startY:e.clientY,card:c,pointer:e.pointerId};
+ const c=e.target.closest('[data-movable]');if(dragging||!c||e.button!==0||!['playing','setup'].includes(game.status))return;
+ const [owner,from,uid]=c.dataset.card.split(':');if(+owner!==seat)return;
+ const play=from==='hand'&&game.status==='playing'?cardPlayPlan(game.players[seat].zones.hand.find(card=>card.uid===uid)):null;
+ dragging={key:c.dataset.card,startX:e.clientX,startY:e.clientY,card:c,pointer:e.pointerId,play};
 });
 document.addEventListener('pointermove',e=>{
  const d=dragging;if(!d||e.pointerId!==d.pointer)return;
  if(!d.ghost&&Math.hypot(e.clientX-d.startX,e.clientY-d.startY)<7)return;
- if(!d.ghost){d.ghost=d.card.cloneNode(true);d.ghost.classList.add('drag-ghost');d.ghost.removeAttribute('data-card');document.body.append(d.ghost);const scroll=()=>{if(dragging!==d)return;if(d.y<65)window.scrollBy(0,-9);else if(d.y>innerHeight-65)window.scrollBy(0,9);requestAnimationFrame(scroll);};requestAnimationFrame(scroll);}
+ if(!d.ghost){
+  d.ghost=d.card.cloneNode(true);d.ghost.classList.add('drag-ghost');d.ghost.removeAttribute('data-card');document.body.append(d.ghost);
+  if(d.play){
+   showPlayTarget(d);
+  }else{
+   const scroll=()=>{if(dragging!==d)return;if(d.y<65)window.scrollBy(0,-9);else if(d.y>innerHeight-65)window.scrollBy(0,9);requestAnimationFrame(scroll);};requestAnimationFrame(scroll);
+  }
+ }
  d.y=e.clientY;e.preventDefault();d.ghost.style.left=(e.clientX-35)+'px';d.ghost.style.top=(e.clientY-45)+'px';
+ if(d.play)$('arena-play-target').classList.toggle('is-ready',insidePlayTarget(d,e.clientX,e.clientY));
 },{passive:false});
 document.addEventListener('pointerup',e=>{
- const d=dragging;dragging=null;if(!d?.ghost)return;d.ghost.remove();suppressClick=true;setTimeout(()=>suppressClick=false,0);
+ const d=dragging;if(!d||e.pointerId!==d.pointer)return;
+ cancelCardDrag();if(!d.ghost)return;
+ suppressClick=true;setTimeout(()=>suppressClick=false,0);
+ const [owner,from,uid]=d.key.split(':');if(+owner!==seat)return;
+ if(d.play){if(insidePlayTarget(d,e.clientX,e.clientY))send({type:'play',uid});return;}
  const target=document.elementFromPoint(e.clientX,e.clientY),table=target?.closest('[data-table]'),z=target?.closest('[data-zone]');
- const [owner,from,uid]=d.key.split(':');if(+owner!==seat||!z||+z.dataset.owner!==seat)return;
+ if(!z||+z.dataset.owner!==seat)return;
  const fixed=['mp','mastery','sensei'].includes(from);
  if(table){const r=table.getBoundingClientRect(),width=Number(table.dataset.cardWidth)||80,height=Number(table.dataset.cardHeight)||114,position={x:Math.max(0,Math.min(1,(e.clientX-r.left-width/2)/Math.max(1,r.width-width))),y:Math.max(0,Math.min(1,(e.clientY-r.top-height/2)/Math.max(1,r.height-height)))};
  if(fixed||playZones.includes(from))send({type:'position',from,uid,position});
- else if(from==='hand' && cardPlayPlan(game.players[seat].zones.hand.find(c=>c.uid===uid)))send({type:'play',uid});
  else send({type:'move',from,uid,to:'combat',position});
  }else if(fixed){if(z.dataset.zone===from)send({type:'position',from,uid,position:null});}
  else if(!['mp','mastery','sensei'].includes(z.dataset.zone)&&z.dataset.zone!==from)send({type:'move',from,uid,to:z.dataset.zone});
 });
-document.addEventListener('pointercancel',()=>{dragging?.ghost?.remove();dragging=null;});
+document.addEventListener('pointercancel',e=>{if(e.pointerId===dragging?.pointer)cancelCardDrag();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dragging){cancelCardDrag();e.preventDefault();}});
+window.addEventListener('blur',cancelCardDrag);
+window.addEventListener('resize',cancelCardDrag);
 $('room-form').onsubmit = e => { e.preventDefault(); join(true); };
 $('join-form').onsubmit = e => { e.preventDefault(); join(false); };
 $('practice').onclick = practice;

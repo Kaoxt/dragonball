@@ -158,3 +158,34 @@ body.arena-table-page #inspect .arena-play-destination{margin:4px 0 14px;color:#
 @media(prefers-reduced-motion:reduce){.arena-play-ghost{display:none}}
 html[data-site-design=v2] body.arena-table-page #inspect button.arena-play-card,
 html[data-site-design=v2] body.arena-table-page #inspect button.arena-play-card:is(:hover,:focus-visible){background:var(--action-red,#b50d1b);border-color:var(--action-red,#b50d1b);color:#fff}
+
+
+/* One static drop target, shown only while dragging a playable hand card. */
+.arena-play-target{box-sizing:border-box;position:fixed;z-index:999;left:50%;top:50%;transform:translate(-50%,-50%);width:min(640px,88vw,72dvh);aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:20px;border:2px solid #b50d1b;border-radius:16px;background:#1e2428f2;color:#f5f6fa;text-align:center;pointer-events:none;contain:layout paint}
+.arena-play-target[hidden]{display:none}
+.arena-play-target>svg{color:#e7a0a6;flex:none}
+.arena-play-target>strong{font-size:clamp(18px,4vw,25px);line-height:1.2}
+.arena-play-target>span{font-size:14px}
+.arena-play-target>small{color:#b8c0c6;font-size:12px;line-height:1.4}
+.arena-play-target .arena-play-cancel{margin-top:8px;font-size:11px}
+.arena-play-target.is-ready{border-color:#ec8590;background:#3a2228f5}
+.arena-play-target.is-ready>svg{color:#fff}
+
+@media(max-height:420px){.arena-play-target{gap:6px;padding:14px}.arena-play-target>svg{width:24px;height:24px}.arena-play-target .arena-play-cancel{margin-top:0}}
+
+/* Large public card reveal; one image, a reading pause, then a short flight. */
+.arena-play-reveal{position:fixed;inset:0;z-index:1100;margin:0;padding:0;border:0;width:100%;height:100%;max-width:none;max-height:none;display:grid;place-items:center;background:#080b0d99;color:#f5f6fa;pointer-events:none}
+.arena-play-reveal[hidden]{display:none}
+.arena-play-reveal::backdrop{background:transparent;pointer-events:none}
+.arena-play-reveal-panel{box-sizing:border-box;width:min(700px,calc(100vw - 24px));height:min(740px,calc(100dvh - 32px));display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:14px;padding:20px;border:2px solid #b50d1b;border-radius:18px;background:#1e2428f5;text-align:center;contain:layout paint}
+.arena-play-reveal-player{font-size:16px;font-weight:600;color:#dce1e5}
+.arena-play-reveal-art{min-height:0;display:flex;align-items:center;justify-content:center}
+.arena-play-reveal-art img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;border-radius:5%}
+.arena-play-reveal-art img[hidden]{display:none}
+.arena-play-reveal-caption{display:grid;gap:5px;line-height:1.35}
+.arena-play-reveal-caption strong{font-size:clamp(17px,3vw,23px)}
+.arena-play-reveal-caption span{font-size:14px;color:#c5cdd3}
+.arena-play-reveal.is-flying{background:transparent}
+.arena-play-reveal.is-flying .arena-play-reveal-panel{visibility:hidden}
+.arena-play-pending{visibility:hidden!important}
+@media(max-height:480px){.arena-play-reveal-panel{padding:12px;gap:8px}.arena-play-reveal-player{font-size:14px}.arena-play-reveal-caption strong{font-size:16px}}
